@@ -1,0 +1,27 @@
+{
+    "module": "ODM",
+    "class_title": "ODM交易系统",
+    "case": "order_submit",
+    "case_title": "限价订单提交",
+    "case_description": null,
+    "templates_name": "现券XBOND订单提交",
+    "url": "https://www.cnblogs.com/aaronthon/ajax/GetPostStat",
+    "method": "POST",
+    "header": {
+        "content-type": "application/json",
+        "Authorization": "9480295ab2e2eddb8"
+    },
+    "data": {
+        "ordrData": {
+            "clntQtCd": "",
+            "stlmntSpdNm": 2,
+            "cntngncyIndctr": "",
+            "flxblNetPrc": "",
+            "qtTp": "${login}|<{{username}},{{password}}>",
+            "netPrc": "{{netPrc}}",
+            "instnCd": "{{instnCd}}",
+            "nmnlVol": "{{volumn}}",
+            "ordrTpIndctr": "1"
+        }
+    }
+}

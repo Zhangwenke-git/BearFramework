@@ -1,0 +1,23 @@
+[2021-08-11 19:34:01] [INFO] Prepare to execute timed task!
+[2021-08-11 19:34:01] [ERROR] Timing task expired
+[2021-08-11 19:34:01] [INFO] Testcases have already exist!
+[2021-08-11 19:34:02] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-11 19:34:02] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-11 19:34:02] [INFO] Initiate environment config file successfully!
+[2021-08-11 19:34:02] [INFO] Initiate environment config file successfully!
+[2021-08-11 19:34:02] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-11 19:34:02] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-11 19:34:02] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-11 19:34:02] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-11 19:34:18] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-11 19:34:18] [INFO] Initiate environment config file successfully!
+[2021-08-11 19:34:18] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-11 19:34:18] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-11 19:34:40] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-11 19:34:40] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-11 19:35:01] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-11 19:35:01] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-11 19:35:01] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-11 19:35:01] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-11 19:35:01] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-11 19:35:04] [ERROR] Fail to execute bat file!

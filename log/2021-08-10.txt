@@ -1,0 +1,255 @@
+[2021-08-10 13:32:27] [INFO] Prepare to execute timed task!
+[2021-08-10 13:32:27] [ERROR] Timing task expired
+[2021-08-10 13:32:27] [INFO] Success to create API test case!
+[2021-08-10 13:32:29] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 13:32:29] [INFO] Initiate environment config file successfully!
+[2021-08-10 13:32:29] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:32:29] [ERROR] Function :[check] not found in object!
+[2021-08-10 13:32:29] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:32:29] [ERROR] Function :[check] not found in object!
+[2021-08-10 13:35:06] [INFO] Prepare to execute timed task!
+[2021-08-10 13:35:06] [ERROR] Timing task expired
+[2021-08-10 13:35:06] [INFO] Testcases have already exist!
+[2021-08-10 13:35:06] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 13:35:06] [INFO] Initiate environment config file successfully!
+[2021-08-10 13:35:06] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:35:06] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:35:51] [INFO] Prepare to execute timed task!
+[2021-08-10 13:35:51] [ERROR] Timing task expired
+[2021-08-10 13:35:51] [INFO] Testcases have already exist!
+[2021-08-10 13:35:51] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 13:35:51] [INFO] Initiate environment config file successfully!
+[2021-08-10 13:35:51] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:35:51] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:38:43] [INFO] Prepare to execute timed task!
+[2021-08-10 13:38:43] [ERROR] Timing task expired
+[2021-08-10 13:38:43] [INFO] Testcases have already exist!
+[2021-08-10 13:38:44] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 13:38:44] [INFO] Initiate environment config file successfully!
+[2021-08-10 13:38:44] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:38:44] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:39:09] [INFO] Prepare to execute timed task!
+[2021-08-10 13:39:09] [ERROR] Timing task expired
+[2021-08-10 13:39:09] [INFO] Success to create API test case!
+[2021-08-10 13:39:09] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 13:39:09] [INFO] Initiate environment config file successfully!
+[2021-08-10 13:39:09] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:39:09] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:47:53] [INFO] Prepare to execute timed task!
+[2021-08-10 13:47:53] [ERROR] Timing task expired
+[2021-08-10 13:47:53] [INFO] Success to create API test case!
+[2021-08-10 13:47:53] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 13:47:53] [INFO] Initiate environment config file successfully!
+[2021-08-10 13:47:53] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 13:47:53] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:04:26] [INFO] Prepare to execute timed task!
+[2021-08-10 14:04:26] [ERROR] Timing task expired
+[2021-08-10 14:04:26] [INFO] Testcases have already exist!
+[2021-08-10 14:04:26] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 14:04:26] [INFO] Initiate environment config file successfully!
+[2021-08-10 14:04:26] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:04:26] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:07:54] [INFO] Prepare to execute timed task!
+[2021-08-10 14:07:54] [ERROR] Timing task expired
+[2021-08-10 14:07:54] [INFO] Testcases have already exist!
+[2021-08-10 14:07:54] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 14:07:54] [INFO] Initiate environment config file successfully!
+[2021-08-10 14:07:54] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:07:54] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:11:02] [INFO] Prepare to execute timed task!
+[2021-08-10 14:11:02] [ERROR] Timing task expired
+[2021-08-10 14:11:02] [INFO] Success to create API test case!
+[2021-08-10 14:11:02] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 14:11:02] [INFO] Initiate environment config file successfully!
+[2021-08-10 14:11:02] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:11:03] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:19:29] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 14:19:29] [INFO] Initiate environment config file successfully!
+[2021-08-10 14:19:29] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:19:29] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:35:54] [INFO] Prepare to execute timed task!
+[2021-08-10 14:35:54] [ERROR] Timing task expired
+[2021-08-10 14:35:54] [INFO] Success to create API test case!
+[2021-08-10 14:35:54] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 14:35:54] [INFO] Initiate environment config file successfully!
+[2021-08-10 14:36:23] [INFO] Prepare to execute timed task!
+[2021-08-10 14:36:23] [ERROR] Timing task expired
+[2021-08-10 14:36:23] [INFO] Testcases have already exist!
+[2021-08-10 14:36:23] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 14:36:24] [INFO] Initiate environment config file successfully!
+[2021-08-10 14:36:52] [INFO] Prepare to execute timed task!
+[2021-08-10 14:36:52] [ERROR] Timing task expired
+[2021-08-10 14:36:52] [INFO] Success to create API test case!
+[2021-08-10 14:36:52] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 14:36:52] [INFO] Initiate environment config file successfully!
+[2021-08-10 14:36:52] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:36:52] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:44:37] [INFO] Prepare to execute timed task!
+[2021-08-10 14:44:37] [ERROR] Timing task expired
+[2021-08-10 14:44:37] [INFO] Success to create API test case!
+[2021-08-10 14:44:37] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 14:44:37] [INFO] Initiate environment config file successfully!
+[2021-08-10 14:44:37] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:44:37] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:46:07] [INFO] Prepare to execute timed task!
+[2021-08-10 14:46:07] [ERROR] Timing task expired
+[2021-08-10 14:46:07] [INFO] Success to create API test case!
+[2021-08-10 14:46:07] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 14:46:07] [INFO] Initiate environment config file successfully!
+[2021-08-10 14:46:07] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:46:07] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', ' check': 'true}'}}]
+[2021-08-10 14:46:28] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 14:46:28] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', ' check': 'true}'}}]
+[2021-08-10 15:03:12] [INFO] Prepare to execute timed task!
+[2021-08-10 15:03:12] [ERROR] Timing task expired
+[2021-08-10 15:03:12] [INFO] Testcases have already exist!
+[2021-08-10 15:03:12] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 15:03:12] [INFO] Initiate environment config file successfully!
+[2021-08-10 15:03:12] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:03:12] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', ' check': 'true}'}}]
+[2021-08-10 15:03:28] [INFO] Prepare to execute timed task!
+[2021-08-10 15:03:28] [ERROR] Timing task expired
+[2021-08-10 15:03:28] [INFO] Success to create API test case!
+[2021-08-10 15:03:29] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 15:03:29] [INFO] Initiate environment config file successfully!
+[2021-08-10 15:03:29] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:03:29] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', ' check': 'true}'}}]
+[2021-08-10 15:03:50] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:03:50] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', ' check': 'true}'}}]
+[2021-08-10 15:32:27] [INFO] Prepare to execute timed task!
+[2021-08-10 15:32:27] [ERROR] Timing task expired
+[2021-08-10 15:32:27] [INFO] Success to create API test case!
+[2021-08-10 15:32:27] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 15:32:27] [INFO] Initiate environment config file successfully!
+[2021-08-10 15:32:27] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:32:27] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', ' check': 'true}'}}]
+[2021-08-10 15:32:48] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:32:48] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', ' check': 'true}'}}]
+[2021-08-10 15:33:09] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-10 15:33:09] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-10 15:37:49] [INFO] Prepare to execute timed task!
+[2021-08-10 15:37:49] [ERROR] Timing task expired
+[2021-08-10 15:37:49] [INFO] Testcases have already exist!
+[2021-08-10 15:37:49] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 15:37:49] [INFO] Initiate environment config file successfully!
+[2021-08-10 15:37:49] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:37:49] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', ' check': 'true}'}}]
+[2021-08-10 15:38:06] [INFO] Prepare to execute timed task!
+[2021-08-10 15:38:06] [ERROR] Timing task expired
+[2021-08-10 15:38:06] [INFO] Testcases have already exist!
+[2021-08-10 15:38:06] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 15:38:06] [INFO] Initiate environment config file successfully!
+[2021-08-10 15:38:06] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:38:06] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', ' check': 'true}'}}]
+[2021-08-10 15:38:27] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:38:27] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', ' check': 'true}'}}]
+[2021-08-10 15:38:48] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-10 15:38:48] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-10 15:38:49] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 15:38:49] [ERROR] Fail to execute bat file!
+[2021-08-10 15:39:56] [INFO] Prepare to execute timed task!
+[2021-08-10 15:39:56] [ERROR] Timing task expired
+[2021-08-10 15:39:56] [INFO] Testcases have already exist!
+[2021-08-10 15:39:56] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 15:39:56] [INFO] Initiate environment config file successfully!
+[2021-08-10 15:39:56] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:39:56] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', ' check': 'true}'}}]
+[2021-08-10 15:40:18] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 15:40:18] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', ' check': 'true}'}}]
+[2021-08-10 15:40:39] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-10 15:40:39] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-10 15:40:39] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 15:40:39] [ERROR] Fail to execute bat file!
+[2021-08-10 16:14:07] [INFO] Prepare to execute timed task!
+[2021-08-10 16:14:07] [ERROR] Timing task expired
+[2021-08-10 16:14:07] [INFO] Success to create API test case!
+[2021-08-10 16:14:07] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:14:08] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:14:08] [ERROR] Fail to execute bat file!
+[2021-08-10 16:14:25] [INFO] Prepare to execute timed task!
+[2021-08-10 16:14:25] [ERROR] Timing task expired
+[2021-08-10 16:14:25] [INFO] Success to create API test case!
+[2021-08-10 16:14:25] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:14:25] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:14:25] [ERROR] Fail to execute bat file!
+[2021-08-10 16:17:22] [INFO] Prepare to execute timed task!
+[2021-08-10 16:17:22] [ERROR] Timing task expired
+[2021-08-10 16:17:22] [INFO] Success to create API test case!
+[2021-08-10 16:17:22] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:17:23] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:17:23] [ERROR] Fail to execute bat file!
+[2021-08-10 16:18:48] [INFO] Prepare to execute timed task!
+[2021-08-10 16:18:48] [ERROR] Timing task expired
+[2021-08-10 16:18:48] [INFO] Testcases have already exist!
+[2021-08-10 16:18:48] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:18:48] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:18:48] [ERROR] Fail to execute bat file!
+[2021-08-10 16:19:17] [INFO] Prepare to execute timed task!
+[2021-08-10 16:19:17] [ERROR] Timing task expired
+[2021-08-10 16:19:17] [INFO] Success to create API test case!
+[2021-08-10 16:19:17] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:19:18] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:19:18] [ERROR] Fail to execute bat file!
+[2021-08-10 16:34:44] [INFO] Prepare to execute timed task!
+[2021-08-10 16:34:44] [ERROR] Timing task expired
+[2021-08-10 16:34:44] [INFO] Success to create API test case!
+[2021-08-10 16:34:44] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:34:44] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:34:44] [ERROR] Fail to execute bat file!
+[2021-08-10 16:39:00] [INFO] Prepare to execute timed task!
+[2021-08-10 16:39:00] [ERROR] Timing task expired
+[2021-08-10 16:39:00] [INFO] Success to create API test case!
+[2021-08-10 16:39:00] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:39:00] [INFO] Initiate environment config file successfully!
+[2021-08-10 16:39:00] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 16:39:00] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-10 16:39:21] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 16:39:21] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-10 16:39:42] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-10 16:39:42] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-10 16:39:42] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-10 16:39:42] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-10 16:39:43] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:39:43] [ERROR] Fail to execute bat file!
+[2021-08-10 16:42:00] [INFO] Prepare to execute timed task!
+[2021-08-10 16:42:00] [ERROR] Timing task expired
+[2021-08-10 16:42:00] [INFO] Testcases have already exist!
+[2021-08-10 16:42:00] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:42:00] [INFO] Initiate environment config file successfully!
+[2021-08-10 16:42:00] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 16:42:00] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-10 16:42:21] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 16:42:21] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-10 16:42:42] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-10 16:42:42] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-10 16:42:43] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-10 16:42:43] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-10 16:42:43] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 16:42:45] [DEBUG] Success to execute bat file!
+[2021-08-10 17:49:15] [INFO] Prepare to execute timed task!
+[2021-08-10 17:49:15] [ERROR] Timing task expired
+[2021-08-10 17:49:15] [INFO] Success to create API test case!
+[2021-08-10 17:49:15] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 17:49:15] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 17:49:17] [DEBUG] Success to execute bat file!
+[2021-08-10 17:50:48] [INFO] Prepare to execute timed task!
+[2021-08-10 17:50:48] [ERROR] Timing task expired
+[2021-08-10 17:50:48] [INFO] Testcases have already exist!
+[2021-08-10 17:50:48] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 17:50:48] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 17:50:50] [DEBUG] Success to execute bat file!
+[2021-08-10 17:51:25] [INFO] Prepare to execute timed task!
+[2021-08-10 17:51:25] [ERROR] Timing task expired
+[2021-08-10 17:51:25] [INFO] Success to create API test case!
+[2021-08-10 17:51:25] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 17:51:25] [INFO] Initiate environment config file successfully!
+[2021-08-10 17:51:25] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 17:51:25] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-10 17:51:46] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-10 17:51:46] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-10 17:52:07] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-10 17:52:07] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-10 17:52:08] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-10 17:52:08] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-10 17:52:08] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-10 17:52:10] [DEBUG] Success to execute bat file!

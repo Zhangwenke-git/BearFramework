@@ -1,0 +1,17 @@
+{
+    "module": "UUMS",
+    "class_title": "UUMS用户认证系统",
+    "case": "uums_login",
+    "case_title": "uums用户中心登录",
+    "case_description": "uums用户中心登录",
+    "templates_name": "uums用户中心登录模板",
+    "url": "https://www.sojson.com/",
+    "method": "POST",
+    "header": {
+        "Content-Type": "application/json"
+    },
+    "data": {
+        "username": "猪宝宝",
+        "passcode": "aaaa1111!"
+    }
+}

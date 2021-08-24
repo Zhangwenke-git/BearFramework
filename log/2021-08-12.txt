@@ -1,0 +1,260 @@
+[2021-08-12 10:39:43] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 10:39:43] [INFO] Initiate environment config file successfully!
+[2021-08-12 10:39:43] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 10:39:43] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 10:47:44] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 10:47:44] [INFO] Initiate environment config file successfully!
+[2021-08-12 10:47:44] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 10:47:44] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 10:48:06] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 10:48:06] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 10:48:27] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 10:48:27] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 10:48:27] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 10:48:27] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 10:48:27] [DEBUG] Prepare to execute bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 10:48:27] [ERROR] Fail to execute bat file!
+[2021-08-12 10:58:57] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 10:58:57] [INFO] Initiate environment config file successfully!
+[2021-08-12 10:58:57] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 10:58:57] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 10:59:18] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 10:59:18] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 10:59:39] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 10:59:39] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 10:59:39] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 10:59:39] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 11:14:13] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 11:14:14] [INFO] Initiate environment config file successfully!
+[2021-08-12 11:14:14] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 11:14:14] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 11:14:35] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 11:14:35] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 11:14:56] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 11:14:56] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 11:15:01] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 11:15:01] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 12:58:06] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 12:58:06] [INFO] Initiate environment config file successfully!
+[2021-08-12 12:58:06] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 12:58:06] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 12:58:28] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 12:58:28] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 12:58:49] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 12:58:49] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 12:58:49] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 12:58:49] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:01:55] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 13:01:55] [INFO] Initiate environment config file successfully!
+[2021-08-12 13:01:55] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:01:55] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 13:02:17] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:02:17] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 13:02:38] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 13:02:38] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 13:02:38] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:02:38] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:04:39] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 13:04:39] [INFO] Initiate environment config file successfully!
+[2021-08-12 13:04:39] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:04:39] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 13:05:00] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:05:00] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 13:05:21] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 13:05:21] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 13:05:21] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:05:22] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:15:21] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 13:15:21] [INFO] Initiate environment config file successfully!
+[2021-08-12 13:15:21] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:15:21] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 13:15:43] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:15:43] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 13:16:04] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 13:16:04] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 13:16:04] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:16:04] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:23:30] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 13:23:30] [INFO] Initiate environment config file successfully!
+[2021-08-12 13:23:30] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:23:30] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 13:23:52] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:23:52] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 13:24:13] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 13:24:13] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 13:24:13] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:24:13] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:31:18] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 13:31:18] [INFO] Initiate environment config file successfully!
+[2021-08-12 13:31:18] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:31:18] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 13:31:39] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:31:39] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 13:32:00] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 13:32:00] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 13:32:00] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:32:01] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:36:13] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 13:36:13] [INFO] Initiate environment config file successfully!
+[2021-08-12 13:36:13] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:36:13] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 13:36:34] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:36:34] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 13:36:55] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 13:36:55] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 13:36:56] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:36:56] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:39:08] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 13:39:08] [INFO] Initiate environment config file successfully!
+[2021-08-12 13:39:08] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:39:08] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 13:39:30] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:39:30] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 13:39:51] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 13:39:51] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 13:39:51] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:39:51] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:52:29] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 13:52:29] [INFO] Initiate environment config file successfully!
+[2021-08-12 13:52:29] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:52:29] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 13:52:50] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 13:52:50] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 13:53:11] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 13:53:11] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 13:53:11] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 13:53:11] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 14:03:04] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 14:03:04] [INFO] Initiate environment config file successfully!
+[2021-08-12 14:03:04] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 14:03:04] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 14:03:25] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 14:03:25] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 14:03:46] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 14:03:46] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 14:03:46] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 14:03:47] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 14:16:53] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 14:16:53] [INFO] Initiate environment config file successfully!
+[2021-08-12 14:16:53] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 14:16:53] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 14:17:15] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 14:17:15] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 14:17:36] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 14:17:36] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 14:17:36] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 14:17:36] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 14:43:01] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 14:43:01] [INFO] Initiate environment config file successfully!
+[2021-08-12 14:43:01] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 14:43:01] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 14:43:22] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 14:43:22] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 14:43:43] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 14:43:43] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 14:43:43] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 14:44:04] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 14:52:04] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 14:52:04] [INFO] Initiate environment config file successfully!
+[2021-08-12 14:52:04] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 14:52:04] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 14:52:25] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 14:52:25] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 14:52:46] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 14:52:46] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 14:52:47] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 14:52:47] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:29:03] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 16:29:03] [INFO] Initiate environment config file successfully!
+[2021-08-12 16:29:03] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:29:03] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 16:29:24] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:29:24] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 16:29:46] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 16:29:46] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 16:29:46] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:29:46] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:40:46] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 16:40:47] [INFO] Initiate environment config file successfully!
+[2021-08-12 16:40:47] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:40:47] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 16:41:08] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:41:08] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 16:41:29] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 16:41:29] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 16:41:29] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:41:29] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:42:35] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 16:42:35] [INFO] Initiate environment config file successfully!
+[2021-08-12 16:42:35] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:42:35] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 16:42:56] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:42:56] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 16:43:18] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 16:43:18] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 16:43:18] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:43:18] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:48:42] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 16:48:42] [INFO] Initiate environment config file successfully!
+[2021-08-12 16:48:42] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:48:42] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 16:49:03] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:49:03] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 16:49:24] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 16:49:24] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 16:49:24] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:49:24] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:52:00] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 16:52:00] [INFO] Initiate environment config file successfully!
+[2021-08-12 16:52:00] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:52:00] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 16:52:22] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:52:22] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 16:52:43] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 16:52:43] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 16:52:43] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:52:43] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:58:14] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 16:58:15] [INFO] Initiate environment config file successfully!
+[2021-08-12 16:58:15] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:58:15] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 16:58:36] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 16:58:36] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 16:58:57] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 16:58:57] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 16:58:57] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 16:58:57] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 17:20:44] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 17:20:44] [INFO] Initiate environment config file successfully!
+[2021-08-12 17:20:44] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 17:20:44] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 17:21:05] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 17:21:05] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 17:21:26] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 17:21:26] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 17:21:26] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-08-12 17:21:26] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-08-12 17:28:13] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 17:28:13] [INFO] Initiate environment config file successfully!
+[2021-08-12 17:28:13] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 17:28:13] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 17:30:06] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 17:30:06] [INFO] Initiate environment config file successfully!
+[2021-08-12 17:30:06] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 17:30:06] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-08-12 17:33:20] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 17:33:20] [INFO] Initiate environment config file successfully!
+[2021-08-12 17:33:20] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 17:33:20] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 17:33:42] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 17:33:42] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 17:36:19] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 17:36:19] [INFO] Initiate environment config file successfully!
+[2021-08-12 17:36:19] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 17:36:19] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-08-12 17:36:40] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-08-12 17:36:40] [DEBUG] The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-08-12 17:37:57] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-08-12 17:37:57] [INFO] Initiate environment config file successfully!
+[2021-08-12 17:37:57] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-08-12 17:37:57] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]

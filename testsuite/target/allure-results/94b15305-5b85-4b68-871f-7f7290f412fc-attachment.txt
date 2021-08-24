@@ -1,0 +1,3 @@
+INFO     Init_Env:logger.py:56 Initiate environment config file successfully!
+DEBUG    FormatParam:logger.py:59 Prepare to call function :[check] and parameter is :[('true',)]
+DEBUG    FormatParam:logger.py:59 The formatted data is :[{'id': 'ewr3-deee3-2ewq2-uhue7', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]

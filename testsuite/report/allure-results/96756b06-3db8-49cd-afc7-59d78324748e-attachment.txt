@@ -1,0 +1,2 @@
+DEBUG    FormatParam:logger.py:59 Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+DEBUG    FormatParam:logger.py:59 The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
