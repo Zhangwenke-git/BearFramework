@@ -136,6 +136,6 @@ def main():
 
 
 if __name__ == "__main__":
-    #main()
-    pytest.main(["-s","-q","--alluredir","../report/allure"])
+    main()
+    #pytest.main(["-s","-q","--alluredir","../report/allure"])
 

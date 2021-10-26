@@ -1,4 +1,5 @@
 # _*_coding=utf-8_*_
+import json
 import os
 import glob
 import threading
@@ -11,6 +12,18 @@ logger = Logger("CaseCreation")
 lock = threading.Lock()
 
 from data.case import data_mapping_dict
+
+
+def template_json_create(data:list):
+    for template_json in data:
+        template_json_copy = template_json.copy()
+
+        del template_json_copy["scenarios"]
+        template_json_copy["method"]="post" if template_json_copy["method"]==1 else "get"
+        template_file = os.path.join(Settings.template_dir,"test_%s.json" % template_json_copy.get("case"))
+        with open(template_file,"w",encoding="utf-8") as f:
+            f.write(json.dumps(template_json_copy,indent=4,ensure_ascii=False))
+        f.close()
 
 
 def singleFunctionCreate(caseinfo):
@@ -70,12 +83,14 @@ def create_case_class(func_map, mode='w'):
     test_case_file = os.path.join(Settings.base_dir + r'\testsuite', 'test_{}.py'.format(func_map.get("module")))
     with open(test_case_file, mode, encoding='utf-8') as f:
         f.write(singClassCreate(func_map))
+    f.close()
 
 
 def create_case_function(func_map, mode='a'):
     test_case_file = os.path.join(Settings.base_dir + r'\testsuite', 'test_{}.py'.format(func_map.get("module")))
     with open(test_case_file, mode, encoding='utf-8') as f:
         f.write(singleFunctionCreate(func_map))
+    f.close()
 
 
 def batCreate(func, _dict):
@@ -86,6 +101,7 @@ def batCreate(func, _dict):
 
 
 def creation():
+    template_json_create(data_mapping_dict)
     class_file = threading.Thread(target=batCreate, args=(create_case_class, data_mapping_dict))
     func_file = threading.Thread(target=batCreate, args=(create_case_function, data_mapping_dict))
     class_file.start()

@@ -16,6 +16,7 @@ class Settings:
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     log_path = os.path.join(base_dir, 'log')
+    template_dir = os.path.join(base_dir,'templates')
     conf_path = os.path.join(base_dir, 'config\config.ini')
     api_env_path = base_dir + r"\report\allure\%s\%s\xml\environment.xml" % (parent_folder, child_folder)
     api_ant_report_path = base_dir + r"\report\ant\%s\%s" % (parent_folder, child_folder)
