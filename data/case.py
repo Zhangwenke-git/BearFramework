@@ -1,9 +1,9 @@
 # -*-coding=utf-8-*-    
-null=None
+null = None
 false = False
-true=True
+true = True
 
-data_mapping_dict =[
+data_mapping_dict = [
     {
         "module": "UUMS",
         "class_title": "UUMS用户认证系统",
@@ -41,7 +41,7 @@ data_mapping_dict =[
                 "登录账号和密码正确",
                 {
                     "code": 200,
-                    "result": " sussess"
+                    "result": "sussess"
                 }
             ]
         ]
@@ -59,7 +59,7 @@ data_mapping_dict =[
             "Content-Type": "application/json"
         },
         "data": {
-            "id": "ewr3-deee3-2ewq2-uhue7",
+            "id": "12324235545",
             "params": {
                 "name": "{{username}}",
                 "passcode": "{{password}}",
@@ -90,50 +90,48 @@ data_mapping_dict =[
                 }
             ]
         ]
-    },
-    {
-        "module": "ODM",
-        "class_title": "ODM交易系统",
-        "case": "order_submit",
-        "case_title": "限价订单提交",
-        "case_description": null,
-        "templates_name": "现券XBOND订单提交",
-        "url": "https://www.cnblogs.com/aaronthon/ajax/GetPostStat",
-        "method": 1,
-        "header": {
-            "content-type": "application/json",
-            "Authorization": "9480295ab2e2eddb8"
-        },
-        "data": {
-            "ordrData": {
-                "clntQtCd": "",
-                "stlmntSpdNm": 2,
-                "cntngncyIndctr": "",
-                "flxblNetPrc": "",
-                "qtTp": "${login}|<{{username}},{{password}}>",
-                "netPrc": "{{netPrc}}",
-                "instnCd": "{{instnCd}}",
-                "nmnlVol": "{{volumn}}",
-                "ordrTpIndctr": "1"
-            }
-        },
-        "scenarios": [
-            [
-                {
-                    "netPrc": "100.2344",
-                    "password": "aaaa1111!",
-                    "instnCd": "100035",
-                    "volumn": "1000,000",
-                    "username": "zhangwneke"
-                },
-                "限价订单提交-T+1",
-                {
-                    "code": 200,
-                    "result": " sussess"
-                }
-            ]
-        ]
     }
+    # {
+    #     "module": "ODM",
+    #     "class_title": "ODM交易系统",
+    #     "case": "order_submit",
+    #     "case_title": "限价订单提交",
+    #     "case_description": null,
+    #     "templates_name": "现券XBOND订单提交",
+    #     "url": "https://www.cnblogs.com/aaronthon/ajax/GetPostStat",
+    #     "method": 1,
+    #     "header": {
+    #         "content-type": "application/json",
+    #         "Authorization": "9480295ab2e2eddb8"
+    #     },
+    #     "data": {
+    #         "ordrData": {
+    #             "clntQtCd": "",
+    #             "stlmntSpdNm": 2,
+    #             "cntngncyIndctr": "",
+    #             "flxblNetPrc": "",
+    #             "qtTp": "${login}|<{{username}},{{password}}>",
+    #             "netPrc": "{{netPrc}}",
+    #             "instnCd": "{{instnCd}}",
+    #             "nmnlVol": "{{volumn}}",
+    #             "ordrTpIndctr": "1"
+    #         }
+    #     },
+    #     "scenarios": [
+    #         [
+    #             {
+    #                 "netPrc": "100.2344",
+    #                 "password": "aaaa1111!",
+    #                 "instnCd": "100035",
+    #                 "volumn": "1000,000",
+    #                 "username": "zhangwneke"
+    #             },
+    #             "限价订单提交-T+1",
+    #             {
+    #                 "code": 200,
+    #                 "result": " sussess"
+    #             }
+    #         ]
+    #     ]
+    # }
 ]
-
-        

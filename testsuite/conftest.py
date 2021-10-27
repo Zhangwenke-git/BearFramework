@@ -13,7 +13,7 @@ from tools.DosOrderUtils import DosCmd
 from lib.ant.Template import AntReport
 from config.settings import Settings
 from tools.ReadConfig import ReadConfig
-
+from data.case import data_mapping_dict
 logger = Logger("APIconftest")
 
 
@@ -59,16 +59,16 @@ def pytest_sessionfinish(session):
     :function:测试结束后，添加结尾信息，例如生成测试报告
     :param session:
     """
-    if Settings.APIcaseFileRemove:
-        from lib.core.CaseCreate import clear_pyfile
-        clear_pyfile()
+    # if Settings.APIcaseFileRemove:
+    #     from lib.core.CaseCreate import clear_pyfile
+    #     clear_pyfile()
 
-    # if ReadConfig.getReportStyle() == "AllureReport":
-    #     Color.green("====================================准备生成allure测试报告====================================")
-    #     DosCmd().excute_bat(Settings.generate_allure_api_report_bat)
-    # elif ReadConfig.getReportStyle() == "AntReport":
-    #     Color.green("====================================准备生成Ant测试报告====================================")
-    #     AntReport().antReport(Settings.api_ant_report_path)
+    if ReadConfig.getReportStyle() == "AllureReport":
+        Color.green("====================================准备生成allure测试报告====================================")
+        DosCmd().excute_bat(Settings.generate_allure_api_report_bat)
+    elif ReadConfig.getReportStyle() == "AntReport":
+        Color.green("====================================准备生成Ant测试报告====================================")
+        AntReport().antReport(Settings.api_ant_report_path)
 
 
 
@@ -103,39 +103,9 @@ def add_extra_property(record_property, caplog):
     record_property("log", caplog)
 
 
-def main():
-    cond = threading.Condition()
-
-    def execute():
-        cond.acquire()
-        cond.wait()
-        if ReadConfig.getReportStyle() == "AllureReport":
-            pytest.main(['-s', '-q', '--alluredir', Settings.api_report_xml_path])
-        else:
-            pytest.main(['--junit-xml=%s/JunitXml.xml' % Settings.api_ant_report_path])
-        cond.release()
-
-    def createPyFile():
-        cond.acquire()
-        cond.notify()
-        if len(glob.glob("test_*.py")) == 0:
-            logger.info("Success to create API test case!")
-            creation()
-        else:
-            logger.info("Testcases have already exist!")
-        cond.release()
-
-    time_obj = TimedTask()
-    time_obj.executeTimedTask(0, execute)
-
-    t_execute = threading.Thread(target=execute)
-    t_create = threading.Thread(target=createPyFile)
-
-    t_execute.start()
-    t_create.start()
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     run(data_mapping_dict)
     #pytest.main(["-s","-q","--alluredir","../report/allure"])
 

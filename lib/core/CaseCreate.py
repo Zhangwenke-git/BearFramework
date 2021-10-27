@@ -11,7 +11,7 @@ from tools.logger import Logger
 logger = Logger("CaseCreation")
 lock = threading.Lock()
 
-from data.case import data_mapping_dict
+# from data.case import data_mapping_dict
 
 
 def template_json_create(data:list):
@@ -27,7 +27,6 @@ def template_json_create(data:list):
 
 
 def singleFunctionCreate(caseinfo):
-    print(caseinfo)
     code = Template(r'''
     
     
@@ -100,7 +99,7 @@ def batCreate(func, _dict):
         lock.release()
 
 
-def creation():
+def creation(data_mapping_dict):
     template_json_create(data_mapping_dict)
     class_file = threading.Thread(target=batCreate, args=(create_case_class, data_mapping_dict))
     func_file = threading.Thread(target=batCreate, args=(create_case_function, data_mapping_dict))
@@ -108,7 +107,7 @@ def creation():
     func_file.start()
 
 
-def clear_pyfile():
+def clear_pyfile(data_mapping_dict):
     try:
         for item in data_mapping_dict:
             test_case_file = os.path.join(Settings.base_dir + r'\testsuite', 'test_{}.py'.format(item.get("module")))
