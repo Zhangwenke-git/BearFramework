@@ -1761,3 +1761,1910 @@
 [2021-10-27 17:59:04] [INFO] Prepare to execute timed task!
 [2021-10-27 17:59:04] [ERROR] Timing task expired
 [2021-10-27 17:59:04] [INFO] Success to create API test case!
+[2021-10-27 21:08:22] [DEBUG] client: ('127.0.0.1', 56141) has connected!
+[2021-10-27 21:08:22] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:08:22] [INFO] Prepare to execute timed task!
+[2021-10-27 21:08:22] [ERROR] Timing task expired
+[2021-10-27 21:08:22] [INFO] Success to create API test case!
+[2021-10-27 21:08:22] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:10:00] [DEBUG] client: ('127.0.0.1', 58434) has connected!
+[2021-10-27 21:10:00] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:10:01] [INFO] Prepare to execute timed task!
+[2021-10-27 21:10:01] [ERROR] Timing task expired
+[2021-10-27 21:10:01] [INFO] Testcases have already exist!
+[2021-10-27 21:10:01] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:13:28] [DEBUG] client: ('127.0.0.1', 55833) has connected!
+[2021-10-27 21:13:28] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:13:28] [INFO] Prepare to execute timed task!
+[2021-10-27 21:13:28] [ERROR] Timing task expired
+[2021-10-27 21:13:28] [INFO] Testcases have already exist!
+[2021-10-27 21:13:28] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:13:42] [DEBUG] client: ('127.0.0.1', 55834) has connected!
+[2021-10-27 21:13:42] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:13:42] [INFO] Prepare to execute timed task!
+[2021-10-27 21:13:42] [ERROR] Timing task expired
+[2021-10-27 21:13:42] [INFO] Testcases have already exist!
+[2021-10-27 21:13:42] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:13:53] [DEBUG] client: ('127.0.0.1', 55836) has connected!
+[2021-10-27 21:13:53] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:13:53] [INFO] Prepare to execute timed task!
+[2021-10-27 21:13:53] [ERROR] Timing task expired
+[2021-10-27 21:13:53] [INFO] Testcases have already exist!
+[2021-10-27 21:13:53] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:14:30] [DEBUG] client: ('127.0.0.1', 61718) has connected!
+[2021-10-27 21:14:30] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:14:30] [INFO] Prepare to execute timed task!
+[2021-10-27 21:14:30] [ERROR] Timing task expired
+[2021-10-27 21:14:30] [INFO] Testcases have already exist!
+[2021-10-27 21:14:30] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:15:48] [INFO] Prepare to execute timed task!
+[2021-10-27 21:15:48] [ERROR] Timing task expired
+[2021-10-27 21:15:48] [INFO] Testcases have already exist!
+[2021-10-27 21:15:48] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:16:56] [DEBUG] client: ('127.0.0.1', 61915) has connected!
+[2021-10-27 21:16:56] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:16:56] [INFO] Prepare to execute timed task!
+[2021-10-27 21:16:56] [ERROR] Timing task expired
+[2021-10-27 21:16:56] [INFO] Success to create API test case!
+[2021-10-27 21:16:56] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:16:56] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:16:56] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 21:16:56] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 21:26:34] [DEBUG] client: ('127.0.0.1', 64108) has connected!
+[2021-10-27 21:26:34] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:26:34] [INFO] Prepare to execute timed task!
+[2021-10-27 21:26:34] [ERROR] Timing task expired
+[2021-10-27 21:26:34] [INFO] Success to execute case!
+[2021-10-27 21:26:34] [INFO] Success to create API test case!
+[2021-10-27 21:26:35] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:26:35] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:26:35] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 21:26:35] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 21:26:56] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 21:26:56] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-10-27 21:30:27] [DEBUG] client: ('127.0.0.1', 50903) has connected!
+[2021-10-27 21:30:27] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:30:28] [INFO] Prepare to execute timed task!
+[2021-10-27 21:30:28] [ERROR] Timing task expired
+[2021-10-27 21:30:28] [INFO] Success to execute case!
+[2021-10-27 21:30:28] [INFO] Testcases have already exist!
+[2021-10-27 21:30:28] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:30:28] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:30:28] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 21:30:28] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 21:34:40] [INFO] Start to run websocket server [127.0.0.1:5678]
+[2021-10-27 21:34:44] [DEBUG] client: ('127.0.0.1', 59406) has connected!
+[2021-10-27 21:34:44] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-10-27 21:34:44] [INFO] Prepare to execute timed task!
+[2021-10-27 21:34:44] [ERROR] Timing task expired
+[2021-10-27 21:34:44] [INFO] Success to execute case!
+[2021-10-27 21:34:44] [INFO] Testcases have already exist!
+[2021-10-27 21:34:45] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:34:45] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:34:45] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 21:34:45] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 21:35:17] [INFO] Prepare to execute timed task!
+[2021-10-27 21:35:17] [ERROR] Timing task expired
+[2021-10-27 21:35:17] [INFO] Success to execute case!
+[2021-10-27 21:35:17] [INFO] Testcases have already exist!
+[2021-10-27 21:35:18] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:35:18] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:35:18] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 21:35:18] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 21:35:30] [INFO] Prepare to execute timed task!
+[2021-10-27 21:35:30] [ERROR] Timing task expired
+[2021-10-27 21:35:30] [INFO] Success to execute case!
+[2021-10-27 21:35:30] [INFO] Testcases have already exist!
+[2021-10-27 21:35:30] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:35:30] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:35:30] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 21:35:30] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 21:37:10] [INFO] Prepare to execute timed task!
+[2021-10-27 21:37:10] [ERROR] Timing task expired
+[2021-10-27 21:37:10] [INFO] Success to execute case!
+[2021-10-27 21:37:10] [INFO] Success to create API test case!
+[2021-10-27 21:37:11] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:37:11] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:37:11] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 21:37:11] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 21:39:11] [INFO] Start to run websocket server [127.0.0.1:5678]
+[2021-10-27 21:39:21] [DEBUG] client: ('127.0.0.1', 60966) has connected!
+[2021-10-27 21:39:21] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            {
+                "parameter": {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "name": "用户名正确密码错误",
+                "validator": {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            },
+            {
+                "parameter": {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "name": "用户名和密码均正确",
+                "validator": {
+                    "code": 200
+                }
+            }
+        ]
+    }
+]
+[2021-10-27 21:39:21] [INFO] Prepare to execute timed task!
+[2021-10-27 21:39:21] [ERROR] Timing task expired
+[2021-10-27 21:39:21] [INFO] Success to execute case!
+[2021-10-27 21:39:21] [INFO] Success to create API test case!
+[2021-10-27 21:39:21] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:39:21] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:57:58] [INFO] Prepare to execute timed task!
+[2021-10-27 21:57:58] [ERROR] Timing task expired
+[2021-10-27 21:57:58] [INFO] Success to execute case!
+[2021-10-27 21:57:58] [INFO] Testcases have already exist!
+[2021-10-27 21:57:59] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:57:59] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:57:59] [DEBUG] Success to remove API test case py file!
+[2021-10-27 21:58:14] [INFO] Prepare to execute timed task!
+[2021-10-27 21:58:14] [ERROR] Timing task expired
+[2021-10-27 21:58:14] [INFO] Success to execute case!
+[2021-10-27 21:58:14] [INFO] Testcases have already exist!
+[2021-10-27 21:58:15] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:58:15] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:58:15] [DEBUG] Success to remove API test case py file!
+[2021-10-27 21:59:44] [INFO] Prepare to execute timed task!
+[2021-10-27 21:59:44] [ERROR] Timing task expired
+[2021-10-27 21:59:44] [INFO] Success to execute case!
+[2021-10-27 21:59:44] [INFO] Testcases have already exist!
+[2021-10-27 21:59:44] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 21:59:44] [INFO] Initiate environment config file successfully!
+[2021-10-27 21:59:44] [DEBUG] Success to remove API test case py file!
+[2021-10-27 22:00:20] [INFO] Prepare to execute timed task!
+[2021-10-27 22:00:20] [ERROR] Timing task expired
+[2021-10-27 22:00:20] [INFO] Success to execute case!
+[2021-10-27 22:00:20] [INFO] Testcases have already exist!
+[2021-10-27 22:00:20] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:00:20] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:00:21] [DEBUG] Success to remove API test case py file!
+[2021-10-27 22:10:48] [INFO] Prepare to execute timed task!
+[2021-10-27 22:10:48] [ERROR] Timing task expired
+[2021-10-27 22:10:48] [INFO] Success to execute case!
+[2021-10-27 22:10:48] [INFO] Testcases have already exist!
+[2021-10-27 22:10:48] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:10:49] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:10:49] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-37-pytest-5.3.2.pyc']
+[2021-10-27 22:16:35] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:17:03] [DEBUG] Client: (('127.0.0.1', 53123),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:17:03] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            {
+                "parameter": {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "name": "用户名正确密码错误",
+                "validator": {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            },
+            {
+                "parameter": {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "name": "用户名和密码均正确",
+                "validator": {
+                    "code": 200
+                }
+            }
+        ]
+    }
+]
+
+[2021-10-27 22:17:03] [INFO] Prepare to execute timed task!
+[2021-10-27 22:17:03] [ERROR] Timing task expired
+[2021-10-27 22:17:03] [INFO] Success to execute case!
+[2021-10-27 22:17:03] [INFO] Success to create API test case!
+[2021-10-27 22:17:03] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:17:03] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:17:03] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-37-pytest-5.3.2.pyc']
+[2021-10-27 22:30:44] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:30:46] [DEBUG] Client: (('127.0.0.1', 60760),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:30:46] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            {
+                "parameter": {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "name": "用户名正确密码错误",
+                "validator": {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            },
+            {
+                "parameter": {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "name": "用户名和密码均正确",
+                "validator": {
+                    "code": 200
+                }
+            }
+        ]
+    }
+]
+
+[2021-10-27 22:30:46] [INFO] Prepare to execute timed task!
+[2021-10-27 22:30:46] [ERROR] Timing task expired
+[2021-10-27 22:30:46] [INFO] Success to execute case!
+[2021-10-27 22:30:46] [INFO] Success to create API test case!
+[2021-10-27 22:30:46] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:30:46] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:30:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-37-pytest-5.3.2.pyc']
+[2021-10-27 22:30:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-27 22:31:52] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:33:32] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:33:33] [DEBUG] Client: (('127.0.0.1', 52090),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:33:33] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:33:33] [INFO] Prepare to execute timed task!
+[2021-10-27 22:33:33] [ERROR] Timing task expired
+[2021-10-27 22:33:33] [INFO] Success to execute case!
+[2021-10-27 22:33:33] [INFO] Success to create API test case!
+[2021-10-27 22:33:34] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:33:34] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:33:34] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-27 22:33:35] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-27 22:33:35] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-37-pytest-5.3.2.pyc']
+[2021-10-27 22:33:35] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-27 22:41:38] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:41:41] [DEBUG] Client: (('127.0.0.1', 60076),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:41:41] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:41:41] [INFO] Prepare to execute timed task!
+[2021-10-27 22:41:41] [ERROR] Timing task expired
+[2021-10-27 22:41:41] [ERROR] Fail to execute case,error as follows:cannot join thread before it is started
+[2021-10-27 22:41:41] [INFO] FAILED
+[2021-10-27 22:42:26] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:42:28] [DEBUG] Client: (('127.0.0.1', 63494),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:42:28] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:42:28] [INFO] Prepare to execute timed task!
+[2021-10-27 22:42:28] [ERROR] Timing task expired
+[2021-10-27 22:44:54] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:44:56] [DEBUG] Client: (('127.0.0.1', 56539),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:44:56] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:44:56] [INFO] Prepare to execute timed task!
+[2021-10-27 22:44:56] [ERROR] Timing task expired
+[2021-10-27 22:45:37] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:45:39] [DEBUG] Client: (('127.0.0.1', 49483),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:45:39] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:45:39] [INFO] Prepare to execute timed task!
+[2021-10-27 22:45:39] [ERROR] Timing task expired
+[2021-10-27 22:45:39] [INFO] Success to create API test case!
+[2021-10-27 22:45:39] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:45:39] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:45:39] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-27 22:45:40] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-27 22:45:40] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-37-pytest-5.3.2.pyc']
+[2021-10-27 22:45:40] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-27 22:45:40] [INFO] Success to execute case!
+[2021-10-27 22:45:40] [INFO] SUCCESS
+[2021-10-27 22:45:47] [DEBUG] Client: (('127.0.0.1', 53819),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:45:47] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:45:47] [INFO] Prepare to execute timed task!
+[2021-10-27 22:45:47] [ERROR] Timing task expired
+[2021-10-27 22:45:47] [INFO] Success to create API test case!
+[2021-10-27 22:45:47] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:45:47] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:45:47] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-27 22:45:47] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-27 22:45:47] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-27 22:45:47] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-27 22:45:47] [INFO] Success to execute case!
+[2021-10-27 22:45:47] [INFO] SUCCESS
+[2021-10-27 22:45:51] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:45:54] [DEBUG] Client: (('127.0.0.1', 53822),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:45:54] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:45:54] [INFO] Prepare to execute timed task!
+[2021-10-27 22:45:54] [ERROR] Timing task expired
+[2021-10-27 22:45:54] [INFO] Success to create API test case!
+[2021-10-27 22:45:54] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:45:54] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:45:54] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-27 22:45:55] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-27 22:45:55] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-37-pytest-5.3.2.pyc']
+[2021-10-27 22:45:55] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-27 22:45:55] [INFO] Success to execute case!
+[2021-10-27 22:45:55] [INFO] SUCCESS
+[2021-10-27 22:49:12] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:49:15] [DEBUG] Client: (('127.0.0.1', 49937),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:49:15] [DEBUG] Server received data is:
+[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:49:15] [INFO] Prepare to execute timed task!
+[2021-10-27 22:49:15] [ERROR] Timing task expired
+[2021-10-27 22:49:15] [INFO] Success to create API test case!
+[2021-10-27 22:49:15] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:49:15] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:49:15] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 22:49:15] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 22:53:41] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:53:44] [DEBUG] Client: (('127.0.0.1', 51555),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:53:44] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:53:44] [INFO] Prepare to execute timed task!
+[2021-10-27 22:53:44] [ERROR] Timing task expired
+[2021-10-27 22:53:44] [INFO] Testcases have already exist!
+[2021-10-27 22:53:44] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:53:44] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:53:44] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 22:53:44] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 22:54:05] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 22:54:05] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-10-27 22:54:57] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:54:59] [DEBUG] Client: (('127.0.0.1', 51564),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:54:59] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:54:59] [INFO] Prepare to execute timed task!
+[2021-10-27 22:54:59] [ERROR] Timing task expired
+[2021-10-27 22:54:59] [INFO] Testcases have already exist!
+[2021-10-27 22:55:00] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:55:00] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:55:00] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-10-27 22:55:00] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-10-27 22:55:21] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-37-pytest-5.3.2.pyc', 'C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_UUMS.cpython-37-pytest-5.3.2.pyc']
+[2021-10-27 22:55:21] [DEBUG] Success to remove API test case py file: []
+[2021-10-27 22:55:21] [INFO] Success to execute case!
+[2021-10-27 22:55:21] [INFO] The execution result is: [SUCCESS]
+[2021-10-27 22:55:28] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:55:31] [DEBUG] Client: (('127.0.0.1', 51568),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:55:31] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:55:31] [INFO] Prepare to execute timed task!
+[2021-10-27 22:55:31] [ERROR] Timing task expired
+[2021-10-27 22:55:31] [INFO] Success to create API test case!
+[2021-10-27 22:55:32] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:55:32] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:55:32] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-27 22:55:32] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-27 22:55:32] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-37-pytest-5.3.2.pyc']
+[2021-10-27 22:55:32] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-27 22:55:32] [INFO] Success to execute case!
+[2021-10-27 22:55:32] [INFO] The execution result is: [SUCCESS]
+[2021-10-27 22:57:04] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-27 22:57:10] [DEBUG] Client: (('127.0.0.1', 52196),) has connected at 2021-10-27 HH:MM:SS
+[2021-10-27 22:57:10] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-27 22:57:10] [INFO] Prepare to execute timed task!
+[2021-10-27 22:57:10] [ERROR] Timing task expired
+[2021-10-27 22:57:10] [INFO] Success to create API test case!
+[2021-10-27 22:57:10] [DEBUG] Success to create bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:57:10] [INFO] Initiate environment config file successfully!
+[2021-10-27 22:57:10] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-27 22:57:11] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-27 22:57:11] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-37-pytest-5.3.2.pyc']
+[2021-10-27 22:57:11] [DEBUG] Success to remove API test case py file: ['C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-27 22:57:11] [DEBUG] Prepare to execute bat file : C:\Users\ZWK\Desktop\home\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-27 22:57:14] [DEBUG] Success to execute bat file!
+[2021-10-27 22:57:14] [INFO] Success to execute case!
+[2021-10-27 22:57:14] [INFO] The execution result is: [SUCCESS]

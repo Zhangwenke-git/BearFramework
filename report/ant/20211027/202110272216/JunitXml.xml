@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="Zhangwenke" name="pytest" skipped="0" tests="2" time="0.182" timestamp="2021-10-27T22:17:03.457493"><testcase classname="testsuite.test_KMS.TestCase_KMS" file="testsuite\test_KMS.py" line="16" name="test_kms_user_login[parameter-name-validator0]" tester="zhangwenke" time="0.013"><properties><property name="outcome" value="111"/><property name="log" value="&lt;_pytest.logging.LogCaptureFixture object at 0x000001904EBE6898&gt;"/></properties><failure message="TypeError: read_template_by_test_name() argument after ** must be a mapping, not str">self = &lt;testsuite.test_KMS.TestCase_KMS object at 0x000001904DF8BE48&gt;
+param = &apos;parameter&apos;, desc = &apos;name&apos;, expect = &apos;validator&apos;
+json_template = &lt;function json_template.&lt;locals&gt;.read_template_by_test_name at 0x000001904EC00048&gt;
+
+    @pytest.mark.parametrize(&quot;param,desc,expect&quot;, [{&apos;parameter&apos;: {&apos;password&apos;: &apos;dsaddddddddd&apos;, &apos;username&apos;: &apos;admin&apos;}, &apos;name&apos;: &apos;用户名正确密码错误&apos;, &apos;validator&apos;: {&apos;code&apos;: 200, &apos;result&apos;: False, &apos;message&apos;: &apos; 密码错误&apos;}}, {&apos;parameter&apos;: {&apos;password&apos;: &apos; sdad@1332&apos;, &apos;username&apos;: &apos;admin&apos;}, &apos;name&apos;: &apos;用户名和密码均正确&apos;, &apos;validator&apos;: {&apos;code&apos;: 200}}])
+    @allure.story(&quot;Case:KMS用户登录&quot;)
+    @allure.severity(&quot;critical&quot;)
+    def test_kms_user_login(self,param,desc,expect,json_template):
+        &quot;&quot;&quot;KMS用户登录接口，涵盖用户名和用户密码&quot;&quot;&quot;
+        with allure.step(&quot;step:生成测试数据&quot;):
+&gt;           case = json_template(**param)
+E           TypeError: read_template_by_test_name() argument after ** must be a mapping, not str
+
+test_KMS.py:23: TypeError</failure><system-err>[2021-10-27 22:17:03] [INFO] Initiate environment config file successfully!
+testsuite\test_KMS.py:17: PytestExperimentalApiWarning: record_xml_attribute is an experimental feature
+  @pytest.mark.parametrize(&quot;param,desc,expect&quot;, [{&apos;parameter&apos;: {&apos;password&apos;: &apos;dsaddddddddd&apos;, &apos;username&apos;: &apos;admin&apos;}, &apos;name&apos;: &apos;用户名正确密码错误&apos;, &apos;validator&apos;: {&apos;code&apos;: 200, &apos;result&apos;: False, &apos;message&apos;: &apos; 密码错误&apos;}}, {&apos;parameter&apos;: {&apos;password&apos;: &apos; sdad@1332&apos;, &apos;username&apos;: &apos;admin&apos;}, &apos;name&apos;: &apos;用户名和密码均正确&apos;, &apos;validator&apos;: {&apos;code&apos;: 200}}])
+</system-err></testcase><testcase classname="testsuite.test_KMS.TestCase_KMS" file="testsuite\test_KMS.py" line="16" name="test_kms_user_login[parameter-name-validator1]" tester="zhangwenke" time="0.002"><properties><property name="outcome" value="111"/><property name="log" value="&lt;_pytest.logging.LogCaptureFixture object at 0x000001904E9F82E8&gt;"/></properties><failure message="TypeError: read_template_by_test_name() argument after ** must be a mapping, not str">self = &lt;testsuite.test_KMS.TestCase_KMS object at 0x000001904D9B6D68&gt;
+param = &apos;parameter&apos;, desc = &apos;name&apos;, expect = &apos;validator&apos;
+json_template = &lt;function json_template.&lt;locals&gt;.read_template_by_test_name at 0x000001904EC256A8&gt;
+
+    @pytest.mark.parametrize(&quot;param,desc,expect&quot;, [{&apos;parameter&apos;: {&apos;password&apos;: &apos;dsaddddddddd&apos;, &apos;username&apos;: &apos;admin&apos;}, &apos;name&apos;: &apos;用户名正确密码错误&apos;, &apos;validator&apos;: {&apos;code&apos;: 200, &apos;result&apos;: False, &apos;message&apos;: &apos; 密码错误&apos;}}, {&apos;parameter&apos;: {&apos;password&apos;: &apos; sdad@1332&apos;, &apos;username&apos;: &apos;admin&apos;}, &apos;name&apos;: &apos;用户名和密码均正确&apos;, &apos;validator&apos;: {&apos;code&apos;: 200}}])
+    @allure.story(&quot;Case:KMS用户登录&quot;)
+    @allure.severity(&quot;critical&quot;)
+    def test_kms_user_login(self,param,desc,expect,json_template):
+        &quot;&quot;&quot;KMS用户登录接口，涵盖用户名和用户密码&quot;&quot;&quot;
+        with allure.step(&quot;step:生成测试数据&quot;):
+&gt;           case = json_template(**param)
+E           TypeError: read_template_by_test_name() argument after ** must be a mapping, not str
+
+test_KMS.py:23: TypeError</failure><system-err>testsuite\test_KMS.py:17: PytestExperimentalApiWarning: record_xml_attribute is an experimental feature
+  @pytest.mark.parametrize(&quot;param,desc,expect&quot;, [{&apos;parameter&apos;: {&apos;password&apos;: &apos;dsaddddddddd&apos;, &apos;username&apos;: &apos;admin&apos;}, &apos;name&apos;: &apos;用户名正确密码错误&apos;, &apos;validator&apos;: {&apos;code&apos;: 200, &apos;result&apos;: False, &apos;message&apos;: &apos; 密码错误&apos;}}, {&apos;parameter&apos;: {&apos;password&apos;: &apos; sdad@1332&apos;, &apos;username&apos;: &apos;admin&apos;}, &apos;name&apos;: &apos;用户名和密码均正确&apos;, &apos;validator&apos;: {&apos;code&apos;: 200}}])
+</system-err></testcase></testsuite></testsuites>

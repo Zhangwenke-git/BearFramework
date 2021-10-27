@@ -18,3 +18,9 @@ class ReadConfig:
     @staticmethod
     def getCaseStyle():
         return web_config.get("apiCaseStyle", "caseStyle")
+
+    @staticmethod
+    def getWebsocket():
+        ip = web_config.get("websocket", "ip")
+        port = web_config.get("websocket", "port")
+        return ip,int(port)

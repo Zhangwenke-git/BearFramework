@@ -1,0 +1,298 @@
+{
+  "uid" : "d80a0f321d6b068e",
+  "name" : "test_kms_user_login[param0-用户名正确密码错误-expect0]",
+  "fullName" : "testsuite.test_KMS.TestCase_KMS#test_kms_user_login",
+  "historyId" : "457c1b044ba2dc223aa66ed469e777b1",
+  "time" : {
+    "start" : 1635346630944,
+    "stop" : 1635346630963,
+    "duration" : 19
+  },
+  "description" : "KMS用户登录接口，涵盖用户名和用户密码",
+  "descriptionHtml" : "<p>KMS用户登录接口，涵盖用户名和用户密码</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 403 == {'code': 200, 'message': ' 密码错误', 'result': False}\n +  where 403 = <Response [403]>.status_code",
+  "statusTrace" : "self = <testsuite.test_KMS.TestCase_KMS object at 0x00000147431E96D8>\nparam = {'password': 'dsaddddddddd', 'username': 'admin'}, desc = '用户名正确密码错误'\nexpect = {'code': 200, 'message': ' 密码错误', 'result': False}\njson_template = <function json_template.<locals>.read_template_by_test_name at 0x00000147431E0A60>\n\n    @pytest.mark.parametrize(\"param,desc,expect\", [[{'password': 'dsaddddddddd', 'username': 'admin'}, '用户名正确密码错误', {'code': 200, 'result': False, 'message': ' 密码错误'}], [{'password': ' sdad@1332', 'username': 'admin'}, '用户名和密码均正确', {'code': 200}]])\n    @allure.story(\"Case:KMS用户登录\")\n    @allure.severity(\"critical\")\n    def test_kms_user_login(self,param,desc,expect,json_template):\n        \"\"\"KMS用户登录接口，涵盖用户名和用户密码\"\"\"\n        with allure.step(\"step:生成测试数据\"):\n            case = json_template(**param)\n            allure.attach(json.dumps(case,indent=4,ensure_ascii=False),\"配置信息\",allure.attachment_type.JSON)\n        with allure.step(\"step:函数调用\"):\n            data_ = case.get('data')\n            data = format_object.format_(data_)\n            allure.attach(json.dumps(data,indent=4,ensure_ascii=False),\"请求入参\",allure.attachment_type.JSON)\n        with allure.step(f\"step:请求url: {case.get('url')}\"):\n            if case.get('method').lower()=='post':\n                res = requests.post(url=case.get('url'),headers=case.get('headers'), data=data)\n            else:\n                res = requests.get(url=case.get('url'),headers=case.get('headers'), params=data)\n        with allure.step(\"step:请求断言\"):\n>           assert res.status_code == expect\nE           AssertionError: assert 403 == {'code': 200, 'message': ' 密码错误', 'result': False}\nE            +  where 403 = <Response [403]>.status_code\n\ntest_KMS.py:35: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "add_extra_property",
+    "time" : {
+      "start" : 1635346630943,
+      "stop" : 1635346630943,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "add_extra_attribute",
+    "time" : {
+      "start" : 1635346630942,
+      "stop" : 1635346630942,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "record_xml_attribute",
+    "time" : {
+      "start" : 1635346630942,
+      "stop" : 1635346630942,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "initEnvConf",
+    "time" : {
+      "start" : 1635346630940,
+      "stop" : 1635346630942,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "record_property",
+    "time" : {
+      "start" : 1635346630942,
+      "stop" : 1635346630942,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "caplog",
+    "time" : {
+      "start" : 1635346630943,
+      "stop" : 1635346630943,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "json_template",
+    "time" : {
+      "start" : 1635346630944,
+      "stop" : 1635346630944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "KMS用户登录接口，涵盖用户名和用户密码",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 403 == {'code': 200, 'message': ' 密码错误', 'result': False}\n +  where 403 = <Response [403]>.status_code",
+    "statusTrace" : "self = <testsuite.test_KMS.TestCase_KMS object at 0x00000147431E96D8>\nparam = {'password': 'dsaddddddddd', 'username': 'admin'}, desc = '用户名正确密码错误'\nexpect = {'code': 200, 'message': ' 密码错误', 'result': False}\njson_template = <function json_template.<locals>.read_template_by_test_name at 0x00000147431E0A60>\n\n    @pytest.mark.parametrize(\"param,desc,expect\", [[{'password': 'dsaddddddddd', 'username': 'admin'}, '用户名正确密码错误', {'code': 200, 'result': False, 'message': ' 密码错误'}], [{'password': ' sdad@1332', 'username': 'admin'}, '用户名和密码均正确', {'code': 200}]])\n    @allure.story(\"Case:KMS用户登录\")\n    @allure.severity(\"critical\")\n    def test_kms_user_login(self,param,desc,expect,json_template):\n        \"\"\"KMS用户登录接口，涵盖用户名和用户密码\"\"\"\n        with allure.step(\"step:生成测试数据\"):\n            case = json_template(**param)\n            allure.attach(json.dumps(case,indent=4,ensure_ascii=False),\"配置信息\",allure.attachment_type.JSON)\n        with allure.step(\"step:函数调用\"):\n            data_ = case.get('data')\n            data = format_object.format_(data_)\n            allure.attach(json.dumps(data,indent=4,ensure_ascii=False),\"请求入参\",allure.attachment_type.JSON)\n        with allure.step(f\"step:请求url: {case.get('url')}\"):\n            if case.get('method').lower()=='post':\n                res = requests.post(url=case.get('url'),headers=case.get('headers'), data=data)\n            else:\n                res = requests.get(url=case.get('url'),headers=case.get('headers'), params=data)\n        with allure.step(\"step:请求断言\"):\n>           assert res.status_code == expect\nE           AssertionError: assert 403 == {'code': 200, 'message': ' 密码错误', 'result': False}\nE            +  where 403 = <Response [403]>.status_code\n\ntest_KMS.py:35: AssertionError",
+    "steps" : [ {
+      "name" : "step:生成测试数据",
+      "time" : {
+        "start" : 1635346630944,
+        "stop" : 1635346630947,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d743c9584980ec4",
+        "name" : "配置信息",
+        "source" : "7d743c9584980ec4.json",
+        "type" : "application/json",
+        "size" : 487
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "step:函数调用",
+      "time" : {
+        "start" : 1635346630947,
+        "stop" : 1635346630948,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57188481dc5971c3",
+        "name" : "请求入参",
+        "source" : "57188481dc5971c3.json",
+        "type" : "application/json",
+        "size" : 75
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "step:请求url: http://127.0.1.1:8080/login",
+      "time" : {
+        "start" : 1635346630948,
+        "stop" : 1635346630963,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step:请求断言",
+      "time" : {
+        "start" : 1635346630963,
+        "stop" : 1635346630963,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 403 == {'code': 200, 'message': ' 密码错误', 'result': False}\n +  where 403 = <Response [403]>.status_code\n",
+      "statusTrace" : "  File \"C:\\Users\\ZWK\\Desktop\\home\\BearFramework\\testsuite\\test_KMS.py\", line 35, in test_kms_user_login\n    assert res.status_code == expect\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3dd0e3c0b8cdc46",
+      "name" : "log",
+      "source" : "3dd0e3c0b8cdc46.txt",
+      "type" : "text/plain",
+      "size" : 198
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "caplog::0",
+    "time" : {
+      "start" : 1635346631008,
+      "stop" : 1635346631008,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Case:KMS用户登录"
+  }, {
+    "name" : "feature",
+    "value" : "Title:秘钥管理系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "APItest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testsuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_KMS"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase_KMS"
+  }, {
+    "name" : "host",
+    "value" : "Zhangwenke"
+  }, {
+    "name" : "thread",
+    "value" : "9364-Thread-1"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testsuite.test_KMS"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "desc",
+    "value" : "'用户名正确密码错误'"
+  }, {
+    "name" : "expect",
+    "value" : "{'code': 200, 'result': False, 'message': ' 密码错误'}"
+  }, {
+    "name" : "param",
+    "value" : "{'password': 'dsaddddddddd', 'username': 'admin'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "APItest" ]
+  },
+  "source" : "d80a0f321d6b068e.json",
+  "parameterValues" : [ "'用户名正确密码错误'", "{'code': 200, 'result': False, 'message': ' 密码错误'}", "{'password': 'dsaddddddddd', 'username': 'admin'}" ]
+}

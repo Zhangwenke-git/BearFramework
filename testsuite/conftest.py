@@ -14,7 +14,7 @@ from lib.ant.Template import AntReport
 from config.settings import Settings
 from tools.ReadConfig import ReadConfig
 from data.case import data_mapping_dict
-logger = Logger("APIconftest")
+logger = Logger("API conftest")
 
 
 @pytest.fixture(scope="function")
@@ -39,6 +39,7 @@ def initEnvConf():
     initObj.init(Settings.api_env_path)
 
 
+
 def pytest_sessionstart(session):
     """
     :function:开始前创建用例py文件，等初始化信息
@@ -59,9 +60,13 @@ def pytest_sessionfinish(session):
     :function:测试结束后，添加结尾信息，例如生成测试报告
     :param session:
     """
-    # if Settings.APIcaseFileRemove:
-    #     from lib.core.CaseCreate import clear_pyfile
-    #     clear_pyfile()
+    if Settings.APIcaseFileRemove:
+        from lib.core.CaseCreate import clear_pyfile
+        clear_pyfile()
+
+    if Settings.APItemplateFileRemove:
+        from lib.core.CaseCreate import clear_template_file
+        clear_template_file()
 
     if ReadConfig.getReportStyle() == "AllureReport":
         Color.green("====================================准备生成allure测试报告====================================")
@@ -103,9 +108,4 @@ def add_extra_property(record_property, caplog):
     record_property("log", caplog)
 
 
-
-
-# if __name__ == "__main__":
-#     run(data_mapping_dict)
-    #pytest.main(["-s","-q","--alluredir","../report/allure"])
 

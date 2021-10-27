@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testsuite.test_KMS",
+    "children" : [ {
+      "name" : "test_kms_user_login[param0-用户名正确密码错误-expect0]",
+      "uid" : "d80a0f321d6b068e",
+      "parentUid" : "0aedf7d29ebb24f63b02cff203e633d6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1635346630944,
+        "stop" : 1635346630963,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'用户名正确密码错误'", "{'code': 200, 'result': False, 'message': ' 密码错误'}", "{'password': 'dsaddddddddd', 'username': 'admin'}" ]
+    }, {
+      "name" : "test_kms_user_login[param1-用户名和密码均正确-expect1]",
+      "uid" : "cc5c540662eaafd7",
+      "parentUid" : "0aedf7d29ebb24f63b02cff203e633d6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1635346631013,
+        "stop" : 1635346631020,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'用户名和密码均正确'", "{'code': 200}", "{'password': ' sdad@1332', 'username': 'admin'}" ]
+    } ],
+    "uid" : "testsuite.test_KMS"
+  } ]
+}

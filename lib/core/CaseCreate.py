@@ -107,17 +107,33 @@ def creation(data_mapping_dict):
     func_file.start()
 
 
-def clear_pyfile(data_mapping_dict):
+def clear_pyfile():
+    delete_files = []
     try:
-        for item in data_mapping_dict:
-            test_case_file = os.path.join(Settings.base_dir + r'\testsuite', 'test_{}.py'.format(item.get("module")))
-            os.remove(test_case_file)
+        test_suit = os.path.join(Settings.base_dir,'testsuite')
+        for root,dirs,files in os.walk(test_suit):
+            for file in files:
+                if file.startswith("test_"):
+                    delete_file = os.path.join(root,file)
+                    delete_files.append(delete_file)
+                    os.remove(delete_file)
     except Exception:
         logger.error('Fail to remove API test case py file!')
     else:
-        logger.debug('Success to remove API test case py file!')
+        logger.debug(f'Success to remove API test case py file: {delete_files}')
 
 
-if __name__ == '__main__':
-    creation()
-    # clear_pyfile()
+def clear_template_file():
+    delete_files = []
+    try:
+        templates = os.path.join(Settings.base_dir,'templates')
+        for root,dirs,files in os.walk(templates):
+            for file in files:
+                if file.endswith(".json"):
+                    delete_file = os.path.join(root,file)
+                    delete_files.append(delete_file)
+                    os.remove(delete_file)
+    except Exception:
+        logger.error('Fail to remove API test case py file!')
+    else:
+        logger.debug(f'Success to remove API test case py file: {delete_files}')

@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testsuite",
+    "children" : [ {
+      "name" : "test_KMS",
+      "children" : [ {
+        "name" : "TestCase_KMS",
+        "children" : [ {
+          "name" : "test_kms_user_login[param0-用户名正确密码错误-expect0]",
+          "uid" : "d80a0f321d6b068e",
+          "parentUid" : "8e39e0162a23b4d13131c94081663f14",
+          "status" : "failed",
+          "time" : {
+            "start" : 1635346630944,
+            "stop" : 1635346630963,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'用户名正确密码错误'", "{'code': 200, 'result': False, 'message': ' 密码错误'}", "{'password': 'dsaddddddddd', 'username': 'admin'}" ]
+        }, {
+          "name" : "test_kms_user_login[param1-用户名和密码均正确-expect1]",
+          "uid" : "cc5c540662eaafd7",
+          "parentUid" : "8e39e0162a23b4d13131c94081663f14",
+          "status" : "failed",
+          "time" : {
+            "start" : 1635346631013,
+            "stop" : 1635346631020,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'用户名和密码均正确'", "{'code': 200}", "{'password': ' sdad@1332', 'username': 'admin'}" ]
+        } ],
+        "uid" : "8e39e0162a23b4d13131c94081663f14"
+      } ],
+      "uid" : "c06f8b21073c671f88d1acdd6338a39b"
+    } ],
+    "uid" : "3cbc1e71101d17db9a08b33929e743cc"
+  } ]
+}

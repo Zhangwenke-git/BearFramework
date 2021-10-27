@@ -7,9 +7,13 @@ class Settings:
     parent_folder = TimeUtils.time8
     child_folder = TimeUtils.time9
 
-    APIcaseFileRemove = False
+    APIcaseFileRemove = True
+    APItemplateFileRemove = True
     ReportAfterClose = True
     allowTimedTask = True
+
+
+    websocket_server_allowed_size = 4096
 
     success_flag = '通过'
     fail_flag = '失败'
