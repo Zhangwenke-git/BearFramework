@@ -1,2 +1,0 @@
-INFO     Init_Env:logger.py:56 Initiate environment config file successfully!
-DEBUG    FormatParam:logger.py:59 The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]

@@ -49,8 +49,8 @@ def pytest_sessionstart(session):
     file = FileUtils()
     string = r"""
 cd /d %~dp0
-allure generate {base_dir}\report\allure\{parent}\{child}\xml -o {base_dir}\report\allure\{parent}\{child}\html --clean
-    """ .format (base_dir=Settings.base_dir,parent=Settings.parent_folder,child = Settings.child_folder)
+allure generate {base_dir}\report\allure\xml -o {base_dir}\report\allure\html --clean
+    """ .format (base_dir=Settings.base_dir)
     file.createBatFile(string,Settings.generate_allure_api_report_bat)
 
 

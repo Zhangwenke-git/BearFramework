@@ -29,7 +29,6 @@ def client(data):
 if __name__ == "__main__":
     from data.case import data_mapping_dict
 
-
     data = [
                     {
                         "module": "KMS",
@@ -74,7 +73,4 @@ if __name__ == "__main__":
                         ]
                     }
                 ]
-
-
-
-    client(data)
+    client(data_mapping_dict)

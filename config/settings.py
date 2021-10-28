@@ -22,10 +22,12 @@ class Settings:
     log_path = os.path.join(base_dir, 'log')
     template_dir = os.path.join(base_dir,'templates')
     conf_path = os.path.join(base_dir, 'config\config.ini')
-    api_env_path = base_dir + r"\report\allure\%s\%s\xml\environment.xml" % (parent_folder, child_folder)
-    api_ant_report_path = base_dir + r"\report\ant\%s\%s" % (parent_folder, child_folder)
-    api_report_xml_path = base_dir + r"\report\allure\%s\%s\xml" % (parent_folder, child_folder)
+    api_env_path = base_dir + r"\report\allure\xml\environment.xml"
+    api_ant_report_path = base_dir + r"\report\ant"
+    api_report_xml_path = base_dir + r"\report\allure\xml"
     generate_allure_api_report_bat = base_dir + r'\bat\generate_allure_api_report.bat'
+
+    FTP_DIR = r"C:\Users\lenovo\Desktop\FTP"
 
     xml_case_path = base_dir + r"\Import\CaseXml\\"
 

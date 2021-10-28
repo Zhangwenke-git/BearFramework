@@ -90,48 +90,48 @@ data_mapping_dict = [
                 }
             ]
         ]
+    },
+    {
+        "module": "ODM",
+        "class_title": "ODM交易系统",
+        "case": "order_submit",
+        "case_title": "限价订单提交",
+        "case_description": null,
+        "templates_name": "现券XBOND订单提交",
+        "url": "https://www.cnblogs.com/aaronthon/ajax/GetPostStat",
+        "method": 1,
+        "header": {
+            "content-type": "application/json",
+            "Authorization": "9480295ab2e2eddb8"
+        },
+        "data": {
+            "ordrData": {
+                "clntQtCd": "",
+                "stlmntSpdNm": 2,
+                "cntngncyIndctr": "",
+                "flxblNetPrc": "",
+                "qtTp": "${login}|<{{username}},{{password}}>",
+                "netPrc": "{{netPrc}}",
+                "instnCd": "{{instnCd}}",
+                "nmnlVol": "{{volumn}}",
+                "ordrTpIndctr": "1"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "netPrc": "100.2344",
+                    "password": "aaaa1111!",
+                    "instnCd": "100035",
+                    "volumn": "1000,000",
+                    "username": "zhangwneke"
+                },
+                "限价订单提交-T+1",
+                {
+                    "code": 200,
+                    "result": " sussess"
+                }
+            ]
+        ]
     }
-    # {
-    #     "module": "ODM",
-    #     "class_title": "ODM交易系统",
-    #     "case": "order_submit",
-    #     "case_title": "限价订单提交",
-    #     "case_description": null,
-    #     "templates_name": "现券XBOND订单提交",
-    #     "url": "https://www.cnblogs.com/aaronthon/ajax/GetPostStat",
-    #     "method": 1,
-    #     "header": {
-    #         "content-type": "application/json",
-    #         "Authorization": "9480295ab2e2eddb8"
-    #     },
-    #     "data": {
-    #         "ordrData": {
-    #             "clntQtCd": "",
-    #             "stlmntSpdNm": 2,
-    #             "cntngncyIndctr": "",
-    #             "flxblNetPrc": "",
-    #             "qtTp": "${login}|<{{username}},{{password}}>",
-    #             "netPrc": "{{netPrc}}",
-    #             "instnCd": "{{instnCd}}",
-    #             "nmnlVol": "{{volumn}}",
-    #             "ordrTpIndctr": "1"
-    #         }
-    #     },
-    #     "scenarios": [
-    #         [
-    #             {
-    #                 "netPrc": "100.2344",
-    #                 "password": "aaaa1111!",
-    #                 "instnCd": "100035",
-    #                 "volumn": "1000,000",
-    #                 "username": "zhangwneke"
-    #             },
-    #             "限价订单提交-T+1",
-    #             {
-    #                 "code": 200,
-    #                 "result": " sussess"
-    #             }
-    #         ]
-    #     ]
-    # }
 ]
