@@ -2056,3 +2056,694 @@
 [2021-10-28 12:27:06] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
 [2021-10-28 12:27:06] [INFO] Success to execute case!
 [2021-10-28 12:28:38] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-28 12:41:18] [INFO] Start to run websocket server [('127.0.0.1', 5678)]
+[2021-10-28 12:43:14] [DEBUG] Client: (('127.0.0.1', 55028),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 12:43:14] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 12:43:14] [INFO] Prepare to execute timed task!
+[2021-10-28 12:43:14] [ERROR] Timing task expired
+[2021-10-28 12:43:14] [INFO] Success to create API test case!
+[2021-10-28 12:43:14] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 12:43:14] [INFO] Initiate environment config file successfully!
+[2021-10-28 12:43:14] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 12:43:14] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 12:43:15] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-10-28 12:43:15] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 12:43:15] [INFO] Success to execute case!
+[2021-10-28 12:44:40] [DEBUG] Client: (('127.0.0.1', 52841),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 12:44:40] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 12:44:40] [INFO] Prepare to execute timed task!
+[2021-10-28 12:44:40] [ERROR] Timing task expired
+[2021-10-28 12:44:40] [INFO] Success to create API test case!
+[2021-10-28 12:44:40] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 12:44:40] [INFO] Initiate environment config file successfully!
+[2021-10-28 12:44:40] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 12:44:40] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 12:44:40] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 12:44:40] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 12:44:41] [INFO] Success to execute case!
+[2021-10-28 12:51:43] [DEBUG] Client: (('127.0.0.1', 53772),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 12:51:43] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 12:51:43] [INFO] Prepare to execute timed task!
+[2021-10-28 12:51:43] [ERROR] Timing task expired
+[2021-10-28 12:51:43] [INFO] Success to create API test case!
+[2021-10-28 12:51:43] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 12:51:43] [INFO] Initiate environment config file successfully!
+[2021-10-28 12:51:43] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 12:51:43] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 12:51:43] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 12:51:43] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 12:51:43] [INFO] Success to execute case!
+[2021-10-28 12:52:19] [DEBUG] Client: (('127.0.0.1', 62315),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 12:52:19] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 12:52:19] [INFO] Prepare to execute timed task!
+[2021-10-28 12:52:19] [ERROR] Timing task expired
+[2021-10-28 12:52:19] [INFO] Success to create API test case!
+[2021-10-28 12:52:19] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 12:52:19] [INFO] Initiate environment config file successfully!
+[2021-10-28 12:52:19] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 12:52:19] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 12:52:19] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 12:52:19] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 12:52:19] [INFO] Success to execute case!
+[2021-10-28 12:52:55] [DEBUG] Client: (('127.0.0.1', 59412),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 12:52:55] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 12:52:55] [INFO] Prepare to execute timed task!
+[2021-10-28 12:52:55] [ERROR] Timing task expired
+[2021-10-28 12:52:55] [INFO] Success to create API test case!
+[2021-10-28 12:52:55] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 12:52:55] [INFO] Initiate environment config file successfully!
+[2021-10-28 12:52:55] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 12:52:55] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 12:52:55] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 12:52:55] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 12:52:55] [INFO] Success to execute case!
+[2021-10-28 12:56:40] [DEBUG] Client: (('127.0.0.1', 63005),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 12:56:40] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 12:56:40] [INFO] Prepare to execute timed task!
+[2021-10-28 12:56:40] [ERROR] Timing task expired
+[2021-10-28 12:56:40] [INFO] Success to create API test case!
+[2021-10-28 12:56:40] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 12:56:40] [INFO] Initiate environment config file successfully!
+[2021-10-28 12:56:40] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 12:56:40] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 12:56:40] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 12:56:40] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 12:56:40] [INFO] Success to execute case!
+[2021-10-28 12:58:32] [DEBUG] Client: (('127.0.0.1', 49368),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 12:58:32] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 12:58:32] [INFO] Prepare to execute timed task!
+[2021-10-28 12:58:32] [ERROR] Timing task expired
+[2021-10-28 12:58:32] [INFO] Success to create API test case!
+[2021-10-28 12:58:32] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 12:58:32] [INFO] Initiate environment config file successfully!
+[2021-10-28 12:58:32] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 12:58:32] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 12:58:32] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 12:58:32] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 12:58:32] [INFO] Success to execute case!
+[2021-10-28 13:01:14] [DEBUG] Client: (('127.0.0.1', 64736),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 13:01:14] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 13:01:14] [INFO] Prepare to execute timed task!
+[2021-10-28 13:01:14] [ERROR] Timing task expired
+[2021-10-28 13:01:14] [INFO] Success to create API test case!
+[2021-10-28 13:01:14] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 13:01:14] [INFO] Initiate environment config file successfully!
+[2021-10-28 13:01:14] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 13:01:14] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 13:01:14] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 13:01:14] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 13:01:14] [INFO] Success to execute case!
+[2021-10-28 13:10:42] [DEBUG] Client: (('127.0.0.1', 57717),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 13:10:42] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 13:10:42] [INFO] Prepare to execute timed task!
+[2021-10-28 13:10:42] [ERROR] Timing task expired
+[2021-10-28 13:10:42] [INFO] Success to create API test case!
+[2021-10-28 13:10:42] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 13:10:42] [INFO] Initiate environment config file successfully!
+[2021-10-28 13:10:42] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 13:10:42] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 13:10:42] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 13:10:42] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 13:10:42] [INFO] Success to execute case!
+[2021-10-28 13:12:04] [DEBUG] Client: (('127.0.0.1', 50322),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 13:12:04] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 13:12:04] [INFO] Prepare to execute timed task!
+[2021-10-28 13:12:04] [ERROR] Timing task expired
+[2021-10-28 13:12:04] [INFO] Success to create API test case!
+[2021-10-28 13:12:04] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 13:12:04] [INFO] Initiate environment config file successfully!
+[2021-10-28 13:12:04] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 13:12:04] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 13:12:04] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 13:12:04] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 13:12:04] [INFO] Success to execute case!
+[2021-10-28 13:12:36] [DEBUG] Client: (('127.0.0.1', 63498),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 13:12:36] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 13:12:36] [INFO] Prepare to execute timed task!
+[2021-10-28 13:12:36] [ERROR] Timing task expired
+[2021-10-28 13:12:36] [INFO] Success to create API test case!
+[2021-10-28 13:12:36] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 13:12:36] [INFO] Initiate environment config file successfully!
+[2021-10-28 13:12:36] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 13:12:36] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 13:12:36] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 13:12:36] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 13:12:36] [INFO] Success to execute case!
+[2021-10-28 13:18:21] [DEBUG] Client: (('127.0.0.1', 65274),) has connected at 2021-10-28 HH:MM:SS
+[2021-10-28 13:18:21] [DEBUG] Server received data is:
+[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+
+[2021-10-28 13:18:21] [INFO] Prepare to execute timed task!
+[2021-10-28 13:18:21] [ERROR] Timing task expired
+[2021-10-28 13:18:21] [INFO] Success to create API test case!
+[2021-10-28 13:18:21] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-10-28 13:18:21] [INFO] Initiate environment config file successfully!
+[2021-10-28 13:18:21] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-10-28 13:18:21] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-10-28 13:18:21] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-10-28 13:18:21] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-10-28 13:18:21] [INFO] Success to execute case!
+[2021-10-28 17:21:24] [INFO] 220 Microsoft FTP Service
+[2021-10-28 17:22:24] [INFO] 220 Microsoft FTP Service
+[2021-10-28 17:22:42] [INFO] 220 Microsoft FTP Service
+[2021-10-28 17:24:25] [INFO] 220 Microsoft FTP Service
+[2021-10-28 17:29:34] [ERROR] Fail to login [('127.0.0.1', 21)] with user info [('admin', 'aaaa1111!')]
+[2021-10-28 17:32:54] [INFO] 220 Microsoft FTP Service
