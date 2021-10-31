@@ -73,4 +73,4 @@ if __name__ == "__main__":
                         ]
                     }
                 ]
-    client(data_mapping_dict)
+    client(data)

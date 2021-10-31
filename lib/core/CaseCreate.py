@@ -15,11 +15,15 @@ lock = threading.Lock()
 
 
 def template_json_create(data:list):
+    """
+    更具入参生成templates目录下的.json模板文件
+    @param data:
+    """
     for template_json in data:
         template_json_copy = template_json.copy()
 
         del template_json_copy["scenarios"]
-        template_json_copy["method"]="post" if template_json_copy["method"]==1 else "get"
+        template_json_copy["method"]="post" if template_json_copy["method"]==1 else "get" # todo:待优化，不能写死请求方式
         template_file = os.path.join(Settings.template_dir,"test_%s.json" % template_json_copy.get("case"))
         with open(template_file,"w",encoding="utf-8") as f:
             f.write(json.dumps(template_json_copy,indent=4,ensure_ascii=False))
@@ -27,6 +31,11 @@ def template_json_create(data:list):
 
 
 def singleFunctionCreate(caseinfo):
+    """
+    写入test_func测试函数，即测试用例  #todo:结果校验需要优化
+    @param caseinfo:
+    @return:
+    """
     code = Template(r'''
     
     
@@ -59,6 +68,11 @@ def singleFunctionCreate(caseinfo):
 
 
 def singClassCreate(caseinfo):
+    """
+    写入测试类
+    @param caseinfo:
+    @return:
+    """
     code = Template(r"""#-*-coding=utf8-*-
     
 import pytest
@@ -93,6 +107,11 @@ def create_case_function(func_map, mode='a'):
 
 
 def batCreate(func, _dict):
+    """
+    批量生成测试用例py文件
+    @param func:
+    @param _dict:
+    """
     lock.acquire(True)
     list(map(func, _dict))
     if len(glob.glob("test_*.py")) != 0:
@@ -100,6 +119,10 @@ def batCreate(func, _dict):
 
 
 def creation(data_mapping_dict):
+    """
+    生成测试用例文件的主入口
+    @param data_mapping_dict:
+    """
     template_json_create(data_mapping_dict)
     class_file = threading.Thread(target=batCreate, args=(create_case_class, data_mapping_dict))
     func_file = threading.Thread(target=batCreate, args=(create_case_function, data_mapping_dict))
@@ -108,6 +131,9 @@ def creation(data_mapping_dict):
 
 
 def clear_pyfile():
+    """
+    清除测试用例文件
+    """
     delete_files = []
     try:
         test_suit = os.path.join(Settings.base_dir,'testsuite')
@@ -124,6 +150,9 @@ def clear_pyfile():
 
 
 def clear_template_file():
+    """
+    清除测试模板.json文件
+    """
     delete_files = []
     try:
         templates = os.path.join(Settings.base_dir,'templates')
