@@ -18,11 +18,11 @@ class FTPHelper(object):
         self.obj = obj
 
         ftp = FTP()
-        ftp.connect(self.ip, self.port)
         try:
+            ftp.connect(self.ip, self.port)
             ftp.login(self.username, self.password)
         except Exception as e:
-            logger.error(f"Fail to login [{self.ip, self.port}] with user info [{self.username, self.password}]")
+            logger.error(f"Fail to login [{self.ip, self.port}] with user info [{self.username, self.password}],error as follows:{str(e)}")
         else:
             logger.info(ftp.getwelcome())
             self.obj = ftp

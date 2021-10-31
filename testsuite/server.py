@@ -1,3 +1,5 @@
+#coding=utf-8
+
 import json
 import os
 import socket
@@ -13,9 +15,10 @@ logger = Logger("Websocket server")
 
 def server():
     """
-    程序启动的主入口，只要启动websocket的监听服务后，客户端向服务端发送大执行的数据，则server端开始执行用例，并将生成的测试报告
-    report/ant目录下的测试文件传输到对应的FTP服务器，之后将FTP服务器上的存储路径发送给客户端，客户端并从存储FTP上下载对应的报告，
-    并在一个缓存路径下，之后再HTML中展示测试报告  #todo:需支持多线程处理多个客户端的数据
+    start an websocket server ,and will wait for a client to connect,the execute pytest main function,and will generate a
+    report with a way of html file! The html file will be upload to Ftp server,and then return an ftp dirs path.The client
+    will download the report according to the received dirs path to a temp report,and then with the method of loading frame,
+    the content of html file will be displayed on web!
     """
     ser = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:

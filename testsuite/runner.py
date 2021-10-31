@@ -1,3 +1,5 @@
+#coding=utf-8
+
 import threading
 import glob
 import pytest
@@ -11,9 +13,9 @@ logger = Logger("runner")
 
 def execute(data_mapping_dict):
     """
-    执行整个pytest框架的主入口
-    @param data_mapping_dict: 格式如data/case.py中的data_mapping_dict
-    @return: 执行的过程中是否有错误出现
+    鎵ц鐨刾ytest妗嗘灦鐨勪富鍏ュ彛
+    @param data_mapping_dict:
+    @return:
     """
     flag = False
     try:
@@ -48,7 +50,7 @@ def execute(data_mapping_dict):
             t.setDaemon(True)
             t.start()
 
-        for t in [t_execute, t_create]:#主线程等待子线程
+        for t in [t_execute, t_create]:#涓荤嚎绋嬬瓑寰呭瓙绾跨▼
             t.join()
 
 
