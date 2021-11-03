@@ -35,8 +35,9 @@ def initEnvConf():
     """
     :function:初始化环境信息，生成xml文件，在allure报告中显示
     """
-    initObj = InitConfig.Init_Env()
-    initObj.init(Settings.api_env_path)
+    if ReadConfig.getReportStyle()=="AllureReport":
+        initObj = InitConfig.Init_Env()
+        initObj.init(Settings.api_env_path)
 
 
 
@@ -45,14 +46,14 @@ def pytest_sessionstart(session):
     :function:开始前创建用例py文件，等初始化信息
     :param session:
     """
-    from tools.FileUtils import FileUtils
-    file = FileUtils()
-    string = r"""
+    if ReadConfig.getReportStyle() == "AllureReport":
+        from tools.FileUtils import FileUtils
+        file = FileUtils()
+        string = r"""
 cd /d %~dp0
 allure generate {base_dir}\report\allure\xml -o {base_dir}\report\allure\html --clean
-    """ .format (base_dir=Settings.base_dir)
-    file.createBatFile(string,Settings.generate_allure_api_report_bat)
-
+        """ .format (base_dir=Settings.base_dir)
+        file.createBatFile(string,Settings.generate_allure_api_report_bat)
 
 
 def pytest_sessionfinish(session):
@@ -60,6 +61,7 @@ def pytest_sessionfinish(session):
     :function:测试结束后，添加结尾信息，例如生成测试报告
     :param session:
     """
+
     if Settings.APIcaseFileRemove:
         from lib.core.CaseCreate import clear_pyfile
         clear_pyfile()
@@ -104,8 +106,7 @@ def add_extra_attribute(record_xml_attribute):
 
 @pytest.fixture(scope="function", autouse=True)
 def add_extra_property(record_property, caplog):
-    record_property("outcome", 111)
-    record_property("log", caplog)
+    record_property("outcome", "NBPLUS")
 
 
 

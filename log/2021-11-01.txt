@@ -1,0 +1,4447 @@
+[2021-11-01 13:53:52] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 13:54:02] [DEBUG] Client: (('127.0.0.1', 64174),) has connected at 2021-11-01 13:54:02
+[2021-11-01 13:54:02] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 13:54:02] [INFO] Start to execute work at 2021-11-01 13:54:02
+[2021-11-01 13:54:02] [INFO] Prepare to execute timed task!
+[2021-11-01 13:54:02] [ERROR] Timing task expired
+[2021-11-01 13:54:02] [INFO] Success to create API test case!
+[2021-11-01 13:54:02] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 13:54:02] [INFO] Initiate environment config file successfully!
+[2021-11-01 13:54:02] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 13:54:02] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 13:54:02] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 13:54:02] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 13:54:02] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 13:54:02] [INFO] Success to execute case!
+[2021-11-01 13:54:02] [INFO] The execution ends at 2021-11-01 13:54:02,and duration is 0:00:00.377134
+[2021-11-01 13:54:02] [INFO] 220 Microsoft FTP Service
+[2021-11-01 13:54:02] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 13:54:02] [DEBUG] Success to create dir [/data/report/20211101/20211101135402]
+[2021-11-01 13:54:02] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 13:54:02] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 13:58:20] [DEBUG] Client: (('127.0.0.1', 49754),) has connected at 2021-11-01 13:58:20
+[2021-11-01 13:58:20] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 13:58:20] [INFO] Start to execute work at 2021-11-01 13:58:20
+[2021-11-01 13:58:20] [INFO] Prepare to execute timed task!
+[2021-11-01 13:58:20] [ERROR] Timing task expired
+[2021-11-01 13:58:20] [INFO] Success to create API test case!
+[2021-11-01 13:58:20] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 13:58:20] [INFO] Initiate environment config file successfully!
+[2021-11-01 13:58:20] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 13:58:20] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 13:58:20] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 13:58:20] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-01 13:58:20] [INFO] Success to execute case!
+[2021-11-01 13:58:20] [INFO] The execution ends at 2021-11-01 13:58:20,and duration is 0:00:00.173468
+[2021-11-01 13:58:20] [INFO] 220 Microsoft FTP Service
+[2021-11-01 13:58:20] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 13:58:20] [DEBUG] Success to create dir [/data/report/20211101/20211101135820]
+[2021-11-01 13:58:20] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 13:58:20] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 13:58:29] [DEBUG] Client: (('127.0.0.1', 60963),) has connected at 2021-11-01 13:58:29
+[2021-11-01 13:58:29] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 13:58:29] [INFO] Start to execute work at 2021-11-01 13:58:29
+[2021-11-01 13:58:29] [INFO] Prepare to execute timed task!
+[2021-11-01 13:58:29] [ERROR] Timing task expired
+[2021-11-01 13:58:29] [INFO] Success to create API test case!
+[2021-11-01 13:58:29] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 13:58:29] [INFO] Initiate environment config file successfully!
+[2021-11-01 13:58:29] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 13:58:29] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 13:58:29] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 13:58:29] [INFO] Success to execute case!
+[2021-11-01 13:58:29] [INFO] The execution ends at 2021-11-01 13:58:29,and duration is 0:00:00.223904
+[2021-11-01 13:58:29] [INFO] 220 Microsoft FTP Service
+[2021-11-01 13:58:29] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 13:58:29] [DEBUG] Success to create dir [/data/report/20211101/20211101135829]
+[2021-11-01 13:58:29] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 13:58:29] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 13:59:41] [DEBUG] Client: (('127.0.0.1', 49704),) has connected at 2021-11-01 13:59:41
+[2021-11-01 13:59:41] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 13:59:41] [INFO] Start to execute work at 2021-11-01 13:59:41
+[2021-11-01 13:59:41] [INFO] Prepare to execute timed task!
+[2021-11-01 13:59:41] [ERROR] Timing task expired
+[2021-11-01 13:59:41] [INFO] Success to create API test case!
+[2021-11-01 13:59:41] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 13:59:41] [INFO] Initiate environment config file successfully!
+[2021-11-01 13:59:41] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 13:59:41] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 13:59:41] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 13:59:41] [INFO] Success to execute case!
+[2021-11-01 13:59:41] [INFO] The execution ends at 2021-11-01 13:59:41,and duration is 0:00:00.226148
+[2021-11-01 13:59:41] [INFO] 220 Microsoft FTP Service
+[2021-11-01 13:59:41] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 13:59:41] [DEBUG] Success to create dir [/data/report/20211101/20211101135941]
+[2021-11-01 13:59:41] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 13:59:41] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 13:59:46] [DEBUG] Client: (('127.0.0.1', 55577),) has connected at 2021-11-01 13:59:46
+[2021-11-01 13:59:46] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 13:59:46] [INFO] Start to execute work at 2021-11-01 13:59:46
+[2021-11-01 13:59:46] [INFO] Prepare to execute timed task!
+[2021-11-01 13:59:46] [ERROR] Timing task expired
+[2021-11-01 13:59:46] [INFO] Success to create API test case!
+[2021-11-01 13:59:46] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 13:59:46] [INFO] Initiate environment config file successfully!
+[2021-11-01 13:59:46] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 13:59:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 13:59:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 13:59:46] [INFO] Success to execute case!
+[2021-11-01 13:59:46] [INFO] The execution ends at 2021-11-01 13:59:46,and duration is 0:00:00.228626
+[2021-11-01 13:59:46] [INFO] 220 Microsoft FTP Service
+[2021-11-01 13:59:46] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 13:59:46] [DEBUG] Success to create dir [/data/report/20211101/20211101135946]
+[2021-11-01 13:59:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 13:59:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:12:22] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 14:12:47] [DEBUG] Client: (('127.0.0.1', 50522),) has connected at 2021-11-01 14:12:47
+[2021-11-01 14:12:47] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:12:47] [INFO] Start to execute work at 2021-11-01 14:12:47
+[2021-11-01 14:12:47] [INFO] Prepare to execute timed task!
+[2021-11-01 14:12:47] [ERROR] Timing task expired
+[2021-11-01 14:12:47] [INFO] Success to create API test case!
+[2021-11-01 14:12:47] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 14:12:47] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:12:47] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 14:12:47] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 14:12:47] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 14:12:47] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-01 14:12:47] [INFO] Success to execute case!
+[2021-11-01 14:12:47] [INFO] The execution ends at 2021-11-01 14:12:47,and duration is 0:00:00.357298
+[2021-11-01 14:12:47] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:12:47] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:12:47] [DEBUG] Success to create dir [/data/report/20211101/20211101141247]
+[2021-11-01 14:12:47] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:12:47] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:12:54] [DEBUG] Client: (('127.0.0.1', 50547),) has connected at 2021-11-01 14:12:54
+[2021-11-01 14:12:54] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:12:54] [INFO] Start to execute work at 2021-11-01 14:12:54
+[2021-11-01 14:12:54] [INFO] Prepare to execute timed task!
+[2021-11-01 14:12:54] [ERROR] Timing task expired
+[2021-11-01 14:12:54] [INFO] Success to create API test case!
+[2021-11-01 14:12:54] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 14:12:54] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:12:54] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 14:12:54] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:12:54] [INFO] Success to execute case!
+[2021-11-01 14:12:54] [INFO] The execution ends at 2021-11-01 14:12:54,and duration is 0:00:00.212034
+[2021-11-01 14:12:54] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:12:54] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:12:54] [DEBUG] Success to create dir [/data/report/20211101/20211101141254]
+[2021-11-01 14:12:54] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:12:54] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:14:21] [DEBUG] Client: (('127.0.0.1', 49742),) has connected at 2021-11-01 14:14:21
+[2021-11-01 14:14:21] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:14:21] [INFO] Start to execute work at 2021-11-01 14:14:21
+[2021-11-01 14:14:21] [INFO] Prepare to execute timed task!
+[2021-11-01 14:14:21] [ERROR] Timing task expired
+[2021-11-01 14:14:21] [INFO] Success to create API test case!
+[2021-11-01 14:14:21] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 14:14:21] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:14:22] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 14:14:22] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:14:22] [INFO] Success to execute case!
+[2021-11-01 14:14:22] [INFO] The execution ends at 2021-11-01 14:14:21,and duration is 0:00:00.196408
+[2021-11-01 14:14:22] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:14:22] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:14:22] [DEBUG] Success to create dir [/data/report/20211101/20211101141422]
+[2021-11-01 14:14:22] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:14:22] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:18:11] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 14:18:19] [DEBUG] Client: (('127.0.0.1', 57488),) has connected at 2021-11-01 14:18:19
+[2021-11-01 14:18:19] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:18:19] [INFO] Start to execute work at 2021-11-01 14:18:19
+[2021-11-01 14:18:19] [INFO] Prepare to execute timed task!
+[2021-11-01 14:18:19] [ERROR] Timing task expired
+[2021-11-01 14:18:19] [INFO] Success to create API test case!
+[2021-11-01 14:18:19] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 14:18:19] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:18:19] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 14:18:20] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 14:18:20] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:18:20] [INFO] Success to execute case!
+[2021-11-01 14:18:20] [INFO] The execution ends at 2021-11-01 14:18:19,and duration is 0:00:00.363951
+[2021-11-01 14:18:20] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:18:20] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:18:20] [DEBUG] Success to create dir [/data/report/20211101/20211101141820]
+[2021-11-01 14:18:20] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:18:20] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:18:33] [DEBUG] Client: (('127.0.0.1', 63278),) has connected at 2021-11-01 14:18:33
+[2021-11-01 14:18:33] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:18:33] [INFO] Start to execute work at 2021-11-01 14:18:33
+[2021-11-01 14:18:33] [INFO] Prepare to execute timed task!
+[2021-11-01 14:18:33] [ERROR] Timing task expired
+[2021-11-01 14:18:33] [INFO] Success to create API test case!
+[2021-11-01 14:18:33] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 14:18:33] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:18:33] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 14:18:33] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 14:18:33] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:18:33] [INFO] Success to execute case!
+[2021-11-01 14:18:33] [INFO] The execution ends at 2021-11-01 14:18:33,and duration is 0:00:00.100164
+[2021-11-01 14:18:33] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:18:33] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:18:33] [DEBUG] Success to create dir [/data/report/20211101/20211101141833]
+[2021-11-01 14:18:33] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:18:33] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:19:12] [DEBUG] Client: (('127.0.0.1', 58525),) has connected at 2021-11-01 14:19:12
+[2021-11-01 14:19:12] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:19:12] [INFO] Start to execute work at 2021-11-01 14:19:12
+[2021-11-01 14:19:12] [INFO] Prepare to execute timed task!
+[2021-11-01 14:19:12] [ERROR] Timing task expired
+[2021-11-01 14:19:12] [INFO] Success to create API test case!
+[2021-11-01 14:19:12] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 14:19:12] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:19:12] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 14:19:12] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 14:19:12] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:19:12] [INFO] Success to execute case!
+[2021-11-01 14:19:12] [INFO] The execution ends at 2021-11-01 14:19:12,and duration is 0:00:00.081877
+[2021-11-01 14:19:12] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:19:12] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:19:12] [DEBUG] Success to create dir [/data/report/20211101/20211101141912]
+[2021-11-01 14:19:12] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:19:12] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:25:35] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 14:25:41] [DEBUG] Client: (('127.0.0.1', 61144),) has connected at 2021-11-01 14:25:41
+[2021-11-01 14:25:41] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:25:41] [INFO] Start to execute work at 2021-11-01 14:25:41
+[2021-11-01 14:25:41] [INFO] Prepare to execute timed task!
+[2021-11-01 14:25:41] [ERROR] Timing task expired
+[2021-11-01 14:25:41] [INFO] Success to create API test case!
+[2021-11-01 14:25:41] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 14:25:41] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:25:41] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 14:25:41] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 14:25:41] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 14:25:41] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 14:25:41] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:25:41] [INFO] Success to execute case!
+[2021-11-01 14:25:41] [INFO] The execution ends at 2021-11-01 14:25:41,and duration is 0:00:00.353698
+[2021-11-01 14:25:41] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:25:41] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:25:41] [DEBUG] Success to create dir [/data/report/20211101/20211101142541]
+[2021-11-01 14:25:41] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:25:41] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:36:39] [DEBUG] Client: (('127.0.0.1', 58327),) has connected at 2021-11-01 14:36:39
+[2021-11-01 14:36:39] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:36:39] [INFO] Start to execute work at 2021-11-01 14:36:39
+[2021-11-01 14:36:39] [INFO] Prepare to execute timed task!
+[2021-11-01 14:36:39] [ERROR] Timing task expired
+[2021-11-01 14:36:39] [INFO] Success to create API test case!
+[2021-11-01 14:36:39] [DEBUG] Success to create bat file : C:\Users\lenovo\Desktop\BearFramework\bat\generate_allure_api_report.bat
+[2021-11-01 14:36:39] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:36:39] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 14:36:39] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 14:36:39] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 14:36:39] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 14:36:39] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:36:39] [INFO] Success to execute case!
+[2021-11-01 14:36:39] [INFO] The execution ends at 2021-11-01 14:36:39,and duration is 0:00:00.142101
+[2021-11-01 14:36:39] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:36:39] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:36:41] [DEBUG] Success to create dir [/data/report/20211101/20211101143639]
+[2021-11-01 14:36:41] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:36:41] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:39:49] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 14:39:59] [DEBUG] Client: (('127.0.0.1', 55409),) has connected at 2021-11-01 14:39:59
+[2021-11-01 14:39:59] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:39:59] [INFO] Start to execute work at 2021-11-01 14:39:59
+[2021-11-01 14:39:59] [INFO] Prepare to execute timed task!
+[2021-11-01 14:39:59] [ERROR] Timing task expired
+[2021-11-01 14:39:59] [INFO] Success to create API test case!
+[2021-11-01 14:39:59] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:39:59] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 14:39:59] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 14:39:59] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 14:39:59] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 14:39:59] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:39:59] [INFO] Success to execute case!
+[2021-11-01 14:39:59] [INFO] The execution ends at 2021-11-01 14:39:59,and duration is 0:00:00.378800
+[2021-11-01 14:39:59] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:39:59] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:39:59] [DEBUG] Success to create dir [/data/report/20211101/20211101143959]
+[2021-11-01 14:39:59] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:39:59] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:40:04] [DEBUG] Client: (('127.0.0.1', 56063),) has connected at 2021-11-01 14:40:04
+[2021-11-01 14:40:04] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/templates/add/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:40:04] [INFO] Start to execute work at 2021-11-01 14:40:04
+[2021-11-01 14:40:04] [INFO] Prepare to execute timed task!
+[2021-11-01 14:40:04] [ERROR] Timing task expired
+[2021-11-01 14:40:04] [INFO] Success to create API test case!
+[2021-11-01 14:40:04] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:40:04] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 14:40:04] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 14:40:04] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:40:04] [INFO] Success to execute case!
+[2021-11-01 14:40:04] [INFO] The execution ends at 2021-11-01 14:40:04,and duration is 0:00:00.254455
+[2021-11-01 14:40:04] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:40:04] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:40:04] [DEBUG] Success to create dir [/data/report/20211101/20211101144004]
+[2021-11-01 14:40:04] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:40:04] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:41:46] [DEBUG] Client: (('127.0.0.1', 54897),) has connected at 2021-11-01 14:41:46
+[2021-11-01 14:41:46] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:41:46] [INFO] Start to execute work at 2021-11-01 14:41:46
+[2021-11-01 14:41:46] [INFO] Prepare to execute timed task!
+[2021-11-01 14:41:46] [ERROR] Timing task expired
+[2021-11-01 14:41:46] [INFO] Success to create API test case!
+[2021-11-01 14:41:46] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:41:46] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 14:41:46] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 14:41:46] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 14:41:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 14:41:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:41:46] [INFO] Success to execute case!
+[2021-11-01 14:41:46] [INFO] The execution ends at 2021-11-01 14:41:46,and duration is 0:00:00.147683
+[2021-11-01 14:41:46] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:41:46] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:41:46] [DEBUG] Success to create dir [/data/report/20211101/20211101144146]
+[2021-11-01 14:41:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:41:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:41:53] [DEBUG] Client: (('127.0.0.1', 54921),) has connected at 2021-11-01 14:41:53
+[2021-11-01 14:41:53] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:41:53] [INFO] Start to execute work at 2021-11-01 14:41:53
+[2021-11-01 14:41:53] [INFO] Prepare to execute timed task!
+[2021-11-01 14:41:53] [ERROR] Timing task expired
+[2021-11-01 14:41:53] [INFO] Success to create API test case!
+[2021-11-01 14:41:53] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:41:53] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 14:41:53] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 14:41:53] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:41:53] [INFO] Success to execute case!
+[2021-11-01 14:41:53] [INFO] The execution ends at 2021-11-01 14:41:53,and duration is 0:00:00.228700
+[2021-11-01 14:41:53] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:41:53] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:41:53] [DEBUG] Success to create dir [/data/report/20211101/20211101144153]
+[2021-11-01 14:41:53] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:41:53] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:43:51] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 14:43:57] [DEBUG] Client: (('127.0.0.1', 58118),) has connected at 2021-11-01 14:43:57
+[2021-11-01 14:43:57] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:43:57] [INFO] Start to execute work at 2021-11-01 14:43:57
+[2021-11-01 14:43:57] [INFO] Prepare to execute timed task!
+[2021-11-01 14:43:57] [ERROR] Timing task expired
+[2021-11-01 14:43:57] [INFO] Success to create API test case!
+[2021-11-01 14:43:57] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:43:58] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 14:43:58] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-01 14:43:58] [INFO] Success to execute case!
+[2021-11-01 14:43:58] [INFO] The execution ends at 2021-11-01 14:43:57,and duration is 0:00:00.335053
+[2021-11-01 14:43:58] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:43:58] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:43:58] [DEBUG] Success to create dir [/data/report/20211101/20211101144358]
+[2021-11-01 14:43:58] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:43:58] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:44:03] [DEBUG] Client: (('127.0.0.1', 52546),) has connected at 2021-11-01 14:44:03
+[2021-11-01 14:44:03] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 14:44:03] [INFO] Start to execute work at 2021-11-01 14:44:03
+[2021-11-01 14:44:03] [INFO] Prepare to execute timed task!
+[2021-11-01 14:44:03] [ERROR] Timing task expired
+[2021-11-01 14:44:03] [INFO] Success to create API test case!
+[2021-11-01 14:44:03] [INFO] Initiate environment config file successfully!
+[2021-11-01 14:44:04] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 14:44:04] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 14:44:04] [INFO] Success to execute case!
+[2021-11-01 14:44:04] [INFO] The execution ends at 2021-11-01 14:44:03,and duration is 0:00:00.207828
+[2021-11-01 14:44:04] [INFO] 220 Microsoft FTP Service
+[2021-11-01 14:44:04] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 14:44:04] [DEBUG] Success to create dir [/data/report/20211101/20211101144404]
+[2021-11-01 14:44:04] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 14:44:04] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 14:44:59] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 16:17:18] [DEBUG] Client: (('127.0.0.1', 58551),) has connected at 2021-11-01 16:17:18
+[2021-11-01 16:17:18] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:17:18] [INFO] Start to execute work at 2021-11-01 16:17:18
+[2021-11-01 16:17:18] [INFO] Prepare to execute timed task!
+[2021-11-01 16:17:18] [ERROR] Timing task expired
+[2021-11-01 16:17:18] [INFO] Success to create API test case!
+[2021-11-01 16:17:18] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:17:18] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:17:18] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:17:18] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:17:18] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 16:17:18] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:17:18] [INFO] Success to execute case!
+[2021-11-01 16:17:18] [INFO] The execution ends at 2021-11-01 16:17:18,and duration is 0:00:00.440439
+[2021-11-01 16:17:18] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:17:18] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:17:18] [DEBUG] Success to create dir [/data/report/20211101/20211101161718]
+[2021-11-01 16:17:18] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:17:18] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:20:28] [DEBUG] Client: (('127.0.0.1', 53461),) has connected at 2021-11-01 16:20:28
+[2021-11-01 16:20:28] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:20:28] [INFO] Start to execute work at 2021-11-01 16:20:28
+[2021-11-01 16:20:28] [INFO] Prepare to execute timed task!
+[2021-11-01 16:20:28] [ERROR] Timing task expired
+[2021-11-01 16:20:28] [INFO] Success to create API test case!
+[2021-11-01 16:20:28] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:20:28] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:20:28] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:20:28] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:20:28] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:20:28] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:20:28] [INFO] Success to execute case!
+[2021-11-01 16:20:28] [INFO] The execution ends at 2021-11-01 16:20:28,and duration is 0:00:00.162380
+[2021-11-01 16:20:28] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:20:28] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:20:28] [DEBUG] Success to create dir [/data/report/20211101/20211101162028]
+[2021-11-01 16:20:28] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:20:28] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:26:39] [DEBUG] Client: (('127.0.0.1', 64356),) has connected at 2021-11-01 16:26:39
+[2021-11-01 16:26:39] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:26:39] [INFO] Start to execute work at 2021-11-01 16:26:39
+[2021-11-01 16:26:39] [INFO] Prepare to execute timed task!
+[2021-11-01 16:26:39] [ERROR] Timing task expired
+[2021-11-01 16:26:39] [INFO] Success to create API test case!
+[2021-11-01 16:26:39] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:26:39] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:26:39] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:26:39] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:26:39] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:26:39] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:26:39] [INFO] Success to execute case!
+[2021-11-01 16:26:39] [INFO] The execution ends at 2021-11-01 16:26:39,and duration is 0:00:00.137841
+[2021-11-01 16:26:39] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:26:39] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:26:39] [DEBUG] Success to create dir [/data/report/20211101/20211101162639]
+[2021-11-01 16:26:39] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:26:39] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:27:34] [DEBUG] Client: (('127.0.0.1', 49212),) has connected at 2021-11-01 16:27:34
+[2021-11-01 16:27:34] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:27:34] [INFO] Start to execute work at 2021-11-01 16:27:34
+[2021-11-01 16:27:34] [INFO] Prepare to execute timed task!
+[2021-11-01 16:27:34] [ERROR] Timing task expired
+[2021-11-01 16:27:34] [INFO] Success to create API test case!
+[2021-11-01 16:27:34] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:27:34] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:27:34] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:27:34] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:27:35] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:27:35] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:27:35] [INFO] Success to execute case!
+[2021-11-01 16:27:35] [INFO] The execution ends at 2021-11-01 16:27:34,and duration is 0:00:00.144784
+[2021-11-01 16:27:35] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:27:35] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:27:35] [DEBUG] Success to create dir [/data/report/20211101/20211101162735]
+[2021-11-01 16:27:35] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:27:35] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:27:47] [DEBUG] Client: (('127.0.0.1', 49242),) has connected at 2021-11-01 16:27:47
+[2021-11-01 16:27:47] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:27:47] [INFO] Start to execute work at 2021-11-01 16:27:47
+[2021-11-01 16:27:47] [INFO] Prepare to execute timed task!
+[2021-11-01 16:27:47] [ERROR] Timing task expired
+[2021-11-01 16:27:47] [INFO] Success to create API test case!
+[2021-11-01 16:27:47] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:27:47] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:27:47] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:27:47] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:27:47] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:27:47] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:27:47] [INFO] Success to execute case!
+[2021-11-01 16:27:47] [INFO] The execution ends at 2021-11-01 16:27:47,and duration is 0:00:00.148579
+[2021-11-01 16:27:47] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:27:47] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:27:47] [DEBUG] Success to create dir [/data/report/20211101/20211101162747]
+[2021-11-01 16:27:47] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:27:47] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:30:46] [DEBUG] Client: (('127.0.0.1', 61559),) has connected at 2021-11-01 16:30:46
+[2021-11-01 16:30:46] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:30:46] [INFO] Start to execute work at 2021-11-01 16:30:46
+[2021-11-01 16:30:46] [INFO] Prepare to execute timed task!
+[2021-11-01 16:30:46] [ERROR] Timing task expired
+[2021-11-01 16:30:46] [INFO] Success to create API test case!
+[2021-11-01 16:30:46] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:30:46] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:30:46] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:30:46] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:30:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:30:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:30:46] [INFO] Success to execute case!
+[2021-11-01 16:30:46] [INFO] The execution ends at 2021-11-01 16:30:46,and duration is 0:00:00.162236
+[2021-11-01 16:30:46] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:30:46] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:30:46] [DEBUG] Success to create dir [/data/report/20211101/20211101163046]
+[2021-11-01 16:30:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:30:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:32:38] [DEBUG] Client: (('127.0.0.1', 58235),) has connected at 2021-11-01 16:32:38
+[2021-11-01 16:32:38] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:32:38] [INFO] Start to execute work at 2021-11-01 16:32:38
+[2021-11-01 16:32:38] [INFO] Prepare to execute timed task!
+[2021-11-01 16:32:38] [ERROR] Timing task expired
+[2021-11-01 16:32:38] [INFO] Success to create API test case!
+[2021-11-01 16:32:38] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:32:38] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:32:38] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:32:38] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:32:38] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:32:38] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:32:38] [INFO] Success to execute case!
+[2021-11-01 16:32:38] [INFO] The execution ends at 2021-11-01 16:32:38,and duration is 0:00:00.146160
+[2021-11-01 16:32:38] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:32:38] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:32:38] [DEBUG] Success to create dir [/data/report/20211101/20211101163238]
+[2021-11-01 16:32:38] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:32:38] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:33:00] [DEBUG] Client: (('127.0.0.1', 65042),) has connected at 2021-11-01 16:33:00
+[2021-11-01 16:33:00] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:33:00] [INFO] Start to execute work at 2021-11-01 16:33:00
+[2021-11-01 16:33:00] [INFO] Prepare to execute timed task!
+[2021-11-01 16:33:00] [ERROR] Timing task expired
+[2021-11-01 16:33:00] [INFO] Success to create API test case!
+[2021-11-01 16:33:00] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:33:00] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:33:00] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:33:00] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:33:00] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:33:00] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:33:00] [INFO] Success to execute case!
+[2021-11-01 16:33:00] [INFO] The execution ends at 2021-11-01 16:33:00,and duration is 0:00:00.136738
+[2021-11-01 16:33:00] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:33:00] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:33:00] [DEBUG] Success to create dir [/data/report/20211101/20211101163300]
+[2021-11-01 16:33:00] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:33:00] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:34:21] [DEBUG] Client: (('127.0.0.1', 56239),) has connected at 2021-11-01 16:34:21
+[2021-11-01 16:34:21] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:34:21] [INFO] Start to execute work at 2021-11-01 16:34:21
+[2021-11-01 16:34:21] [INFO] Prepare to execute timed task!
+[2021-11-01 16:34:21] [ERROR] Timing task expired
+[2021-11-01 16:34:21] [INFO] Success to create API test case!
+[2021-11-01 16:34:21] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:34:21] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:34:21] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:34:21] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:34:21] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:34:21] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:34:21] [INFO] Success to execute case!
+[2021-11-01 16:34:21] [INFO] The execution ends at 2021-11-01 16:34:21,and duration is 0:00:00.176141
+[2021-11-01 16:34:21] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:34:21] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:34:21] [DEBUG] Success to create dir [/data/report/20211101/20211101163421]
+[2021-11-01 16:34:21] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:34:21] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:52:53] [DEBUG] Client: (('127.0.0.1', 50390),) has connected at 2021-11-01 16:52:53
+[2021-11-01 16:52:53] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:52:53] [INFO] Start to execute work at 2021-11-01 16:52:53
+[2021-11-01 16:52:53] [INFO] Prepare to execute timed task!
+[2021-11-01 16:52:53] [ERROR] Timing task expired
+[2021-11-01 16:52:53] [INFO] Success to create API test case!
+[2021-11-01 16:52:53] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:52:53] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:52:53] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:52:54] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:52:54] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:52:54] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:52:54] [INFO] Success to execute case!
+[2021-11-01 16:52:54] [INFO] The execution ends at 2021-11-01 16:52:53,and duration is 0:00:00.143688
+[2021-11-01 16:52:54] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:52:54] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:52:54] [DEBUG] Success to create dir [/data/report/20211101/20211101165254]
+[2021-11-01 16:52:54] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:52:54] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 16:56:31] [DEBUG] Client: (('127.0.0.1', 59918),) has connected at 2021-11-01 16:56:31
+[2021-11-01 16:56:31] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 16:56:31] [INFO] Start to execute work at 2021-11-01 16:56:31
+[2021-11-01 16:56:31] [INFO] Prepare to execute timed task!
+[2021-11-01 16:56:31] [ERROR] Timing task expired
+[2021-11-01 16:56:31] [INFO] Success to create API test case!
+[2021-11-01 16:56:31] [INFO] Initiate environment config file successfully!
+[2021-11-01 16:56:31] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 16:56:31] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 16:56:31] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 16:56:31] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 16:56:31] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 16:56:31] [INFO] Success to execute case!
+[2021-11-01 16:56:31] [INFO] The execution ends at 2021-11-01 16:56:31,and duration is 0:00:00.159285
+[2021-11-01 16:56:31] [INFO] 220 Microsoft FTP Service
+[2021-11-01 16:56:31] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 16:56:31] [DEBUG] Success to create dir [/data/report/20211101/20211101165631]
+[2021-11-01 16:56:31] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 16:56:31] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:01:02] [DEBUG] Client: (('127.0.0.1', 52378),) has connected at 2021-11-01 17:01:02
+[2021-11-01 17:01:02] [DEBUG] Server received data is:
+    [
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 17:01:02] [INFO] Start to execute work at 2021-11-01 17:01:02
+[2021-11-01 17:01:02] [INFO] Prepare to execute timed task!
+[2021-11-01 17:01:02] [ERROR] Timing task expired
+[2021-11-01 17:01:02] [INFO] Success to create API test case!
+[2021-11-01 17:01:02] [INFO] Initiate environment config file successfully!
+[2021-11-01 17:01:02] [DEBUG] The formatted data is :[{'check': 1, 'password': ' sdad@1332', 'username': 'admin'}]
+[2021-11-01 17:01:02] [DEBUG] The formatted data is :[{'check': 1, 'password': 'dsaddddddddd', 'username': 'admin'}]
+[2021-11-01 17:01:02] [DEBUG] The formatted data is :[{'name': 'root'}]
+[2021-11-01 17:01:02] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 17:01:02] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 17:01:02] [INFO] Success to execute case!
+[2021-11-01 17:01:02] [INFO] The execution ends at 2021-11-01 17:01:02,and duration is 0:00:00.193925
+[2021-11-01 17:01:02] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:01:02] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:01:02] [DEBUG] Success to create dir [/data/report/20211101/20211101170102]
+[2021-11-01 17:01:02] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:01:02] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:06:24] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 17:07:07] [DEBUG] Client: (('127.0.0.1', 49978),) has connected at 2021-11-01 17:07:07
+[2021-11-01 17:07:07] [DEBUG] Server received data is:
+    [
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    },
+    {
+        "module": "ODM",
+        "class_title": "ODM交易系统",
+        "case": "order_submit",
+        "case_title": "限价订单提交",
+        "case_description": null,
+        "templates_name": "现券XBOND订单提交",
+        "url": "https://www.cnblogs.com/aaronthon/ajax/GetPostStat",
+        "method": 1,
+        "header": {
+            "content-type": "application/json",
+            "Authorization": "9480295ab2e2eddb8"
+        },
+        "data": {
+            "ordrData": {
+                "clntQtCd": "",
+                "stlmntSpdNm": 2,
+                "cntngncyIndctr": "",
+                "flxblNetPrc": "",
+                "qtTp": "${login}|<{{username}},{{password}}>",
+                "netPrc": "{{netPrc}}",
+                "instnCd": "{{instnCd}}",
+                "nmnlVol": "{{volumn}}",
+                "ordrTpIndctr": "1"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "netPrc": "100.2344",
+                    "password": "aaaa1111!",
+                    "instnCd": "100035",
+                    "volumn": "1000,000",
+                    "username": "zhangwneke"
+                },
+                "限价订单提交-T+1",
+                {
+                    "code": 200,
+                    "result": " sussess"
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 17:07:07] [INFO] Start to execute work at 2021-11-01 17:07:07
+[2021-11-01 17:07:07] [INFO] Prepare to execute timed task!
+[2021-11-01 17:07:07] [ERROR] Timing task expired
+[2021-11-01 17:07:07] [INFO] Success to create API test case!
+[2021-11-01 17:07:07] [INFO] Initiate environment config file successfully!
+[2021-11-01 17:07:07] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-11-01 17:07:07] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-11-01 17:07:20] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 17:07:26] [DEBUG] Client: (('127.0.0.1', 55282),) has connected at 2021-11-01 17:07:26
+[2021-11-01 17:07:26] [DEBUG] Server received data is:
+    [
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    },
+    {
+        "module": "ODM",
+        "class_title": "ODM交易系统",
+        "case": "order_submit",
+        "case_title": "限价订单提交",
+        "case_description": null,
+        "templates_name": "现券XBOND订单提交",
+        "url": "https://www.cnblogs.com/aaronthon/ajax/GetPostStat",
+        "method": 1,
+        "header": {
+            "content-type": "application/json",
+            "Authorization": "9480295ab2e2eddb8"
+        },
+        "data": {
+            "ordrData": {
+                "clntQtCd": "",
+                "stlmntSpdNm": 2,
+                "cntngncyIndctr": "",
+                "flxblNetPrc": "",
+                "qtTp": "${login}|<{{username}},{{password}}>",
+                "netPrc": "{{netPrc}}",
+                "instnCd": "{{instnCd}}",
+                "nmnlVol": "{{volumn}}",
+                "ordrTpIndctr": "1"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "netPrc": "100.2344",
+                    "password": "aaaa1111!",
+                    "instnCd": "100035",
+                    "volumn": "1000,000",
+                    "username": "zhangwneke"
+                },
+                "限价订单提交-T+1",
+                {
+                    "code": 200,
+                    "result": " sussess"
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 17:07:26] [INFO] Start to execute work at 2021-11-01 17:07:26
+[2021-11-01 17:07:26] [INFO] Prepare to execute timed task!
+[2021-11-01 17:07:26] [ERROR] Timing task expired
+[2021-11-01 17:07:26] [INFO] Testcases have already exist!
+[2021-11-01 17:07:26] [INFO] Initiate environment config file successfully!
+[2021-11-01 17:07:26] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-11-01 17:07:26] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-11-01 17:07:48] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-11-01 17:07:48] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-11-01 17:08:09] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-11-01 17:08:09] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-11-01 17:08:09] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-11-01 17:08:09] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-11-01 17:08:09] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_ODM.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_UUMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_ODM.cpython-310-pytest-6.2.5.pyc', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_UUMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 17:08:09] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_login_kms.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_order_submit.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_uums_login.json']
+[2021-11-01 17:08:09] [INFO] Success to execute case!
+[2021-11-01 17:08:09] [INFO] The execution ends at 2021-11-01 17:07:26,and duration is 0:00:43.242809
+[2021-11-01 17:08:09] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:08:09] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:08:09] [DEBUG] Success to create dir [/data/report/20211101/20211101170809]
+[2021-11-01 17:08:09] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:08:09] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:08:09] [INFO] The execution result is: [SUCCESS|/data/report/20211101/20211101170809/ant]
+[2021-11-01 17:08:36] [DEBUG] Client: (('127.0.0.1', 55395),) has connected at 2021-11-01 17:08:36
+[2021-11-01 17:08:36] [DEBUG] Server received data is:
+    [
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    },
+    {
+        "module": "ODM",
+        "class_title": "ODM交易系统",
+        "case": "order_submit",
+        "case_title": "限价订单提交",
+        "case_description": null,
+        "templates_name": "现券XBOND订单提交",
+        "url": "https://www.cnblogs.com/aaronthon/ajax/GetPostStat",
+        "method": 1,
+        "header": {
+            "content-type": "application/json",
+            "Authorization": "9480295ab2e2eddb8"
+        },
+        "data": {
+            "ordrData": {
+                "clntQtCd": "",
+                "stlmntSpdNm": 2,
+                "cntngncyIndctr": "",
+                "flxblNetPrc": "",
+                "qtTp": "${login}|<{{username}},{{password}}>",
+                "netPrc": "{{netPrc}}",
+                "instnCd": "{{instnCd}}",
+                "nmnlVol": "{{volumn}}",
+                "ordrTpIndctr": "1"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "netPrc": "100.2344",
+                    "password": "aaaa1111!",
+                    "instnCd": "100035",
+                    "volumn": "1000,000",
+                    "username": "zhangwneke"
+                },
+                "限价订单提交-T+1",
+                {
+                    "code": 200,
+                    "result": " sussess"
+                }
+            ]
+        ]
+    }
+]
+    
+[2021-11-01 17:08:36] [INFO] Start to execute work at 2021-11-01 17:08:36
+[2021-11-01 17:08:36] [INFO] Prepare to execute timed task!
+[2021-11-01 17:08:36] [ERROR] Timing task expired
+[2021-11-01 17:08:36] [INFO] Success to create API test case!
+[2021-11-01 17:08:36] [INFO] Initiate environment config file successfully!
+[2021-11-01 17:08:36] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-11-01 17:08:36] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': ' sdad@1332', 'check': 'true'}}]
+[2021-11-01 17:08:57] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-11-01 17:08:57] [DEBUG] The formatted data is :[{'id': '12324235545', 'params': {'name': 'zhangwenke', 'passcode': 'aaaa1111!', 'check': 'true'}}]
+[2021-11-01 17:09:18] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-11-01 17:09:18] [DEBUG] The formatted data is :[{'ordrData': {'clntQtCd': '', 'stlmntSpdNm': 2, 'cntngncyIndctr': '', 'flxblNetPrc': '', 'qtTp': 'zhangwnekeaaaa1111!', 'netPrc': '100.2344', 'instnCd': '100035', 'nmnlVol': '1000,000', 'ordrTpIndctr': '1'}}]
+[2021-11-01 17:09:18] [DEBUG] The formatted data is :[{'username': 'ribn', 'passcode': 'aaaa1111!'}]
+[2021-11-01 17:09:18] [DEBUG] The formatted data is :[{'username': '猪宝宝', 'passcode': 'aaaa1111!'}]
+[2021-11-01 17:09:18] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_ODM.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_UUMS.py']
+[2021-11-01 17:09:18] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_login_kms.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_order_submit.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_uums_login.json']
+[2021-11-01 17:09:19] [INFO] Success to execute case!
+[2021-11-01 17:09:19] [INFO] The execution ends at 2021-11-01 17:08:36,and duration is 0:00:43.105686
+[2021-11-01 17:09:19] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:09:19] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:09:19] [DEBUG] Success to create dir [/data/report/20211101/20211101170919]
+[2021-11-01 17:09:19] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:09:19] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:09:19] [INFO] The execution result is: [SUCCESS|/data/report/20211101/20211101170919/ant]
+[2021-11-01 17:21:53] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 17:22:07] [DEBUG] Client: (('127.0.0.1', 50097),) has connected at 2021-11-01 17:22:07
+[2021-11-01 17:22:07] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:22:07] [INFO] Start to execute work at 2021-11-01 17:22:07
+[2021-11-01 17:22:07] [INFO] Prepare to execute timed task!
+[2021-11-01 17:22:07] [ERROR] Timing task expired
+[2021-11-01 17:22:07] [INFO] Success to create API test case!
+[2021-11-01 17:22:07] [INFO] Initiate environment config file successfully!
+[2021-11-01 17:22:07] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 17:22:07] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 17:22:07] [INFO] Success to execute case!
+[2021-11-01 17:22:07] [INFO] The execution ends at 2021-11-01 17:22:07,and duration is 0:00:00.457331
+[2021-11-01 17:22:07] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:22:07] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:22:07] [DEBUG] Success to create dir [/data/report/20211101/20211101172207]
+[2021-11-01 17:22:07] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:22:07] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:22:29] [DEBUG] Client: (('127.0.0.1', 52462),) has connected at 2021-11-01 17:22:29
+[2021-11-01 17:22:29] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:22:29] [INFO] Start to execute work at 2021-11-01 17:22:29
+[2021-11-01 17:22:29] [INFO] Prepare to execute timed task!
+[2021-11-01 17:22:29] [ERROR] Timing task expired
+[2021-11-01 17:22:29] [INFO] Success to create API test case!
+[2021-11-01 17:22:29] [INFO] Initiate environment config file successfully!
+[2021-11-01 17:22:29] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 17:22:29] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-01 17:22:29] [INFO] Success to execute case!
+[2021-11-01 17:22:29] [INFO] The execution ends at 2021-11-01 17:22:29,and duration is 0:00:00.163843
+[2021-11-01 17:22:29] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:22:29] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:22:29] [DEBUG] Success to create dir [/data/report/20211101/20211101172229]
+[2021-11-01 17:22:29] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:22:29] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:23:04] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 17:23:08] [DEBUG] Client: (('127.0.0.1', 63484),) has connected at 2021-11-01 17:23:08
+[2021-11-01 17:23:08] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:23:08] [INFO] Start to execute work at 2021-11-01 17:23:08
+[2021-11-01 17:23:08] [INFO] Prepare to execute timed task!
+[2021-11-01 17:23:08] [ERROR] Timing task expired
+[2021-11-01 17:23:08] [INFO] Success to create API test case!
+[2021-11-01 17:23:08] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 17:23:08] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-01 17:23:08] [INFO] Success to execute case!
+[2021-11-01 17:23:08] [INFO] The execution ends at 2021-11-01 17:23:08,and duration is 0:00:00.355068
+[2021-11-01 17:23:08] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:23:08] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:23:09] [DEBUG] Success to create dir [/data/report/20211101/20211101172308]
+[2021-11-01 17:23:09] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:23:09] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:23:21] [DEBUG] Client: (('127.0.0.1', 62745),) has connected at 2021-11-01 17:23:21
+[2021-11-01 17:23:21] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:23:21] [INFO] Start to execute work at 2021-11-01 17:23:21
+[2021-11-01 17:23:21] [INFO] Prepare to execute timed task!
+[2021-11-01 17:23:21] [ERROR] Timing task expired
+[2021-11-01 17:23:21] [INFO] Success to create API test case!
+[2021-11-01 17:23:21] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 17:23:21] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 17:23:21] [INFO] Success to execute case!
+[2021-11-01 17:23:21] [INFO] The execution ends at 2021-11-01 17:23:21,and duration is 0:00:00.185650
+[2021-11-01 17:23:21] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:23:21] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:23:21] [DEBUG] Success to create dir [/data/report/20211101/20211101172321]
+[2021-11-01 17:23:21] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:23:21] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:23:55] [DEBUG] Client: (('127.0.0.1', 64857),) has connected at 2021-11-01 17:23:55
+[2021-11-01 17:23:55] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:23:55] [INFO] Start to execute work at 2021-11-01 17:23:55
+[2021-11-01 17:23:55] [INFO] Prepare to execute timed task!
+[2021-11-01 17:23:55] [ERROR] Timing task expired
+[2021-11-01 17:23:55] [INFO] Success to create API test case!
+[2021-11-01 17:23:55] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 17:23:55] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 17:23:55] [INFO] Success to execute case!
+[2021-11-01 17:23:55] [INFO] The execution ends at 2021-11-01 17:23:55,and duration is 0:00:00.110939
+[2021-11-01 17:23:55] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:23:55] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:23:55] [DEBUG] Success to create dir [/data/report/20211101/20211101172355]
+[2021-11-01 17:23:55] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:23:55] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:25:00] [DEBUG] Client: (('127.0.0.1', 58045),) has connected at 2021-11-01 17:25:00
+[2021-11-01 17:25:00] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:25:00] [INFO] Start to execute work at 2021-11-01 17:25:00
+[2021-11-01 17:25:00] [INFO] Prepare to execute timed task!
+[2021-11-01 17:25:00] [ERROR] Timing task expired
+[2021-11-01 17:25:00] [INFO] Success to create API test case!
+[2021-11-01 17:25:00] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 17:25:00] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 17:25:00] [INFO] Success to execute case!
+[2021-11-01 17:25:00] [INFO] The execution ends at 2021-11-01 17:25:00,and duration is 0:00:00.096941
+[2021-11-01 17:25:00] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:25:00] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:25:00] [DEBUG] Success to create dir [/data/report/20211101/20211101172500]
+[2021-11-01 17:25:00] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:25:00] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:29:24] [DEBUG] Client: (('127.0.0.1', 60531),) has connected at 2021-11-01 17:29:24
+[2021-11-01 17:29:24] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:29:24] [INFO] Start to execute work at 2021-11-01 17:29:24
+[2021-11-01 17:29:24] [INFO] Prepare to execute timed task!
+[2021-11-01 17:29:24] [ERROR] Timing task expired
+[2021-11-01 17:29:24] [INFO] Success to create API test case!
+[2021-11-01 17:29:24] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 17:29:24] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 17:29:24] [INFO] Success to execute case!
+[2021-11-01 17:29:24] [INFO] The execution ends at 2021-11-01 17:29:24,and duration is 0:00:00.183982
+[2021-11-01 17:29:24] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:29:24] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:29:24] [DEBUG] Success to create dir [/data/report/20211101/20211101172924]
+[2021-11-01 17:29:24] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:29:24] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:37:36] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 17:37:48] [DEBUG] Client: (('127.0.0.1', 58265),) has connected at 2021-11-01 17:37:48
+[2021-11-01 17:37:48] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:37:48] [INFO] Start to execute work at 2021-11-01 17:37:48
+[2021-11-01 17:37:48] [INFO] Prepare to execute timed task!
+[2021-11-01 17:37:48] [ERROR] Timing task expired
+[2021-11-01 17:37:48] [INFO] Success to create API test case!
+[2021-11-01 17:37:48] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 17:37:48] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 17:37:48] [INFO] Success to execute case!
+[2021-11-01 17:37:48] [INFO] The execution ends at 2021-11-01 17:37:48,and duration is 0:00:00.354498
+[2021-11-01 17:37:48] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:37:48] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:37:48] [DEBUG] Success to create dir [/data/report/20211101/20211101173748]
+[2021-11-01 17:37:48] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:37:48] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:37:53] [DEBUG] Client: (('127.0.0.1', 50392),) has connected at 2021-11-01 17:37:53
+[2021-11-01 17:37:53] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:37:53] [INFO] Start to execute work at 2021-11-01 17:37:53
+[2021-11-01 17:37:53] [INFO] Prepare to execute timed task!
+[2021-11-01 17:37:53] [ERROR] Timing task expired
+[2021-11-01 17:37:53] [INFO] Success to create API test case!
+[2021-11-01 17:37:53] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 17:37:53] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-01 17:37:53] [INFO] Success to execute case!
+[2021-11-01 17:37:53] [INFO] The execution ends at 2021-11-01 17:37:53,and duration is 0:00:00.132587
+[2021-11-01 17:37:53] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:37:53] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:37:53] [DEBUG] Success to create dir [/data/report/20211101/20211101173753]
+[2021-11-01 17:37:53] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:37:53] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:38:01] [DEBUG] Client: (('127.0.0.1', 52702),) has connected at 2021-11-01 17:38:01
+[2021-11-01 17:38:01] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:38:01] [INFO] Start to execute work at 2021-11-01 17:38:01
+[2021-11-01 17:38:01] [INFO] Prepare to execute timed task!
+[2021-11-01 17:38:01] [ERROR] Timing task expired
+[2021-11-01 17:38:01] [INFO] Success to create API test case!
+[2021-11-01 17:38:02] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 17:38:02] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 17:38:02] [INFO] Success to execute case!
+[2021-11-01 17:38:02] [INFO] The execution ends at 2021-11-01 17:38:01,and duration is 0:00:00.072749
+[2021-11-01 17:38:02] [INFO] 220 Microsoft FTP Service
+[2021-11-01 17:38:02] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 17:38:02] [DEBUG] Success to create dir [/data/report/20211101/20211101173802]
+[2021-11-01 17:38:02] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 17:38:02] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 17:59:00] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 17:59:36] [DEBUG] Client: (('127.0.0.1', 49740),) has connected at 2021-11-01 17:59:36
+[2021-11-01 17:59:36] [DEBUG] Server received data is:[
+    {
+        "module": "UUMS",
+        "class_title": "UUMS用户认证系统",
+        "case": "uums_login",
+        "case_title": "uums用户中心登录",
+        "case_description": "uums用户中心登录",
+        "templates_name": "uums用户中心登录模板",
+        "url": "https://www.sojson.com/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "{{name}}",
+            "passcode": "{{passcode}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "ribn",
+                    "passcode": "aaaa1111!"
+                },
+                "账号不存在密码正确",
+                {
+                    "code": 10032,
+                    "result": " false",
+                    "message": "用户不存在"
+                }
+            ],
+            [
+                {
+                    "name": "猪宝宝",
+                    "passcode": "aaaa1111!"
+                },
+                "登录账号和密码正确",
+                {
+                    "code": 200,
+                    "result": "sussess"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "KMS系统",
+        "case": "login_kms",
+        "case_title": "KMS用户登录接口",
+        "case_description": "KMS用户登录接口",
+        "templates_name": "kms登录模板",
+        "url": "http://119.123.2.1:8980/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "id": "12324235545",
+            "params": {
+                "name": "{{username}}",
+                "passcode": "{{password}}",
+                "check": "${check}|<{{remember_flag}}>"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户正确密码错误",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "aaaa1111!",
+                    "username": "zhangwenke",
+                    "remember_flag": "true"
+                },
+                "用户密码均正确",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    },
+    {
+        "module": "ODM",
+        "class_title": "ODM交易系统",
+        "case": "order_submit",
+        "case_title": "限价订单提交",
+        "case_description": null,
+        "templates_name": "现券XBOND订单提交",
+        "url": "https://www.cnblogs.com/aaronthon/ajax/GetPostStat",
+        "method": 1,
+        "header": {
+            "content-type": "application/json",
+            "Authorization": "9480295ab2e2eddb8"
+        },
+        "data": {
+            "ordrData": {
+                "clntQtCd": "",
+                "stlmntSpdNm": 2,
+                "cntngncyIndctr": "",
+                "flxblNetPrc": "",
+                "qtTp": "${login}|<{{username}},{{password}}>",
+                "netPrc": "{{netPrc}}",
+                "instnCd": "{{instnCd}}",
+                "nmnlVol": "{{volumn}}",
+                "ordrTpIndctr": "1"
+            }
+        },
+        "scenarios": [
+            [
+                {
+                    "netPrc": "100.2344",
+                    "password": "aaaa1111!",
+                    "instnCd": "100035",
+                    "volumn": "1000,000",
+                    "username": "zhangwneke"
+                },
+                "限价订单提交-T+1",
+                {
+                    "code": 200,
+                    "result": " sussess"
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:59:36] [INFO] Start to execute work at 2021-11-01 17:59:36
+[2021-11-01 17:59:36] [INFO] Prepare to execute timed task!
+[2021-11-01 17:59:36] [ERROR] Timing task expired
+[2021-11-01 17:59:36] [INFO] Success to create API test case!
+[2021-11-01 17:59:37] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-11-01 17:59:45] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 17:59:53] [DEBUG] Client: (('127.0.0.1', 50271),) has connected at 2021-11-01 17:59:53
+[2021-11-01 17:59:53] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 17:59:53] [INFO] Start to execute work at 2021-11-01 17:59:53
+[2021-11-01 17:59:53] [INFO] Prepare to execute timed task!
+[2021-11-01 17:59:53] [ERROR] Timing task expired
+[2021-11-01 17:59:53] [INFO] Testcases have already exist!
+[2021-11-01 17:59:53] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-11-01 18:00:14] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2021-11-01 18:00:36] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2021-11-01 18:00:36] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_ODM.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_UUMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_ODM.cpython-310-pytest-6.2.5.pyc', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_UUMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 18:00:36] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_login_kms.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_order_submit.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_uums_login.json']
+[2021-11-01 18:00:36] [INFO] Success to execute case!
+[2021-11-01 18:00:36] [INFO] The execution ends at 2021-11-01 17:59:53,and duration is 0:00:43.309778
+[2021-11-01 18:00:36] [INFO] 220 Microsoft FTP Service
+[2021-11-01 18:00:36] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 18:00:36] [DEBUG] Success to create dir [/data/report/20211101/20211101180036]
+[2021-11-01 18:00:38] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 18:00:38] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 18:02:17] [DEBUG] Client: (('127.0.0.1', 53514),) has connected at 2021-11-01 18:02:17
+[2021-11-01 18:02:17] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 18:02:17] [INFO] Start to execute work at 2021-11-01 18:02:17
+[2021-11-01 18:02:17] [INFO] Prepare to execute timed task!
+[2021-11-01 18:02:17] [ERROR] Timing task expired
+[2021-11-01 18:02:17] [INFO] Success to create API test case!
+[2021-11-01 18:02:17] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 18:02:17] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 18:02:17] [INFO] Success to execute case!
+[2021-11-01 18:02:17] [INFO] The execution ends at 2021-11-01 18:02:17,and duration is 0:00:00.192440
+[2021-11-01 18:02:17] [INFO] 220 Microsoft FTP Service
+[2021-11-01 18:02:17] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 18:02:17] [DEBUG] Success to create dir [/data/report/20211101/20211101180217]
+[2021-11-01 18:02:17] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 18:02:17] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 18:02:25] [DEBUG] Client: (('127.0.0.1', 63046),) has connected at 2021-11-01 18:02:25
+[2021-11-01 18:02:25] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 18:02:25] [INFO] Start to execute work at 2021-11-01 18:02:25
+[2021-11-01 18:02:25] [INFO] Prepare to execute timed task!
+[2021-11-01 18:02:25] [ERROR] Timing task expired
+[2021-11-01 18:02:25] [INFO] Success to create API test case!
+[2021-11-01 18:02:25] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 18:02:25] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-01 18:02:25] [INFO] Success to execute case!
+[2021-11-01 18:02:25] [INFO] The execution ends at 2021-11-01 18:02:25,and duration is 0:00:00.211010
+[2021-11-01 18:02:25] [INFO] 220 Microsoft FTP Service
+[2021-11-01 18:02:25] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 18:02:25] [DEBUG] Success to create dir [/data/report/20211101/20211101180225]
+[2021-11-01 18:02:25] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 18:02:25] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 18:02:32] [DEBUG] Client: (('127.0.0.1', 63067),) has connected at 2021-11-01 18:02:32
+[2021-11-01 18:02:32] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 18:02:32] [INFO] Start to execute work at 2021-11-01 18:02:32
+[2021-11-01 18:02:32] [INFO] Prepare to execute timed task!
+[2021-11-01 18:02:32] [ERROR] Timing task expired
+[2021-11-01 18:02:32] [INFO] Success to create API test case!
+[2021-11-01 18:02:32] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 18:02:32] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-01 18:02:32] [INFO] Success to execute case!
+[2021-11-01 18:02:32] [INFO] The execution ends at 2021-11-01 18:02:32,and duration is 0:00:00.194935
+[2021-11-01 18:02:32] [INFO] 220 Microsoft FTP Service
+[2021-11-01 18:02:32] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 18:02:32] [DEBUG] Success to create dir [/data/report/20211101/20211101180232]
+[2021-11-01 18:02:32] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 18:02:32] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 18:03:11] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 18:03:19] [DEBUG] Client: (('127.0.0.1', 59808),) has connected at 2021-11-01 18:03:19
+[2021-11-01 18:03:19] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 18:03:19] [INFO] Start to execute work at 2021-11-01 18:03:19
+[2021-11-01 18:03:19] [INFO] Prepare to execute timed task!
+[2021-11-01 18:03:19] [ERROR] Timing task expired
+[2021-11-01 18:03:19] [INFO] Success to create API test case!
+[2021-11-01 18:03:20] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 18:03:20] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-01 18:03:20] [INFO] Success to execute case!
+[2021-11-01 18:03:20] [INFO] The execution ends at 2021-11-01 18:03:19,and duration is 0:00:00.352243
+[2021-11-01 18:03:20] [INFO] 220 Microsoft FTP Service
+[2021-11-01 18:03:20] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 18:03:20] [DEBUG] Success to create dir [/data/report/20211101/20211101180320]
+[2021-11-01 18:03:20] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 18:03:20] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 18:03:46] [DEBUG] Client: (('127.0.0.1', 61468),) has connected at 2021-11-01 18:03:46
+[2021-11-01 18:03:46] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 18:03:46] [INFO] Start to execute work at 2021-11-01 18:03:46
+[2021-11-01 18:03:46] [INFO] Prepare to execute timed task!
+[2021-11-01 18:03:46] [ERROR] Timing task expired
+[2021-11-01 18:03:46] [INFO] Success to create API test case!
+[2021-11-01 18:03:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 18:03:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 18:03:46] [INFO] Success to execute case!
+[2021-11-01 18:03:46] [INFO] The execution ends at 2021-11-01 18:03:46,and duration is 0:00:00.166104
+[2021-11-01 18:03:46] [INFO] 220 Microsoft FTP Service
+[2021-11-01 18:03:46] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 18:03:46] [DEBUG] Success to create dir [/data/report/20211101/20211101180346]
+[2021-11-01 18:03:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 18:03:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 18:07:33] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 18:07:43] [DEBUG] Client: (('127.0.0.1', 62667),) has connected at 2021-11-01 18:07:43
+[2021-11-01 18:07:43] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 18:07:43] [INFO] Start to execute work at 2021-11-01 18:07:43
+[2021-11-01 18:07:43] [INFO] Prepare to execute timed task!
+[2021-11-01 18:07:43] [ERROR] Timing task expired
+[2021-11-01 18:07:43] [INFO] Success to execute case!
+[2021-11-01 18:07:43] [INFO] The execution ends at 2021-11-01 18:07:43,and duration is 0:00:00.001993
+[2021-11-01 18:07:56] [DEBUG] Client: (('127.0.0.1', 63106),) has connected at 2021-11-01 18:07:56
+[2021-11-01 18:07:56] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 18:07:56] [INFO] Start to execute work at 2021-11-01 18:07:56
+[2021-11-01 18:07:56] [INFO] Prepare to execute timed task!
+[2021-11-01 18:07:56] [ERROR] Timing task expired
+[2021-11-01 18:07:56] [INFO] Success to execute case!
+[2021-11-01 18:07:56] [INFO] The execution ends at 2021-11-01 18:07:56,and duration is 0:00:00.001031
+[2021-11-01 18:08:08] [INFO] Websocket server [('127.0.0.1', 5678)] is running.....
+[2021-11-01 18:08:13] [DEBUG] Client: (('127.0.0.1', 51128),) has connected at 2021-11-01 18:08:13
+[2021-11-01 18:08:13] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 18:08:13] [INFO] Start to execute work at 2021-11-01 18:08:13
+[2021-11-01 18:08:13] [INFO] Prepare to execute timed task!
+[2021-11-01 18:08:13] [ERROR] Timing task expired
+[2021-11-01 18:08:13] [INFO] Success to create API test case!
+[2021-11-01 18:08:13] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-01 18:08:13] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 18:08:13] [INFO] Success to execute case!
+[2021-11-01 18:08:13] [INFO] The execution ends at 2021-11-01 18:08:13,and duration is 0:00:00.347534
+[2021-11-01 18:08:13] [INFO] 220 Microsoft FTP Service
+[2021-11-01 18:08:13] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 18:08:13] [DEBUG] Success to create dir [/data/report/20211101/20211101180813]
+[2021-11-01 18:08:13] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 18:08:13] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-01 18:09:11] [DEBUG] Client: (('127.0.0.1', 52833),) has connected at 2021-11-01 18:09:11
+[2021-11-01 18:09:11] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-01 18:09:11] [INFO] Start to execute work at 2021-11-01 18:09:11
+[2021-11-01 18:09:11] [INFO] Prepare to execute timed task!
+[2021-11-01 18:09:11] [ERROR] Timing task expired
+[2021-11-01 18:09:11] [INFO] Success to create API test case!
+[2021-11-01 18:09:11] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-01 18:09:11] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-01 18:09:11] [INFO] Success to execute case!
+[2021-11-01 18:09:11] [INFO] The execution ends at 2021-11-01 18:09:11,and duration is 0:00:00.189288
+[2021-11-01 18:09:11] [INFO] 220 Microsoft FTP Service
+[2021-11-01 18:09:11] [DEBUG] dir: /data/report/20211101 already exists
+[2021-11-01 18:09:11] [DEBUG] Success to create dir [/data/report/20211101/20211101180911]
+[2021-11-01 18:09:11] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-01 18:09:11] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-02 09:08:34] [DEBUG] Client: (('127.0.0.1', 51790),) has connected at 2021-11-02 09:08:34
+[2021-11-02 09:08:34] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-02 09:08:34] [INFO] Start to execute work at 2021-11-02 09:08:34
+[2021-11-02 09:08:34] [INFO] Prepare to execute timed task!
+[2021-11-02 09:08:34] [ERROR] Timing task expired
+[2021-11-02 09:08:34] [INFO] Success to create API test case!
+[2021-11-02 09:08:35] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-02 09:08:35] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-02 09:08:35] [INFO] Success to execute case!
+[2021-11-02 09:08:35] [INFO] The execution ends at 2021-11-02 09:08:34,and duration is 0:00:00.237650
+[2021-11-02 09:08:35] [INFO] 220 Microsoft FTP Service
+[2021-11-02 09:08:35] [DEBUG] Success to create dir [/data/report/20211102]
+[2021-11-02 09:08:35] [DEBUG] Success to create dir [/data/report/20211102/20211102090835]
+[2021-11-02 09:08:35] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-02 09:08:35] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-02 09:09:37] [DEBUG] Client: (('127.0.0.1', 58246),) has connected at 2021-11-02 09:09:37
+[2021-11-02 09:09:37] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-02 09:09:37] [INFO] Start to execute work at 2021-11-02 09:09:37
+[2021-11-02 09:09:37] [INFO] Prepare to execute timed task!
+[2021-11-02 09:09:37] [ERROR] Timing task expired
+[2021-11-02 09:09:37] [INFO] Success to create API test case!
+[2021-11-02 09:09:37] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-02 09:09:37] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-02 09:09:37] [INFO] Success to execute case!
+[2021-11-02 09:09:37] [INFO] The execution ends at 2021-11-02 09:09:37,and duration is 0:00:00.214214
+[2021-11-02 09:09:37] [INFO] 220 Microsoft FTP Service
+[2021-11-02 09:09:37] [DEBUG] dir: /data/report/20211102 already exists
+[2021-11-02 09:09:37] [DEBUG] Success to create dir [/data/report/20211102/20211102090937]
+[2021-11-02 09:09:37] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-02 09:09:37] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-02 09:15:21] [DEBUG] Client: (('127.0.0.1', 64308),) has connected at 2021-11-02 09:15:21
+[2021-11-02 09:15:21] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-02 09:15:21] [INFO] Start to execute work at 2021-11-02 09:15:21
+[2021-11-02 09:15:21] [INFO] Prepare to execute timed task!
+[2021-11-02 09:15:21] [ERROR] Timing task expired
+[2021-11-02 09:15:21] [INFO] Success to create API test case!
+[2021-11-02 09:15:22] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-02 09:15:22] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-02 09:15:22] [INFO] Success to execute case!
+[2021-11-02 09:15:22] [INFO] The execution ends at 2021-11-02 09:15:21,and duration is 0:00:00.185676
+[2021-11-02 09:15:22] [INFO] 220 Microsoft FTP Service
+[2021-11-02 09:15:22] [DEBUG] dir: /data/report/20211102 already exists
+[2021-11-02 09:15:22] [DEBUG] Success to create dir [/data/report/20211102/20211102091522]
+[2021-11-02 09:15:22] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-02 09:15:22] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-02 09:18:04] [DEBUG] Client: (('127.0.0.1', 65488),) has connected at 2021-11-02 09:18:04
+[2021-11-02 09:18:04] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "test_register",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-02 09:18:04] [INFO] Start to execute work at 2021-11-02 09:18:04
+[2021-11-02 09:18:04] [INFO] Prepare to execute timed task!
+[2021-11-02 09:18:04] [ERROR] Timing task expired
+[2021-11-02 09:18:04] [INFO] Success to create API test case!
+[2021-11-02 09:18:47] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py']
+[2021-11-02 09:18:47] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_test_register.json']
+[2021-11-02 09:18:47] [INFO] Success to execute case!
+[2021-11-02 09:18:47] [INFO] The execution ends at 2021-11-02 09:18:04,and duration is 0:00:42.700236
+[2021-11-02 09:18:47] [INFO] 220 Microsoft FTP Service
+[2021-11-02 09:18:47] [DEBUG] dir: /data/report/20211102 already exists
+[2021-11-02 09:18:47] [DEBUG] Success to create dir [/data/report/20211102/20211102091847]
+[2021-11-02 09:18:47] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-02 09:18:47] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!

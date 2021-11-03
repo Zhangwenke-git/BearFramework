@@ -86,7 +86,7 @@ class FormatParam(object):
         string = code.substitute(self._func_map(dict_))
         string = re.sub(r"\|<.*?>", "", string)  # 去除模板中的参数,<>里的参数
         string = json.loads(string)
-        logger.debug(f'The formatted data is :[{string}]')
+        #logger.debug(f'The formatted data is :[{string}]')
         return string
 
 

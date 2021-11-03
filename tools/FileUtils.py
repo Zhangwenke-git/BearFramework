@@ -107,15 +107,9 @@ class FileUtils(object):
         :param bat_string: 文件字符串
         :param bat_path: 生成的路径
         """
-        file_obj = open(bat_path, "w")
-        try:
-            file_obj.write(bat_string)
-        except Exception:
-            logger.error(f'Fail to create bat file : {bat_path}')
-        else:
-            logger.debug(f'Success to create bat file : {bat_path}')
-        finally:
-            file_obj.close()
+        with open(bat_path, "w") as f:
+            f.write(bat_string)
+            f.close()
 
 
 

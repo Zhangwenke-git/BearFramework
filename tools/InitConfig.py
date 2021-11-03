@@ -43,6 +43,6 @@ class Init_Env:
         with open(xmlpath, 'w') as f:
             f.write(data)
             f.close()
-        logger.info("Initiate environment config file successfully!")
+        #logger.info("Initiate environment config file successfully!")
 
 

@@ -64,6 +64,7 @@ def singleFunctionCreate(caseinfo):
     string = code.substitute(testfunction=caseinfo["case"], title=caseinfo["case_title"],
                              description=caseinfo["case_description"],
                              testdata=caseinfo['scenarios'])
+    print(string)
     return string
 
 
@@ -96,14 +97,14 @@ def create_case_class(func_map, mode='w'):
     test_case_file = os.path.join(Settings.base_dir + r'\testsuite', 'test_{}.py'.format(func_map.get("module")))
     with open(test_case_file, mode, encoding='utf-8') as f:
         f.write(singClassCreate(func_map))
-    f.close()
 
 
 def create_case_function(func_map, mode='a'):
     test_case_file = os.path.join(Settings.base_dir + r'\testsuite', 'test_{}.py'.format(func_map.get("module")))
     with open(test_case_file, mode, encoding='utf-8') as f:
         f.write(singleFunctionCreate(func_map))
-    f.close()
+    logger.debug(f"Success to create test pyfile:[{test_case_file}]")
+
 
 
 def batCreate(func, _dict):

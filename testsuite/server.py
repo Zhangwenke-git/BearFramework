@@ -4,18 +4,17 @@ import json
 import os
 import socket
 import datetime
-from testsuite.runner import execute
 from tools.FtpUtils import FTPHelper
 from tools.logger import Logger
 from tools.ReadConfig import ReadConfig
 from config.settings import Settings
 
-logger = Logger("Websocket server")
+logger = Logger("Socket server")
 
 
 def server():
     """
-    start an websocket server ,and will wait for a client to connect,the execute pytest main function,and will generate a
+    start an socket server ,and will wait for a client to connect,the execute pytest main function,and will generate a
     report with a way of html file! The html file will be upload to Ftp server,and then return an ftp dirs path.The client
     will download the report according to the received dirs path to a temp report,and then with the method of loading frame,
     the content of html file will be displayed on web!
@@ -27,7 +26,7 @@ def server():
     except Exception as e:
         logger.error(f"Fail to start socket server with info [{ReadConfig.getWebsocket()}],error as follows:{str(e)}")
     else:
-        logger.info(f"Websocket server [{ReadConfig.getWebsocket()}] is running.....")
+        logger.info(f"Socket server [{ReadConfig.getWebsocket()}] is running.....")
 
         while True:
             client, addr = ser.accept()
@@ -36,18 +35,19 @@ def server():
             data = client.recv(Settings.websocket_server_allowed_size)
 
             data = data.decode(encoding="utf-8")
-            logger.debug(f"""Server received data is:
-    {data}
-    """)
+            logger.debug(f"Server received data is:{data}")
+
             data = json.loads(data)
 
             start = datetime.datetime.now()
             logger.info(f"Start to execute work at {start.strftime('%Y-%m-%d %H:%M:%S')}")
 
-            flag = execute(data)
+            from testsuite.runner import yield_pytest_exe
+            pytest_obj = yield_pytest_exe().__next__()
+            flag = pytest_obj.execute(data)
 
             end = datetime.datetime.now()
-            logger.info(f"The execution ends at {start.strftime('%Y-%m-%d %H:%M:%S')},and duration is {end - start}")
+            logger.info(f"The execution ends at {end.strftime('%Y-%m-%d %H:%M:%S')},and duration is {end - start}")
 
             dirs = ""
             if flag:
@@ -75,6 +75,7 @@ def server():
 
             else:
                 client.send("FAILED".encode(encoding='utf-8'))
+            logger.info(f"Procedure is over,containing execution and uploading!")
             client.close()
 
 

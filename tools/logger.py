@@ -36,7 +36,7 @@ class Logger(object):
         logfilename = '%s.txt' % timestamp
         logfilepath = os.path.join(logs_dir, logfilename)
         rotatingFileHandler = logging.handlers.RotatingFileHandler(filename=logfilepath,
-                                                                   maxBytes=1024 * 1024 * 50, encoding='utf-8',
+                                                                   maxBytes=1024 * 1024 * 100, encoding='utf-8',
                                                                    backupCount=5)  # 设置日志大小不能超过50M
 
         # 设置输出格式
