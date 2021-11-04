@@ -39,7 +39,6 @@ class PytestExecution(object):
                     pytest_order = "pytest -v --junit-xml=%s/JunitXml.xml" % Settings.api_ant_report_path
                     dos_obj = DosCmd()
                     dos_obj.excute_cmd(pytest_order)
-                    #pytest.main(['--junit-xml=%s/JunitXml.xml' % Settings.api_ant_report_path])
                 cond.release()
 
             def createPyFile():

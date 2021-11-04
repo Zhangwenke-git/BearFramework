@@ -472,7 +472,6 @@ class AntReport():
 
         with open('%s.html' % pyfile, 'w', encoding="utf-8") as f:
             f.write(html)
-        f.close()
         return html
 
     def _generateReportStyleHtml(self, data: dict, report_path):
@@ -1076,7 +1075,7 @@ class AntReport():
                 }
             }
             </script>
-            <h1>China Foreign Exchange Trading Center</h1>
+            <h1>Ant Style Pytest-html Report</h1>
             
             <h2>Environment</h2>
             <table id="environment"> 

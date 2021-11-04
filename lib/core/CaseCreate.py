@@ -27,7 +27,6 @@ def template_json_create(data:list):
         template_file = os.path.join(Settings.template_dir,"test_%s.json" % template_json_copy.get("case"))
         with open(template_file,"w",encoding="utf-8") as f:
             f.write(json.dumps(template_json_copy,indent=4,ensure_ascii=False))
-        f.close()
 
 
 def singleFunctionCreate(caseinfo):
@@ -37,7 +36,6 @@ def singleFunctionCreate(caseinfo):
     @return:
     """
     code = Template(r'''
-    
     
     @pytest.mark.parametrize("param,desc,expect", $testdata)
     @allure.story("Case:${title}")
@@ -64,7 +62,6 @@ def singleFunctionCreate(caseinfo):
     string = code.substitute(testfunction=caseinfo["case"], title=caseinfo["case_title"],
                              description=caseinfo["case_description"],
                              testdata=caseinfo['scenarios'])
-    print(string)
     return string
 
 
@@ -92,7 +89,6 @@ class TestCase_${module}(object):
     string = code.substitute(module=caseinfo["module"], class_title=caseinfo["class_title"])
     return string
 
-
 def create_case_class(func_map, mode='w'):
     test_case_file = os.path.join(Settings.base_dir + r'\testsuite', 'test_{}.py'.format(func_map.get("module")))
     with open(test_case_file, mode, encoding='utf-8') as f:
@@ -103,7 +99,6 @@ def create_case_function(func_map, mode='a'):
     test_case_file = os.path.join(Settings.base_dir + r'\testsuite', 'test_{}.py'.format(func_map.get("module")))
     with open(test_case_file, mode, encoding='utf-8') as f:
         f.write(singleFunctionCreate(func_map))
-    logger.debug(f"Success to create test pyfile:[{test_case_file}]")
 
 
 

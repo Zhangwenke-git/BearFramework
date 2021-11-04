@@ -905,3 +905,523 @@
 [2021-11-03 15:58:04] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
 [2021-11-03 15:58:04] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
 [2021-11-03 15:58:04] [INFO] Procedure is over,containing execution and uploading!
+[2021-11-03 16:18:51] [DEBUG] Client: (('127.0.0.1', 54427),) has connected at 2021-11-03 16:18:51
+[2021-11-03 16:18:51] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "register_api",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-03 16:18:51] [INFO] Start to execute work at 2021-11-03 16:18:51
+[2021-11-03 16:18:51] [INFO] Prepare to execute timed task!
+[2021-11-03 16:18:51] [ERROR] Timing task expired
+[2021-11-03 16:18:51] [INFO] Success to create API test case!
+[2021-11-03 16:18:51] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 16:18:51] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 16:18:52] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-03 16:18:52] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_register_api.json']
+[2021-11-03 16:18:52] [INFO] Success to execute case!
+[2021-11-03 16:18:52] [INFO] The execution ends at 2021-11-03 16:18:52,and duration is 0:00:00.659488
+[2021-11-03 16:18:52] [INFO] 220 Microsoft FTP Service
+[2021-11-03 16:18:52] [DEBUG] dir: /data/report/20211103 already exists
+[2021-11-03 16:18:52] [DEBUG] Success to create dir [/data/report/20211103/20211103161852]
+[2021-11-03 16:18:52] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-03 16:18:52] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-03 16:18:52] [INFO] Procedure is over,containing execution and uploading!
+[2021-11-03 16:34:19] [DEBUG] Client: (('127.0.0.1', 49347),) has connected at 2021-11-03 16:34:19
+[2021-11-03 16:34:19] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "register_api",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-03 16:34:19] [INFO] Start to execute work at 2021-11-03 16:34:19
+[2021-11-03 16:34:19] [INFO] Prepare to execute timed task!
+[2021-11-03 16:34:19] [ERROR] Timing task expired
+[2021-11-03 16:34:19] [INFO] Success to create API test case!
+[2021-11-03 16:34:19] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 16:34:19] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-03 16:34:19] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_register_api.json']
+[2021-11-03 16:34:19] [INFO] Success to execute case!
+[2021-11-03 16:34:19] [INFO] The execution ends at 2021-11-03 16:34:19,and duration is 0:00:00.619415
+[2021-11-03 16:34:19] [INFO] 220 Microsoft FTP Service
+[2021-11-03 16:34:19] [DEBUG] dir: /data/report/20211103 already exists
+[2021-11-03 16:34:19] [DEBUG] Success to create dir [/data/report/20211103/20211103163419]
+[2021-11-03 16:34:19] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-03 16:34:19] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-03 16:34:19] [INFO] Procedure is over,containing execution and uploading!
+[2021-11-03 17:43:45] [DEBUG] Client: (('127.0.0.1', 53830),) has connected at 2021-11-03 17:43:45
+[2021-11-03 17:43:45] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "register_api",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-03 17:43:45] [INFO] Start to execute work at 2021-11-03 17:43:45
+[2021-11-03 17:43:45] [INFO] Prepare to execute timed task!
+[2021-11-03 17:43:45] [ERROR] Timing task expired
+[2021-11-03 17:43:45] [INFO] Success to create API test case!
+[2021-11-03 17:43:45] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 17:43:45] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 17:43:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-03 17:43:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_register_api.json']
+[2021-11-03 17:43:46] [INFO] Success to execute case!
+[2021-11-03 17:43:46] [INFO] The execution ends at 2021-11-03 17:43:46,and duration is 0:00:00.729230
+[2021-11-03 17:43:46] [INFO] 220 Microsoft FTP Service
+[2021-11-03 17:43:46] [DEBUG] dir: /data/report/20211103 already exists
+[2021-11-03 17:43:48] [DEBUG] Success to create dir [/data/report/20211103/20211103174346]
+[2021-11-03 17:43:48] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-03 17:43:48] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-03 17:43:48] [INFO] Procedure is over,containing execution and uploading!
+[2021-11-03 17:47:14] [DEBUG] Client: (('127.0.0.1', 64524),) has connected at 2021-11-03 17:47:14
+[2021-11-03 17:47:14] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "register_api",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-03 17:47:14] [INFO] Start to execute work at 2021-11-03 17:47:14
+[2021-11-03 17:47:14] [INFO] Prepare to execute timed task!
+[2021-11-03 17:47:14] [ERROR] Timing task expired
+[2021-11-03 17:47:14] [INFO] Success to create API test case!
+[2021-11-03 17:47:14] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 17:47:15] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-03 17:47:15] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_register_api.json']
+[2021-11-03 17:47:15] [INFO] Success to execute case!
+[2021-11-03 17:47:15] [INFO] The execution ends at 2021-11-03 17:47:15,and duration is 0:00:00.549449
+[2021-11-03 17:47:15] [INFO] 220 Microsoft FTP Service
+[2021-11-03 17:47:15] [DEBUG] dir: /data/report/20211103 already exists
+[2021-11-03 17:47:15] [DEBUG] Success to create dir [/data/report/20211103/20211103174715]
+[2021-11-03 17:47:15] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-03 17:47:15] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-03 17:47:15] [INFO] Procedure is over,containing execution and uploading!
+[2021-11-03 17:53:34] [DEBUG] Client: (('127.0.0.1', 50221),) has connected at 2021-11-03 17:53:34
+[2021-11-03 17:53:34] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "register_api",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-03 17:53:34] [INFO] Start to execute work at 2021-11-03 17:53:34
+[2021-11-03 17:53:34] [INFO] Prepare to execute timed task!
+[2021-11-03 17:53:34] [ERROR] Timing task expired
+[2021-11-03 17:53:34] [INFO] Success to create API test case!
+[2021-11-03 17:53:34] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 17:53:35] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-03 17:53:35] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_register_api.json']
+[2021-11-03 17:53:35] [INFO] Success to execute case!
+[2021-11-03 17:53:35] [INFO] The execution ends at 2021-11-03 17:53:35,and duration is 0:00:00.564882
+[2021-11-03 17:53:35] [INFO] 220 Microsoft FTP Service
+[2021-11-03 17:53:35] [DEBUG] dir: /data/report/20211103 already exists
+[2021-11-03 17:53:35] [DEBUG] Success to create dir [/data/report/20211103/20211103175335]
+[2021-11-03 17:53:35] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-03 17:53:35] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-03 17:53:35] [INFO] Procedure is over,containing execution and uploading!
+[2021-11-03 17:53:45] [DEBUG] Client: (('127.0.0.1', 50300),) has connected at 2021-11-03 17:53:45
+[2021-11-03 17:53:45] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+[2021-11-03 17:53:45] [INFO] Start to execute work at 2021-11-03 17:53:45
+[2021-11-03 17:53:45] [INFO] Prepare to execute timed task!
+[2021-11-03 17:53:45] [ERROR] Timing task expired
+[2021-11-03 17:53:45] [INFO] Success to create API test case!
+[2021-11-03 17:53:45] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 17:53:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-03 17:53:46] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-03 17:53:46] [INFO] Success to execute case!
+[2021-11-03 17:53:46] [INFO] The execution ends at 2021-11-03 17:53:46,and duration is 0:00:00.651275
+[2021-11-03 17:53:46] [INFO] 220 Microsoft FTP Service
+[2021-11-03 17:53:46] [DEBUG] dir: /data/report/20211103 already exists
+[2021-11-03 17:53:46] [DEBUG] Success to create dir [/data/report/20211103/20211103175346]
+[2021-11-03 17:53:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-03 17:53:46] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-03 17:53:46] [INFO] Procedure is over,containing execution and uploading!
+[2021-11-03 17:54:06] [DEBUG] Client: (('127.0.0.1', 64950),) has connected at 2021-11-03 17:54:06
+[2021-11-03 17:54:06] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    }
+]
+[2021-11-03 17:54:06] [INFO] Start to execute work at 2021-11-03 17:54:06
+[2021-11-03 17:54:06] [INFO] Prepare to execute timed task!
+[2021-11-03 17:54:06] [ERROR] Timing task expired
+[2021-11-03 17:54:06] [INFO] Success to create API test case!
+[2021-11-03 17:54:06] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 17:54:06] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-03 17:54:06] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json']
+[2021-11-03 17:54:06] [INFO] Success to execute case!
+[2021-11-03 17:54:06] [INFO] The execution ends at 2021-11-03 17:54:06,and duration is 0:00:00.566177
+[2021-11-03 17:54:06] [INFO] 220 Microsoft FTP Service
+[2021-11-03 17:54:06] [DEBUG] dir: /data/report/20211103 already exists
+[2021-11-03 17:54:06] [DEBUG] Success to create dir [/data/report/20211103/20211103175406]
+[2021-11-03 17:54:06] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-03 17:54:06] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-03 17:54:06] [INFO] Procedure is over,containing execution and uploading!
+[2021-11-03 17:56:56] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-03 17:56:59] [DEBUG] Client: (('127.0.0.1', 55806),) has connected at 2021-11-03 17:56:59
+[2021-11-03 17:56:59] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.1:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ]
+        ]
+    },
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "register_api",
+        "case_title": "用户注册KMS",
+        "case_description": null,
+        "templates_name": "kum_register_pai",
+        "url": "http://127.0.0.1:9091/api/template/s/",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "name": "{{name}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "name": "root"
+                },
+                "有效用户名",
+                {
+                    "code": 200
+                }
+            ]
+        ]
+    }
+]
+[2021-11-03 17:56:59] [INFO] Start to execute work at 2021-11-03 17:56:59
+[2021-11-03 17:56:59] [INFO] Prepare to execute timed task!
+[2021-11-03 17:56:59] [ERROR] Timing task expired
+[2021-11-03 17:56:59] [INFO] Success to create API test case!
+[2021-11-03 17:56:59] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 17:56:59] [DEBUG] Success to create test pyfile:[C:\Users\lenovo\Desktop\BearFramework\testsuite\test_KMS.py]
+[2021-11-03 17:57:00] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\test_KMS.py', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\testsuite\\__pycache__\\test_KMS.cpython-310-pytest-6.2.5.pyc']
+[2021-11-03 17:57:00] [DEBUG] Success to remove API test case py file: ['C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_kms_user_login.json', 'C:\\Users\\lenovo\\Desktop\\BearFramework\\templates\\test_register_api.json']
+[2021-11-03 17:57:00] [INFO] Success to execute case!
+[2021-11-03 17:57:00] [INFO] The execution ends at 2021-11-03 17:57:00,and duration is 0:00:00.703282
+[2021-11-03 17:57:00] [INFO] 220 Microsoft FTP Service
+[2021-11-03 17:57:00] [DEBUG] dir: /data/report/20211103 already exists
+[2021-11-03 17:57:00] [DEBUG] Success to create dir [/data/report/20211103/20211103175700]
+[2021-11-03 17:57:00] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-03 17:57:00] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-03 17:57:00] [INFO] Procedure is over,containing execution and uploading!

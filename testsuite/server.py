@@ -8,6 +8,7 @@ from tools.FtpUtils import FTPHelper
 from tools.logger import Logger
 from tools.ReadConfig import ReadConfig
 from config.settings import Settings
+from testsuite.runner import yield_pytest_exe
 
 logger = Logger("Socket server")
 
@@ -42,7 +43,6 @@ def server():
             start = datetime.datetime.now()
             logger.info(f"Start to execute work at {start.strftime('%Y-%m-%d %H:%M:%S')}")
 
-            from testsuite.runner import yield_pytest_exe
             pytest_obj = yield_pytest_exe().__next__()
             flag = pytest_obj.execute(data)
 
@@ -64,9 +64,10 @@ def server():
                     ftp.upload_folder(root, remote_path)
                     ftp.close()
 
-                    for file in files:
-                        os.remove(os.path.join(root, file))
-                    os.removedirs(root)
+                    if Settings.ReportRemove:
+                        for file in files:
+                            os.remove(os.path.join(root, file))
+                        os.removedirs(root)
 
                     dirs = os.path.join(remote_path, "ant")
                     dirs = dirs.replace("\\", "/")
