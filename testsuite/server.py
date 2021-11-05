@@ -47,7 +47,7 @@ def server():
             flag = pytest_obj.execute(data)
 
             end = datetime.datetime.now()
-            logger.info(f"The execution ends at {end.strftime('%Y-%m-%d %H:%M:%S')},and duration is {end - start}")
+            logger.info(f"The execution ends at {end.strftime('%Y-%m-%d %H:%M:%S')},and duration is {(end - start).seconds}")
 
             dirs = ""
             if flag:
