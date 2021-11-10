@@ -29,7 +29,8 @@ class FTPHelper(object):
             self.obj.set_debuglevel(0)
 
     def close(self):
-        self.obj.quit()
+        if self.obj:
+            self.obj.quit()
 
     def create_dir(self, target_dir, remote_path="/data/report"):
         try:

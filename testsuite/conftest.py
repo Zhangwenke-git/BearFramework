@@ -61,7 +61,6 @@ def pytest_sessionfinish(session):
     :function:测试结束后，添加结尾信息，例如生成测试报告
     :param session:
     """
-
     if Settings.APIcaseFileRemove:
         from lib.core.CaseCreate import clear_pyfile
         clear_pyfile()
@@ -110,3 +109,7 @@ def add_extra_property(record_property, caplog):
 
 
 
+# @pytest.fixture(scope='function', autouse=True)
+# def exit_pytest_first_failure():
+#     if pytest.TestReport.outcome == 'failed':
+# pytest.exit('Exiting pytest')

@@ -142,7 +142,7 @@ def clear_pyfile():
     except Exception:
         logger.error('Fail to remove API test case py file!')
     else:
-        logger.debug(f'Success to remove API test case py file: {delete_files}')
+        logger.debug(f'Success to remove API test case py file!')
 
 
 def clear_template_file():
@@ -161,4 +161,4 @@ def clear_template_file():
     except Exception:
         logger.error('Fail to remove API test case py file!')
     else:
-        logger.debug(f'Success to remove API test case py file: {delete_files}')
+        logger.debug(f'Success to remove API test case template json file!')

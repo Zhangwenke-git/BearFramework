@@ -36,7 +36,7 @@ class PytestExecution(object):
                     pytest.main(['-v', '--alluredir', Settings.api_report_xml_path])
                 else:
                     from tools.DosOrderUtils import DosCmd
-                    pytest_order = "pytest -v --junit-xml=%s/JunitXml.xml" % Settings.api_ant_report_path
+                    pytest_order = "py.test -v --junit-xml=%s/JunitXml.xml --log-cli-level=INFO" % Settings.api_ant_report_path
                     dos_obj = DosCmd()
                     dos_obj.excute_cmd(pytest_order)
                 cond.release()

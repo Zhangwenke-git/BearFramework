@@ -9,7 +9,8 @@ def client(data):
     mysocket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     mysocket.connect(('127.0.0.1',5678))
 
-    data = json.dumps(data,indent=4,ensure_ascii=False)
+    #data = json.dumps(data,indent=4,ensure_ascii=False)
+    data = json.dumps(data)
     data = data.encode(encoding='utf-8')
     flag = False
 
@@ -76,7 +77,7 @@ if __name__ == "__main__":
             "username": "{{username}}"
         },
         "scenarios": [
-            [
+            (
                 {
                     "password": " sdad@1332",
                     "username": "admin"
@@ -85,8 +86,8 @@ if __name__ == "__main__":
                 {
                     "code": 200
                 }
-            ],
-            [
+            ),
+            (
                 {
                     "password": "dsaddddddddd",
                     "username": "admin"
@@ -97,7 +98,7 @@ if __name__ == "__main__":
                     "result": False,
                     "message": " 密码错误"
                 }
-            ]
+            )
         ]
     }]
     data3 = [
