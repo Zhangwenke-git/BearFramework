@@ -1,0 +1,247 @@
+[2021-11-11 09:03:07] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:03:07] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:06:49] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:06:49] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:07:00] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:07:00] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:07:11] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:07:11] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:07:34] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:07:34] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:08:23] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:08:23] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:11:42] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:11:42] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:12:37] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:12:37] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:12:49] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:12:49] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:13:22] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:13:22] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:15:17] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:15:17] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:26:10] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:26:10] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:27:56] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:27:56] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:28:20] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:28:20] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:30:16] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:30:16] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:40:04] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:40:04] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:40:12] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:40:12] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:40:49] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:40:49] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 09:40:55] [DEBUG] Success to remove API test case py file!
+[2021-11-11 09:40:55] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 10:16:24] [DEBUG] Success to remove API test case py file!
+[2021-11-11 10:16:24] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 13:19:40] [DEBUG] Success to remove API test case py file!
+[2021-11-11 13:19:40] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 13:22:21] [DEBUG] Success to remove API test case py file!
+[2021-11-11 13:22:21] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 13:22:36] [DEBUG] Success to remove API test case py file!
+[2021-11-11 13:22:36] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 13:23:02] [DEBUG] Success to remove API test case py file!
+[2021-11-11 13:23:02] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 13:23:34] [DEBUG] Success to remove API test case py file!
+[2021-11-11 13:23:34] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 13:24:26] [DEBUG] Success to remove API test case py file!
+[2021-11-11 13:24:26] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 13:57:31] [DEBUG] Success to remove API test case py file!
+[2021-11-11 13:57:32] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 14:06:06] [DEBUG] Success to remove API test case py file!
+[2021-11-11 14:06:06] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 14:32:12] [DEBUG] Success to remove API test case py file!
+[2021-11-11 14:32:12] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 14:32:12] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-11 14:43:37] [INFO] ********************************************Client: (('127.0.0.1', 61417),) has connected at 2021-11-11 14:43:37 ********************************************
+[2021-11-11 14:43:37] [DEBUG] Server received data is:[
+    {
+        "module": "KMS",
+        "class_title": "秘钥管理系统",
+        "case": "kms_user_login",
+        "case_title": "KMS用户登录",
+        "case_description": "KMS用户登录接口，涵盖用户名和用户密码",
+        "templates_name": "kms_login_api",
+        "url": "http://127.0.1.2:8080/login",
+        "method": 1,
+        "header": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "check": 1,
+            "password": "{{password}}",
+            "username": "{{username}}"
+        },
+        "scenarios": [
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确1",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误2",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确3",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误4",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确5",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误6",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确7",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+                },
+                "用户名正确密码错误8",
+                {
+                    "code": 200,
+                    "result": false,
+                    "message": " 密码错误"
+                }
+            ],
+            [
+                {
+                    "password": " sdad@1332",
+                    "username": "admin"
+                },
+                "用户名和密码均正确9",
+                {
+                    "code": 200
+                }
+            ],
+            [
+                {
+                    "password": "dsaddddddddd",
+                    "username": "admin"
+             
+[2021-11-11 15:16:15] [DEBUG] Success to remove API test case py file!
+[2021-11-11 15:16:15] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 15:16:15] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-11 15:17:29] [DEBUG] Success to remove API test case py file!
+[2021-11-11 15:17:29] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 15:17:29] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-11 15:17:42] [INFO] ********************************************Client: (('127.0.0.1', 57871),) has connected at 2021-11-11 15:17:42 ********************************************
+[2021-11-11 15:17:42] [DEBUG] Server received data is:[{"module": "KMS", "class_title": "\u79d8\u94a5\u7ba1\u7406\u7cfb\u7edf", "case": "kms_user_login", "case_title": "KMS\u7528\u6237\u767b\u5f55", "case_description": "KMS\u7528\u6237\u767b\u5f55\u63a5\u53e3\uff0c\u6db5\u76d6\u7528\u6237\u540d\u548c\u7528\u6237\u5bc6\u7801", "templates_name": "kms_login_api", "url": "http://127.0.1.2:8080/login", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"check": 1, "password": "{{password}}", "username": "{{username}}"}, "scenarios": [[{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e1", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef2", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e3", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef4", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e5", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef6", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e7", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef8", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e9", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef10", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e11", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef12", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e13", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef14", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e15", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef16", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e17", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef18", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e19", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef20", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e21", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef22", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e23", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef24", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e25", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef26", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e27", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef28", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e29", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef30", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e31", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef32", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e33", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef34", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e35", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef36", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e37", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef38", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e39", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef40", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e41", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef42", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e43", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef44", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e45", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef46", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e47", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef48", {"c
+[2021-11-11 15:18:47] [DEBUG] Success to remove API test case py file!
+[2021-11-11 15:18:47] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 15:18:47] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-11 15:18:58] [INFO] ********************************************Client: (('127.0.0.1', 56633),) has connected at 2021-11-11 15:18:58 ********************************************
+[2021-11-11 15:18:58] [DEBUG] Server received data is:[{"module": "KMS", "class_title": "\u79d8\u94a5\u7ba1\u7406\u7cfb\u7edf", "case": "kms_user_login", "case_title": "KMS\u7528\u6237\u767b\u5f55", "case_description": "KMS\u7528\u6237\u767b\u5f55\u63a5\u53e3\uff0c\u6db5\u76d6\u7528\u6237\u540d\u548c\u7528\u6237\u5bc6\u7801", "templates_name": "kms_login_api", "url": "http://127.0.1.2:8080/login", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"check": 1, "password": "{{password}}", "username": "{{username}}"}, "scenarios": [[{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e1", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef2", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e3", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef4", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e5", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef6", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e7", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef8", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e9", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef10", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e11", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef12", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e13", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef14", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e15", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef16", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e17", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef18", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e19", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef20", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e21", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef22", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e23", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef24", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e25", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef26", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e27", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef28", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e29", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef30", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e31", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef32", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e33", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef34", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e35", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef36", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e37", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef38", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e39", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef40", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e41", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef42", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e43", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef44", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e45", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef46", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e47", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef48", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e49", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef50", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}]]}]
+[2021-11-11 15:18:58] [INFO] Start to execute work at 2021-11-11 15:18:58
+[2021-11-11 15:18:58] [INFO] Prepare to execute timed task!
+[2021-11-11 15:18:58] [ERROR] Timing task expired
+[2021-11-11 15:18:58] [INFO] Success to create API test case!
+[2021-11-11 15:19:00] [DEBUG] Success to remove API test case py file!
+[2021-11-11 15:19:00] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 15:19:01] [INFO] Success to execute case!
+[2021-11-11 15:19:01] [INFO] The execution ends at 2021-11-11 15:19:01,and duration is 2
+[2021-11-11 15:19:01] [INFO] 220 Microsoft FTP Service
+[2021-11-11 15:19:01] [DEBUG] dir: /data/report/20211111 already exists
+[2021-11-11 15:19:03] [DEBUG] Success to create dir [/data/report/20211111/20211111151901]
+[2021-11-11 15:19:03] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-11 15:19:03] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-11 15:19:03] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-11 15:21:45] [INFO] ********************************************Client: (('127.0.0.1', 56343),) has connected at 2021-11-11 15:21:45 ********************************************
+[2021-11-11 15:21:45] [DEBUG] Server received data is:[{"module": "KMS", "class_title": "\u79d8\u94a5\u7ba1\u7406\u7cfb\u7edf", "case": "kms_user_login", "case_title": "KMS\u7528\u6237\u767b\u5f55", "case_description": "KMS\u7528\u6237\u767b\u5f55\u63a5\u53e3\uff0c\u6db5\u76d6\u7528\u6237\u540d\u548c\u7528\u6237\u5bc6\u7801", "templates_name": "kms_login_api", "url": "http://127.0.1.2:8080/login", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"check": 1, "password": "{{password}}", "username": "{{username}}"}, "scenarios": [[{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e1", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef2", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e3", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef4", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e5", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef6", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e7", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef8", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e9", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef10", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e11", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef12", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e13", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef14", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e15", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef16", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e17", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef18", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e19", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef20", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e21", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef22", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e23", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef24", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e25", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef26", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e27", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef28", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e29", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef30", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e31", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef32", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e33", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef34", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e35", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef36", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e37", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef38", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e39", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef40", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e41", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef42", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e43", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef44", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e45", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef46", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e47", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef48", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}], [{"password": " sdad@1332", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u6b63\u786e49", {"code": 200}], [{"password": "dsaddddddddd", "username": "admin"}, "\u7528\u6237\u540d\u6b63\u786e\u5bc6\u7801\u9519\u8bef50", {"code": 200, "result": false, "message": " \u5bc6\u7801\u9519\u8bef"}]]}, {"module": "KMS", "class_title": "\u79d8\u94a5\u7ba1\u7406\u7cfb\u7edf", "case": "register_api", "case_title": "\u7528\u6237\u6ce8\u518cKMS", "case_description": null, "templates_name": "kum_register_pai", "url": "http://127.0.0.1:9092/1api/template/s222/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"name": "{{name}}"}, "scenarios": [[{"name": "root1"}, "\u6709\u6548\u7528\u6237\u540d", {"code": 200}]]}, {"module": "UUMS", "class_title": "UUMS\u7528\u6237\u4e2d\u5fc3\u7ba1\u7406\u7cfb\u7edf", "case": "uums_login_api", "case_title": "UUMS\u7528\u6237\u767b\u5f55\u8ba4\u8bc1\u63a5\u53e3", "case_description": "UUMS\u7528\u6237\u767b\u5f55\u8ba4\u8bc1\u63a5\u53e3\uff0c\u9a8c\u8bc1\u7528\u6237\u7684\u5408\u89c4\u6027", "templates_name": "uums_login_api", "url": "https://www.baidu11.com", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"password": "{{password}}", "username": "{{username}}", "checkFlag": "{{flag}}"}, "scenarios": [[{"password": "123456", "flag": "1", "username": "admin"}, "\u7528\u6237\u540d\u548c\u5bc6\u7801\u5747\u9519\u8bef", {"code": 200, "result": "login  sussess", "flag": true}]]}]
+[2021-11-11 15:21:45] [INFO] Start to execute work at 2021-11-11 15:21:45
+[2021-11-11 15:21:45] [INFO] Prepare to execute timed task!
+[2021-11-11 15:21:45] [ERROR] Timing task expired
+[2021-11-11 15:21:45] [INFO] Success to create API test case!
+[2021-11-11 15:21:50] [DEBUG] Success to remove API test case py file!
+[2021-11-11 15:21:50] [DEBUG] Success to remove API test case template json file!
+[2021-11-11 15:21:51] [INFO] Success to execute case!
+[2021-11-11 15:21:51] [INFO] The execution ends at 2021-11-11 15:21:51,and duration is 6
+[2021-11-11 15:21:51] [INFO] 220 Microsoft FTP Service
+[2021-11-11 15:21:51] [DEBUG] dir: /data/report/20211111 already exists
+[2021-11-11 15:21:51] [DEBUG] Success to create dir [/data/report/20211111/20211111152151]
+[2021-11-11 15:21:51] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-11 15:21:51] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-11 15:21:51] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************

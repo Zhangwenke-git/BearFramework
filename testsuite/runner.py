@@ -58,7 +58,6 @@ class PytestExecution(object):
             t_create = threading.Thread(target=createPyFile)
 
             for t in [t_execute, t_create]:
-                t.setDaemon(True)
                 t.start()
 
             for t in [t_execute, t_create]:  # 主线程等待子线程

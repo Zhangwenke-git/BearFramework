@@ -57,7 +57,7 @@ class SocketServer():
             # 给每个客户端创建一个独立的线程进行管理
             t = Thread(target=self.handler, args=(client,))
             # 设置成守护线程
-            t.setDaemon(True)
+            t.daemon=True
             t.start()
 
 
@@ -75,6 +75,8 @@ class SocketServer():
                 self.client_pools.remove(client)
                 print("有一个客户端下线了。")
                 break
+            elif data == "terminate":
+                pass
             else:
                 start = datetime.datetime.now()
                 logger.info(f"Start to execute work at {start.strftime('%Y-%m-%d %H:%M:%S')}")
@@ -125,7 +127,7 @@ if __name__ == "__main__":
     server_.initializer()
     # 新开一个线程，用于接收新连接
     t = Thread(target=server_.accept_client())
-    t.setDaemon(True)
+    t.daemon=True
     t.start()
 #     # 主线程逻辑
 #     while True:

@@ -10,7 +10,7 @@ class Settings:
     APItemplateFileRemove = True
     ReportRemove = True
     allowTimedTask = True
-    websocket_server_allowed_size = 4096
+    websocket_server_allowed_size = 81920
     success_flag = '通过'
     fail_flag = '失败'
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

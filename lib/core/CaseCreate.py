@@ -55,8 +55,8 @@ def singleFunctionCreate(caseinfo):
             else:
                 res = requests.get(url=case.get('url'),headers=case.get('headers'), params=data)
         with allure.step("step:请求断言"):
-            assert res.status_code == expect
-        #assert json.loads(r.content)["your_input"] == return_user
+            for k,v in expect.items():
+                assert parser_response(k,json.loads(res.content)) == v
 ''')
 
     string = code.substitute(testfunction=caseinfo["case"], title=caseinfo["case_title"],
@@ -78,6 +78,7 @@ import json
 import requests
 import allure
 from lib.core.FormatParameter import FormatParam
+from lib.core.ResponseParser import parser_response
 
 format_object = FormatParam()
 

@@ -1,0 +1,186 @@
+[2021-11-16 10:42:06] [DEBUG] Success to remove API test case py file!
+[2021-11-16 10:42:06] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:42:55] [DEBUG] Success to remove API test case py file!
+[2021-11-16 10:42:55] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:42:55] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-16 10:43:05] [INFO] ********************************************Client: (('127.0.0.1', 62282),) has connected at 2021-11-16 10:43:05 ********************************************
+[2021-11-16 10:43:05] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u79d1\u6280\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5927\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5927\u5e72", "department": "\u79d1\u6280\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}]]}]
+[2021-11-16 10:43:05] [INFO] Start to execute work at 2021-11-16 10:43:05
+[2021-11-16 10:43:05] [INFO] Prepare to execute timed task!
+[2021-11-16 10:43:05] [ERROR] Timing task expired
+[2021-11-16 10:43:05] [INFO] Success to create API test case!
+[2021-11-16 10:43:06] [DEBUG] Success to remove API test case py file!
+[2021-11-16 10:43:06] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:43:06] [INFO] Success to execute case!
+[2021-11-16 10:43:06] [INFO] The execution ends at 2021-11-16 10:43:06,and duration is 0
+[2021-11-16 10:43:06] [INFO] 220 Microsoft FTP Service
+[2021-11-16 10:43:06] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 10:43:06] [DEBUG] Success to create dir [/data/report/20211116/20211116104306]
+[2021-11-16 10:43:06] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 10:43:06] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 10:43:06] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 10:44:38] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:44:38] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-16 10:44:50] [INFO] ********************************************Client: (('127.0.0.1', 63941),) has connected at 2021-11-16 10:44:50 ********************************************
+[2021-11-16 10:44:50] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u79d1\u6280\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5927\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5927\u5e72", "department": "\u79d1\u6280\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}]]}]
+[2021-11-16 10:44:50] [INFO] Start to execute work at 2021-11-16 10:44:50
+[2021-11-16 10:44:50] [INFO] Prepare to execute timed task!
+[2021-11-16 10:44:50] [ERROR] Timing task expired
+[2021-11-16 10:44:50] [INFO] Success to create API test case!
+[2021-11-16 10:44:51] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:44:51] [INFO] Success to execute case!
+[2021-11-16 10:44:51] [INFO] The execution ends at 2021-11-16 10:44:51,and duration is 1
+[2021-11-16 10:44:51] [INFO] 220 Microsoft FTP Service
+[2021-11-16 10:44:51] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 10:44:51] [DEBUG] Success to create dir [/data/report/20211116/20211116104451]
+[2021-11-16 10:44:51] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 10:44:51] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 10:44:51] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 10:46:17] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:46:17] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-16 10:46:23] [INFO] ********************************************Client: (('127.0.0.1', 56777),) has connected at 2021-11-16 10:46:23 ********************************************
+[2021-11-16 10:46:23] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u79d1\u6280\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5927\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5927\u5e72", "department": "\u79d1\u6280\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}]]}]
+[2021-11-16 10:46:23] [INFO] Start to execute work at 2021-11-16 10:46:23
+[2021-11-16 10:46:23] [INFO] Prepare to execute timed task!
+[2021-11-16 10:46:23] [ERROR] Timing task expired
+[2021-11-16 10:46:23] [INFO] Testcases have already exist!
+[2021-11-16 10:46:24] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:46:24] [INFO] Success to execute case!
+[2021-11-16 10:46:24] [INFO] The execution ends at 2021-11-16 10:46:24,and duration is 0
+[2021-11-16 10:46:24] [INFO] 220 Microsoft FTP Service
+[2021-11-16 10:46:24] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 10:46:24] [DEBUG] Success to create dir [/data/report/20211116/20211116104624]
+[2021-11-16 10:46:24] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 10:46:24] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 10:46:24] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 10:46:51] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:46:51] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-16 10:46:59] [INFO] ********************************************Client: (('127.0.0.1', 59088),) has connected at 2021-11-16 10:46:59 ********************************************
+[2021-11-16 10:46:59] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u79d1\u6280\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5927\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5927\u5e72", "department": "\u79d1\u6280\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}]]}]
+[2021-11-16 10:46:59] [INFO] Start to execute work at 2021-11-16 10:46:59
+[2021-11-16 10:46:59] [INFO] Prepare to execute timed task!
+[2021-11-16 10:46:59] [ERROR] Timing task expired
+[2021-11-16 10:46:59] [INFO] Success to create API test case!
+[2021-11-16 10:47:00] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:47:00] [INFO] Success to execute case!
+[2021-11-16 10:47:00] [INFO] The execution ends at 2021-11-16 10:47:00,and duration is 1
+[2021-11-16 10:47:00] [INFO] 220 Microsoft FTP Service
+[2021-11-16 10:47:00] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 10:47:00] [DEBUG] Success to create dir [/data/report/20211116/20211116104700]
+[2021-11-16 10:47:00] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 10:47:00] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 10:47:00] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 10:50:08] [INFO] ********************************************Client: (('127.0.0.1', 54065),) has connected at 2021-11-16 10:50:08 ********************************************
+[2021-11-16 10:50:08] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5e721", "department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}]]}]
+[2021-11-16 10:50:08] [INFO] Start to execute work at 2021-11-16 10:50:08
+[2021-11-16 10:50:08] [INFO] Prepare to execute timed task!
+[2021-11-16 10:50:08] [ERROR] Timing task expired
+[2021-11-16 10:50:08] [INFO] Testcases have already exist!
+[2021-11-16 10:50:09] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:50:09] [INFO] Success to execute case!
+[2021-11-16 10:50:09] [INFO] The execution ends at 2021-11-16 10:50:09,and duration is 0
+[2021-11-16 10:50:09] [INFO] 220 Microsoft FTP Service
+[2021-11-16 10:50:09] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 10:50:09] [DEBUG] Success to create dir [/data/report/20211116/20211116105009]
+[2021-11-16 10:50:09] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 10:50:09] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 10:50:09] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 10:51:18] [DEBUG] Success to remove API test case py file!
+[2021-11-16 10:51:18] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:51:18] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-11-16 10:51:31] [INFO] ********************************************Client: (('127.0.0.1', 53832),) has connected at 2021-11-16 10:51:31 ********************************************
+[2021-11-16 10:51:31] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5e721", "department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}]]}]
+[2021-11-16 10:51:31] [INFO] Start to execute work at 2021-11-16 10:51:31
+[2021-11-16 10:51:31] [INFO] Prepare to execute timed task!
+[2021-11-16 10:51:31] [ERROR] Timing task expired
+[2021-11-16 10:51:31] [INFO] Success to create API test case!
+[2021-11-16 10:51:31] [DEBUG] Success to remove API test case py file!
+[2021-11-16 10:51:31] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:51:32] [INFO] Success to execute case!
+[2021-11-16 10:51:32] [INFO] The execution ends at 2021-11-16 10:51:32,and duration is 0
+[2021-11-16 10:51:32] [INFO] 220 Microsoft FTP Service
+[2021-11-16 10:51:32] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 10:51:32] [DEBUG] Success to create dir [/data/report/20211116/20211116105132]
+[2021-11-16 10:51:32] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 10:51:32] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 10:51:32] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 10:53:22] [INFO] ********************************************Client: (('127.0.0.1', 53925),) has connected at 2021-11-16 10:53:22 ********************************************
+[2021-11-16 10:53:22] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5e72", "department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}]]}]
+[2021-11-16 10:53:22] [INFO] Start to execute work at 2021-11-16 10:53:22
+[2021-11-16 10:53:22] [INFO] Prepare to execute timed task!
+[2021-11-16 10:53:22] [ERROR] Timing task expired
+[2021-11-16 10:53:22] [INFO] Success to create API test case!
+[2021-11-16 10:53:22] [DEBUG] Success to remove API test case py file!
+[2021-11-16 10:53:22] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:53:22] [INFO] Success to execute case!
+[2021-11-16 10:53:22] [INFO] The execution ends at 2021-11-16 10:53:22,and duration is 0
+[2021-11-16 10:53:22] [INFO] 220 Microsoft FTP Service
+[2021-11-16 10:53:22] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 10:53:22] [DEBUG] Success to create dir [/data/report/20211116/20211116105322]
+[2021-11-16 10:53:22] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 10:53:22] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 10:53:22] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 10:56:33] [INFO] ********************************************Client: (('127.0.0.1', 56365),) has connected at 2021-11-16 10:56:33 ********************************************
+[2021-11-16 10:56:33] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5e72", "department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}], [{"name": "\u5f20\u7ff0", "department": "\u540e\u671f\u4fdd\u969c\u90e8", "telephone": "189234590892", "position": "\u4fdd\u5b89"}, "\u624b\u673a\u53f7\u5927\u4e8e11\u4f4d", {"telephone": "\u624b\u673a\u53f7\u5927\u4e8e11\u4f4d"}]]}]
+[2021-11-16 10:56:33] [INFO] Start to execute work at 2021-11-16 10:56:33
+[2021-11-16 10:56:33] [INFO] Prepare to execute timed task!
+[2021-11-16 10:56:33] [ERROR] Timing task expired
+[2021-11-16 10:56:33] [INFO] Success to create API test case!
+[2021-11-16 10:56:34] [DEBUG] Success to remove API test case py file!
+[2021-11-16 10:56:34] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 10:56:34] [INFO] Success to execute case!
+[2021-11-16 10:56:34] [INFO] The execution ends at 2021-11-16 10:56:34,and duration is 0
+[2021-11-16 10:56:34] [INFO] 220 Microsoft FTP Service
+[2021-11-16 10:56:34] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 10:56:34] [DEBUG] Success to create dir [/data/report/20211116/20211116105634]
+[2021-11-16 10:56:34] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 10:56:34] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 10:56:34] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 11:00:23] [INFO] ********************************************Client: (('127.0.0.1', 62432),) has connected at 2021-11-16 11:00:23 ********************************************
+[2021-11-16 11:00:23] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5e72", "department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}], [{"name": "\u5f20\u7ff0", "department": "\u540e\u671f\u4fdd\u969c\u90e8", "telephone": "189234590892", "position": "\u4fdd\u5b89"}, "\u624b\u673a\u53f7\u5927\u4e8e11\u4f4d", {"code": "10001", "message.telephone.0": "Ensure this field has no more than 11 characters.", "success": false}]]}]
+[2021-11-16 11:00:23] [INFO] Start to execute work at 2021-11-16 11:00:23
+[2021-11-16 11:00:23] [INFO] Prepare to execute timed task!
+[2021-11-16 11:00:23] [ERROR] Timing task expired
+[2021-11-16 11:00:23] [INFO] Success to create API test case!
+[2021-11-16 11:00:24] [DEBUG] Success to remove API test case py file!
+[2021-11-16 11:00:24] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 11:00:24] [INFO] Success to execute case!
+[2021-11-16 11:00:24] [INFO] The execution ends at 2021-11-16 11:00:24,and duration is 0
+[2021-11-16 11:00:24] [INFO] 220 Microsoft FTP Service
+[2021-11-16 11:00:24] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 11:00:24] [DEBUG] Success to create dir [/data/report/20211116/20211116110024]
+[2021-11-16 11:00:24] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 11:00:24] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 11:00:24] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 11:01:32] [INFO] ********************************************Client: (('127.0.0.1', 65285),) has connected at 2021-11-16 11:01:32 ********************************************
+[2021-11-16 11:01:32] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5e72", "department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}], [{"name": "\u5f20\u7ff0", "department": "\u540e\u671f\u4fdd\u969c\u90e8", "telephone": "189234590892", "position": "\u4fdd\u5b89"}, "\u624b\u673a\u53f7\u5927\u4e8e11\u4f4d", {"code": "10001", "message.telephone.0": "Ensure this field has no more than 11 characters."}]]}]
+[2021-11-16 11:01:32] [INFO] Start to execute work at 2021-11-16 11:01:32
+[2021-11-16 11:01:32] [INFO] Prepare to execute timed task!
+[2021-11-16 11:01:32] [ERROR] Timing task expired
+[2021-11-16 11:01:32] [INFO] Success to create API test case!
+[2021-11-16 11:01:32] [DEBUG] Success to remove API test case py file!
+[2021-11-16 11:01:32] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 11:01:32] [INFO] Success to execute case!
+[2021-11-16 11:01:32] [INFO] The execution ends at 2021-11-16 11:01:32,and duration is 0
+[2021-11-16 11:01:32] [INFO] 220 Microsoft FTP Service
+[2021-11-16 11:01:32] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 11:01:32] [DEBUG] Success to create dir [/data/report/20211116/20211116110132]
+[2021-11-16 11:01:33] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 11:01:33] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 11:01:33] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
+[2021-11-16 11:23:40] [INFO] ********************************************Client: (('127.0.0.1', 52478),) has connected at 2021-11-16 11:23:40 ********************************************
+[2021-11-16 11:23:40] [DEBUG] Server received data is:[{"module": "Django_Restful", "class_title": "Django restframework \u6d4b\u8bd5", "case": "employee_info", "case_title": "\u5458\u5de5\u4fe1\u606f", "case_description": "\u65b0\u589e\u548c\u67e5\u770b\u5458\u5de5\u4fe1\u606f", "templates_name": "employee_info", "url": "http://127.0.0.1:9091/employee/", "method": 1, "header": {"Content-Type": "application/json"}, "data": {"sex": 0, "name": "{{name}}", "statue": 1, "position": "{{position}}", "telephone": "{{telephone}}", "department": "{{department}}"}, "scenarios": [[{"department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1", "name": "\u5f20\u5e72", "telephone": "13423450987"}, "\u65b0\u589e\u79d1\u6280\u90e8\u95e8\u4fe1\u606f", {"name": "\u5f20\u5e72", "department": "\u884c\u653f\u90e8\u95e8", "position": "\u9879\u76ee\u4e3b\u7ba1"}], [{"name": "\u5f20\u7ff0", "department": "\u540e\u671f\u4fdd\u969c\u90e8", "telephone": "189234590892", "position": "\u4fdd\u5b89"}, "\u624b\u673a\u53f7\u5927\u4e8e11\u4f4d", {"code": "10001", "message.telephone.0": "Ensure this field has no more than 11 characters."}]]}]
+[2021-11-16 11:23:40] [INFO] Start to execute work at 2021-11-16 11:23:40
+[2021-11-16 11:23:40] [INFO] Prepare to execute timed task!
+[2021-11-16 11:23:40] [ERROR] Timing task expired
+[2021-11-16 11:23:40] [INFO] Success to create API test case!
+[2021-11-16 11:23:42] [DEBUG] Success to remove API test case py file!
+[2021-11-16 11:23:42] [DEBUG] Success to remove API test case template json file!
+[2021-11-16 11:23:43] [INFO] Success to execute case!
+[2021-11-16 11:23:43] [INFO] The execution ends at 2021-11-16 11:23:43,and duration is 2
+[2021-11-16 11:23:43] [INFO] 220 Microsoft FTP Service
+[2021-11-16 11:23:43] [DEBUG] dir: /data/report/20211116 already exists
+[2021-11-16 11:23:43] [DEBUG] Success to create dir [/data/report/20211116/20211116112343]
+[2021-11-16 11:23:43] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\ant-html.html] has been upload to ftp server successfully!
+[2021-11-16 11:23:43] [INFO] file [C:\Users\lenovo\Desktop\BearFramework\report\ant\JunitXml.xml] has been upload to ftp server successfully!
+[2021-11-16 11:23:43] [INFO] ********************************************Procedure is over,containing execution and uploading********************************************
