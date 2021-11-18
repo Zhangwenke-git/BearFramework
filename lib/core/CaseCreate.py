@@ -55,8 +55,14 @@ def singleFunctionCreate(caseinfo):
             else:
                 res = requests.get(url=case.get('url'),headers=case.get('headers'), params=data)
         with allure.step("step:请求断言"):
-            for k,v in expect.items():
-                assert parser_response(k,json.loads(res.content)) == v
+            try:
+                response_data = json.loads(res.content)
+            except Exception as e:
+                assert False,"响应码为%s,数据返回失败，原因如：%s" % (res.status_code,str(e))
+            else:
+                for k,v in expect.items():
+                    assert parser_response(k,response_data) == v
+                
 ''')
 
     string = code.substitute(testfunction=caseinfo["case"], title=caseinfo["case_title"],

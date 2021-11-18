@@ -8,6 +8,8 @@ from tools.logger import Logger
 from lib.core.CaseCreate import creation
 from tools.TaskTimer import TimedTask
 from tools.ReadConfig import ReadConfig
+from tools.ColorUtils import Color
+from lib.ant.Template import AntReport
 
 logger = Logger("runner")
 
@@ -25,7 +27,7 @@ class PytestExecution(object):
         @return:
         """
         flag = False
-
+        summary = None
         try:
             cond = threading.Condition()
 
@@ -39,6 +41,13 @@ class PytestExecution(object):
                     pytest_order = "py.test -v --junit-xml=%s/JunitXml.xml --log-cli-level=INFO" % Settings.api_ant_report_path
                     dos_obj = DosCmd()
                     dos_obj.excute_cmd(pytest_order)
+                    if ReadConfig.getReportStyle() == "AllureReport":
+                        Color.green("====================================准备生成allure测试报告====================================")
+                        DosCmd().excute_bat(Settings.generate_allure_api_report_bat)
+                    elif ReadConfig.getReportStyle() == "AntReport":
+                        Color.green("====================================准备生成Ant测试报告====================================")
+                        nonlocal summary
+                        summary = AntReport().antReport(Settings.api_ant_report_path)
                 cond.release()
 
             def createPyFile():
@@ -69,7 +78,7 @@ class PytestExecution(object):
             flag = True
             logger.info(f"Success to execute case!")
         finally:
-            return flag
+            return flag,summary
 
 
 def yield_pytest_exe():

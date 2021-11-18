@@ -1,6 +1,7 @@
 # -*- coding=utf-8 -*-
-
+from tools.RegExpUtil import filter_tag
 from tools.ParseXml import PraseXml
+
 
 data = {
     "pyfile": "pyfilename",
@@ -178,12 +179,12 @@ class AntReport():
         }
 
         table tr td, table tr th {
-            font-size: 68%%;
+            font-size: 50%%;
         }
 
         table.details tr th {
             color: #ffffff;
-            font-weight: bold;
+            
             text-align: center;
             background: #2674a6;
             white-space: nowrap;
@@ -306,14 +307,14 @@ class AntReport():
 <h2>Summary</h2>
 <table width="95%%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
     <tr valign="top">
-        <th>Total</th>
-        <th>Failures</th>
-        <th>Pass</th>
-        <th>Skip</th>
-        <th>Success Rate</th>
-        <th>Average Time</th>
-        <th>Min Time</th>
-        <th>Max Time</th>
+        <th>总计</th>
+        <th>失败</th>
+        <th>通过</th>
+        <th>跳过</th>
+        <th>成功率</th>
+        <th>平均响应</th>
+        <th>最小响应</th>
+        <th>最大响应</th>
         <th>Environment</th>
     </tr>
     <tr valign="top" class="" style="font-weight:bold">
@@ -332,16 +333,16 @@ class AntReport():
 <h2>Pages</h2>
 <table width="95%%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
     <tr valign="top">
-        <th>Order</th>
-        <th>Scenario</th>
-        <th>Failures</th>
-        <th>Pass</th>
-        <th>Skip</th>
-        <th>Success Rate</th>
-        <th>Average Time</th>
-        <th>Min Time</th>
-        <th>Max Time</th>
-        <th>Outcome</th>
+        <th>序号</th>
+        <th>场景</th>
+        <th>失败</th>
+        <th>通过</th>
+        <th>跳过</th>
+        <th>成功率</th>
+        <th>平均响应</th>
+        <th>最小响应</th>
+        <th>最长响应</th>
+        <th>结果</th>
         <th></th>
     </tr>
         
@@ -392,11 +393,11 @@ class AntReport():
                             <b>Details for Page "%s"</b>
                             <table width="95%%" cellspacing="1" cellpadding="2" border="0" bgcolor="#2674A6" bordercolor="#000000">
                                 <tr>
-                                    <th>Order</th>
-                                    <th>Case</th>
-                                    <th>Iteration</th>
-                                    <th>Time (milliseconds)</th>
-                                    <th>Result</th>
+                                    <th>序号</th>
+                                    <th>用例</th>
+                                    <th>执行次数</th>
+                                    <th>耗时(ms)</th>
+                                    <th>结果</th>
                                     <th></th>
                                     
                                 </tr>
@@ -631,9 +632,9 @@ class AntReport():
                  *------------------*/
             
                 #results-table {
-                    border: 1px solid #e6e6e6;
+                    border: 1px solid white;
                     color: black;
-                    font-size: 12px;
+                    font-size: 11px;
                     width: 100%%
                 }
             
@@ -643,15 +644,14 @@ class AntReport():
                     text-align: center;
                     background: #2674a6;
                     white-space: nowrap;
-                    font-weight: bolder;
-                    font-size: 15px;
+                    font-size: 12px;
                     color:white;
                 }
             
             
                 #results-table td {
                     padding: 5px;
-                    border: 1px solid #E6E6E6;
+                    border: 1px solid white;
                     background: #eeeee0;
                     white-space: nowrap;
                 }
@@ -694,14 +694,14 @@ class AntReport():
                 }
             
                 .expander::after {
-                    content: " (show)";
+                    content: "";
                     color: #BBB;
                     font-style: italic;
                     cursor: pointer;
                 }
             
                 .collapser::after {
-                    content: " (hide)";
+                    content: "";
                     color: #BBB;
                     font-style: italic;
                     cursor: pointer;
@@ -749,7 +749,6 @@ class AntReport():
             
                 table.details tr th {
                     color: #ffffff;
-                    font-weight: bold;
                     text-align: center;
                     background: #2674a6;
                     white-space: nowrap;
@@ -802,18 +801,80 @@ class AntReport():
                     color:black;
                     font-weight:bold;
                     font-family: "Microsoft YaHei";
-                    font-size:15px;
+                    font-size:12px;
                 }
                 
                 tr.case {
-                    font-size:13px;   
+                    font-size:11px;   
                 }
                 
                 td #outcome {
                     font-weight:bold;
                     font-family: "Microsoft YaHei";
-                    font-size:13px;
+                    font-size:11px;
                 }
+                
+                .white { 
+                color: #606060; 
+                border: solid 1px #b7b7b7; 
+                background: #fff; 
+                background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed)); 
+                background: -moz-linear-gradient(top, #fff, #ededed); 
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); 
+                } 
+                .white:hover { 
+                background: #ededed; 
+                background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc)); 
+                background: -moz-linear-gradient(top, #fff, #dcdcdc); 
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc'); 
+                } 
+                .white:active { 
+                color: #999; 
+                background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff)); 
+                background: -moz-linear-gradient(top, #ededed, #fff); 
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff'); 
+                } 
+                
+                .button { 
+                display: inline-block; 
+                zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */ 
+                *display: inline; 
+                vertical-align: baseline; 
+                margin: 0 2px; 
+                outline: none; 
+                cursor: pointer; 
+                text-align: center; 
+                text-decoration: none; 
+                font: 14px/100%%s Arial, Helvetica, sans-serif; 
+                padding: .5em 2em .55em; 
+                text-shadow: 0 1px 1px rgba(0,0,0,.3); 
+                -webkit-border-radius: .5em; 
+                -moz-border-radius: .5em; 
+                border-radius: .5em; 
+                -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+                -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+                box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+                } 
+                .button:hover { 
+                text-decoration: none; 
+                } 
+                .button:active { 
+                position: relative; 
+                top: 1px; 
+                } 
+                .bigrounded { 
+                -webkit-border-radius: 2em; 
+                -moz-border-radius: 2em; 
+                border-radius: 2em; 
+                } 
+                .medium { 
+                font-size: 12px; 
+                padding: .4em 1.5em .42em; 
+                } 
+                .small { 
+                font-size: 11px; 
+                padding: .2em 1em .275em; 
+                } 
                 
             
                 </style>
@@ -893,8 +954,8 @@ class AntReport():
                 // Add links for show/hide all
                 var resulttable = find('table#results-table');
                 var showhideall = document.createElement("p");
-                showhideall.innerHTML = '<button><a style="text-decoration:none;" href="javascript:show_all_extras()">EXPAND</a></button> / ' +
-                    '<button><a style="text-decoration:none;" href="javascript:hide_all_extras()">COLLAPSE</a></button>';
+                showhideall.innerHTML = '<a style="text-decoration:none;" class="button white medium" href="javascript:show_all_extras()">EXPAND</a> / ' +
+                    '<a style="text-decoration:none;" class="button white medium" href="javascript:hide_all_extras()">COLLAPSE</a>';
                 resulttable.parentElement.insertBefore(showhideall, resulttable);
             
                 // Add show/hide link to each result
@@ -1081,7 +1142,7 @@ class AntReport():
             <table id="environment"> 
                 %s
                 <tr>
-                    <td>Startpoint</td>
+                    <td>Start</td>
                     <td>%s</td>
                 </tr>
         
@@ -1099,9 +1160,9 @@ class AntReport():
                     <th>Success Rate</th>
                     <th>Average Time</th>
                     <th>Min Time</th>
-                    <th>Max Time</th>
-            
+                    <th>Max Time</th> 
                 </tr>
+                
                 <tr valign="top" class="" style="font-weight:bold">
                     <td align="center" style="color:black">%d</td>
                     <td align="center" style="color:orange">%d</td>
@@ -1111,44 +1172,45 @@ class AntReport():
                     <td align="center">%s%%</td>
                     <td align="center">%s ms</td>
                     <td align="center">%s ms</td>
-                    <td align="center">%s ms</td>
-            
+                    <td align="center">%s ms</td>   
                 </tr>
+                
             </table>
-            <hr align="center" width="100%%" size="1">
             
+            <hr align="center" width="100%%" size="1">
             
             <h2 class="filter" hidden="true">Filter</h2>
             <input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox"
-                   onChange="filter_table(this)" type="checkbox"/><span class="passed">Passed</span>
+                   onChange="filter_table(this)" type="checkbox"/><span class="passed button white">Passed</span>
             <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox"
-                   onChange="filter_table(this)" type="checkbox"/><span class="failed">Failed</span>
+                   onChange="filter_table(this)" type="checkbox"/><span class="failed button white">Failed</span>
             <input checked="true" class="filter" data-test-result="skipped" hidden="true" name="filter_checkbox"
-                   onChange="filter_table(this)" type="checkbox"/><span class="skipped">Skipped</span>
+                   onChange="filter_table(this)" type="checkbox"/><span class="skipped button white">Skipped</span>
             <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox"
-                   onChange="filter_table(this)" type="checkbox"/><span class="error">Errors</span>
+                   onChange="filter_table(this)" type="checkbox"/><span class="error button white">Errors</span>
             
             <h2>Pages</h2>
+            
             <table id="results-table">
             
                 <thead id="results-table-head">
-                <tr>
-                    <th class="sortable numeric" col="name">Order</th>
-                    <th class="sortable" col="name">Scenario</th>
-                    <th col="name">Errors</th>
-                    <th col="name">Failures</th>
-                    <th col="name">Pass</th>
-                    <th col="name">Skip</th>
-                    <th class="sortable numeric" col="name">Success Rate</th>
-                    <th class="sortable numeric" col="time">Average Time</th>
-                    <th col="time">Min Time</th>
-                    <th col="time">Max Time</th>
-                    <th class="sortable result initial-sort" col="result">Outcome</th>
-            
-                </tr>
-                <tr hidden="true" id="not-found-message">
-                    <th colspan="11">No results found. Please check the filters</th>
-                </tr>
+                    <tr>
+                        <th class="sortable numeric" col="name">Order</th>
+                        <th class="sortable" col="name">Module</th>
+                        <th col="name">Errors</th>
+                        <th col="name">Failures</th>
+                        <th col="name">Pass</th>
+                        <th col="name">Skip</th>
+                        <th class="sortable numeric" col="name">Rate</th>
+                        <th class="sortable numeric" col="time">Average</th>
+                        <th col="time">Min</th>
+                        <th col="time">Max</th>
+                        <th class="sortable result initial-sort" col="result">Outcome</th>                
+                    </tr>
+                    
+                    <tr hidden="true" id="not-found-message">
+                        <th colspan="11">No results found. Please check the filters</th>
+                    </tr> 
                 </thead>
         
         
@@ -1174,48 +1236,48 @@ class AntReport():
 
 
             if passed == total:
-                # color, flag = 'passed', '√'
-                color, flag = 'passed', '〓〓〓'
+                color, flag = 'passed', '√'
+                #color, flag = 'passed', '〓〓'
             elif skipped == total:
-                # color, flag = 'skipped', '∅'
-                color, flag = 'skipped', '〓〓〓'
+                color, flag = 'skipped', '∅'
+                #color, flag = 'skipped', '〓〓'
             elif failed != 0:
-                # color, flag = 'failed', '×'
-                color, flag = 'failed', '〓〓〓'
+                color, flag = 'failed', '×'
+                #color, flag = 'failed', '〓〓'
             elif error != 0:
-                color, flag = 'error', '〓〓〓'
+                color, flag = 'error', '〓〓'
             else:
                 color, flag = '', ''
 
             html += '''
                 <tbody class="%s results-table-row">
-                <tr class="scenario">
-                    <td class="col-name" align="center">%d</td>
-                    <td class="col-name">%s</td>
-                    <td class="col-name">%d</td>
-                    <td class="col-name">%d</td>
-                    <td class="col-name">%d</td>
-                    <td class="col-name">%d</td>
-                    <td class="col-name">%s%%</td>
-                    <td class="col-time">%s ms</td>
-                    <td class="col-duration">%s ms</td>
-                    <td class="col-links">%s ms</td>
-                    <td class="col-result">%s</td>
-                </tr>
+                
+                    <tr class="scenario">
+                        <td class="col-name" align="center">%d</td>
+                        <td class="col-name">%s</td>
+                        <td class="col-name">%d</td>
+                        <td class="col-name">%d</td>
+                        <td class="col-name">%d</td>
+                        <td class="col-name">%d</td>
+                        <td class="col-name">%s%%</td>
+                        <td class="col-time">%s ms</td>
+                        <td class="col-duration">%s ms</td>
+                        <td class="col-links">%s ms</td>
+                        <td class="col-result"  align="center"><span class="col-result button small white">%s</span></td>
+                    </tr>
             
-            
-                <tr>
-                    <td class="extra" colspan="11">
-                        <div>
-                            <table width="99%%" class="details" id="case">
-                                <tr>
-                                    <th>Order</th>
-                                    <th>Case</th>
-                                    <th>Iteration</th>
-                                    <th>Time (milliseconds)</th>
-                                    <th>Result</th>
-                                    <th>Flag</th>
-                                </tr>
+                    <tr>
+                        <td class="extra" colspan="11">
+                            <div>
+                                <table width="99%%" class="details" id="case">
+                                    <tr>
+                                        <th>Order</th>
+                                        <th>Case</th>
+                                        <th>Iteration</th>
+                                        <th>Duration(ms)</th>
+                                        <th>Result</th>
+                                        <th>Flag</th>
+                                    </tr>
             ''' % (color, index, scenarioNm, error, failed, passed, skipped, passedRt, aver_time, min_time, max_time, flag)
 
             case_string = ""
@@ -1238,13 +1300,12 @@ class AntReport():
 
                     <tr class="case">
                         <td align="center">%s</td>
-                        <td >%s</td>
+                        <td>%s</td>
                         <td align="center">%s</td>
                         <td align="right">%s</td>
                         <td align="center" id="outcome" class="%s">%s</td>
                         <td align="center"><a style="%s" href="javascript:change('page_details_%s')"><img alt="expand/collapse" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURSZ0pv///xB+eSAAAAAWSURBVAjXY2CAAcYGBJL/AULIIjAAAJJrBjcL30J5AAAAAElFTkSuQmCC"
-                                                                                      id="page_details_%s_image" ></a></td>
-
+                                                                                      id="page_details_%s_image"></a></td>
                     </tr>
 
                     <tr class="page_details" style="%s" id="page_details_%s">
@@ -1253,15 +1314,15 @@ class AntReport():
 
                                 <table class="loginfo">
                                     <tr align="left" style="color: red;">
-                                        <td style="white-space: normal;background-color:#faebd7;"><h3>Errors: </h3>'%s'</td>
+                                        <td style="white-space: normal;background-color:#faebd7;"><h3><span class="button small orange">Error</span> </h3>'%s'</td>
                                     </tr>
 
                                     <tr>
-                                        <td style="white-space: pre-wrap;background-color:#f5f5f5;"><h3 style="color:orange">Details:</h3> %s</td>
+                                        <td style="white-space: pre-wrap;background-color:#f5f5f5;"><h3 style="color:orange"><span class="button small orange">Details</span> </h3>%s</td>
                                     </tr>
                                     
                                     <tr>
-                                        <td style="white-space: pre-wrap;background-color:#f5f5f5;"><h3 style="color:blue">Logs:</h3> %s</td>
+                                        <td style="white-space: pre-wrap;background-color:#f5f5f5;"><h3 style="color:blue"><span class="button small orange">Logs</span> </h3>'%s'</td>
                                     </tr>
 
                                 </table>
@@ -1271,7 +1332,7 @@ class AntReport():
                 
    
                 ''' % (
-                    order, name, times, duration, color, outcome, display, order, order, display, order, errors, detail,log)
+                    order, name, times, duration, color, outcome, display, order, order, display, order, errors, filter_tag(str(detail)),filter_tag(str(log)))
             case_string += '''</table>
                         </div>
                     </td>
@@ -1286,14 +1347,13 @@ class AntReport():
         report_path = r'%s\ant-html.html' % report_path
         with open(report_path, 'w', encoding="utf-8") as f:
             f.write(html)
-        f.close()
         return html
 
     def antReport(self, report_path):
         xml_obj = PraseXml()
-        data = xml_obj.readJunitXML(report_path)
+        data,summary = xml_obj.readJunitXML(report_path)
         self._generateReportStyleHtml(data, report_path)
-
+        return summary
 
 if __name__ == "__main__":
     html = AntReport()

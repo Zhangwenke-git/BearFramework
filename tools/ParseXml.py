@@ -181,13 +181,16 @@ class PraseXml(object):
                             environments}
         xml_dict["environment"] = environment_dict
 
-        case_list = []
+        case_list ,summary_list= [],[]
         testcases = testsuite.getElementsByTagName("testcase")
 
         for testcase in testcases:
-            case_dict = dict()
-            case_dict["scenario"] = testcase.getAttribute("classname")
-            case_dict["name"] = testcase.getAttribute("name").encode('utf-8').decode('unicode_escape')  # 将用例名称转换成中文
+            case_dict,summary_dict = dict(),dict()
+            scenario = testcase.getAttribute("classname")
+            case_dict["scenario"], summary_dict["scenario"]= scenario,scenario
+            summary_dict["start"]=start
+            name = testcase.getAttribute("name").encode('utf-8').decode('unicode_escape')
+            case_dict["name"],summary_dict["name"] = name,name  # 将用例名称转换成中文
             case_dict["duration"] = testcase.getAttribute("time")
             case_dict["times"] = 1
 
@@ -218,6 +221,8 @@ class PraseXml(object):
             case_dict["outcome"] = outcome
             case_dict["detail"] = detail
 
+            summary_dict["outcome"] = outcome
+
             properties = testcase.getElementsByTagName("properties")
             if len(properties) != 0:
                 parameters = properties[0]
@@ -232,6 +237,7 @@ class PraseXml(object):
                 case_dict["log"] = log
 
             case_list.append(case_dict)
+            summary_list.append(summary_dict)
 
         scenario_name_list = [case.get("scenario") for case in case_list]
         duraions_list = [float(case.get("duration")) for case in case_list]
@@ -255,8 +261,7 @@ class PraseXml(object):
         xml_dict["data"] = scenario_list
         xml_dict["minimum"] = min(duraions_list)
         xml_dict["maximum"] = max(duraions_list)
-
-        return xml_dict
+        return xml_dict,summary_list
 
 
 if __name__ == '__main__':

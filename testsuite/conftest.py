@@ -69,12 +69,13 @@ def pytest_sessionfinish(session):
         from lib.core.CaseCreate import clear_template_file
         clear_template_file()
 
-    if ReadConfig.getReportStyle() == "AllureReport":
-        Color.green("====================================准备生成allure测试报告====================================")
-        DosCmd().excute_bat(Settings.generate_allure_api_report_bat)
-    elif ReadConfig.getReportStyle() == "AntReport":
-        Color.green("====================================准备生成Ant测试报告====================================")
-        AntReport().antReport(Settings.api_ant_report_path)
+    # if ReadConfig.getReportStyle() == "AllureReport":
+    #     Color.green("====================================准备生成allure测试报告====================================")
+    #     DosCmd().excute_bat(Settings.generate_allure_api_report_bat)
+    # elif ReadConfig.getReportStyle() == "AntReport":
+    #     Color.green("====================================准备生成Ant测试报告====================================")
+    #     AntReport().antReport(Settings.api_ant_report_path)
+
 
 
 

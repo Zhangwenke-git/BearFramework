@@ -82,7 +82,7 @@ class SocketServer():
                 logger.info(f"Start to execute work at {start.strftime('%Y-%m-%d %H:%M:%S')}")
 
                 pytest_obj = yield_pytest_exe().__next__()
-                flag = pytest_obj.execute(data)
+                flag,summary = pytest_obj.execute(data)
 
                 end = datetime.datetime.now()
                 logger.info(
@@ -111,7 +111,7 @@ class SocketServer():
                         dirs = os.path.join(remote_path, "ant")
                         dirs = dirs.replace("\\", "/")
 
-                    client.send(("SUCCESS|%s" % dirs).encode(encoding='utf-8'))
+                    client.send(("SUCCESS|%s|%s" % (dirs,json.dumps(summary))).encode(encoding='utf-8'))
                 else:
                     client.send("FAILED".encode(encoding='utf-8'))
                 logger.info(
