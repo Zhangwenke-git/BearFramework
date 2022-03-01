@@ -25,7 +25,6 @@ class Logger(object):
                   'ERROR': logging.ERROR,
                   'CRITICAL': logging.CRITICAL}
         # 创建文件目录
-
         logs_dir = os.path.join(Settings.base_dir + r"\log")
         if os.path.exists(logs_dir) and os.path.isdir(logs_dir):
             pass
@@ -33,7 +32,7 @@ class Logger(object):
             os.mkdir(logs_dir)
         # 修改log保存位置
         timestamp = time.strftime("%Y-%m-%d", time.localtime())
-        logfilename = '%s.txt' % timestamp
+        logfilename = '%s.log' % timestamp
         logfilepath = os.path.join(logs_dir, logfilename)
         rotatingFileHandler = logging.handlers.RotatingFileHandler(filename=logfilepath,
                                                                    maxBytes=1024 * 1024 * 100, encoding='utf-8',
@@ -63,3 +62,7 @@ class Logger(object):
 
     def error(self, message):
         self.logger.error(message)
+
+
+if __name__ == "__main__":
+    print(printLevel)

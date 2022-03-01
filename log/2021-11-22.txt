@@ -1,2 +1,0 @@
-[2021-11-22 10:22:16] [DEBUG] Success to remove API test case py file!
-[2021-11-22 10:22:16] [DEBUG] Success to remove API test case template json file!

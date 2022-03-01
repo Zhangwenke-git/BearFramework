@@ -121,14 +121,7 @@ class SocketServer():
             break
 
 
-if __name__ == "__main__":
-    server_ = SocketServer()
-    server_.pre_process()
-    server_.initializer()
-    # 新开一个线程，用于接收新连接
-    t = Thread(target=server_.accept_client())
-    t.daemon=True
-    t.start()
+
 #     # 主线程逻辑
 #     while True:
 #         cmd = input("""--------------------------

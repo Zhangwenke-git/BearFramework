@@ -1,0 +1,6 @@
+[2021-12-16 11:21:30] [DEBUG] Success to remove API test case py file!
+[2021-12-16 11:21:30] [DEBUG] Success to remove API test case template json file!
+[2021-12-16 11:21:30] [INFO] Socket server [('127.0.0.1', 5678)] is running.....
+[2021-12-16 11:28:27] [DEBUG] Success to remove API test case py file!
+[2021-12-16 11:28:27] [DEBUG] Success to remove API test case template json file!
+[2021-12-16 11:28:27] [INFO] Socket server [('127.0.0.1', 5678)] is running.....

@@ -1,0 +1,60 @@
+[2022-03-01 16:37:21] [INFO] Prepare to execute timed task!
+[2022-03-01 16:37:21] [ERROR] Timing task expired
+[2022-03-01 16:40:00] [INFO] Prepare to execute timed task!
+[2022-03-01 16:40:00] [ERROR] Timing task expired
+[2022-03-01 16:40:00] [INFO] Success to create API test case!
+[2022-03-01 16:40:02] [DEBUG] Success to remove API test case py file!
+[2022-03-01 16:40:02] [DEBUG] Success to remove API test case template json file!
+[2022-03-01 16:40:02] [INFO] Success to execute case!
+[2022-03-01 16:40:04] [ERROR] Fail to login [('127.0.0.1', 21)] with user info [('admin', 'aaaa1111!')],error as follows:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2022-03-01 16:40:04] [DEBUG] dir: /data/report/20220301 already exists
+[2022-03-01 16:40:04] [DEBUG] dir: /data/report/20220301/20220301164002 already exists
+[2022-03-01 16:40:04] [DEBUG] dir: ant already exists
+[2022-03-01 16:40:04] [ERROR] Fail to upload folder to FTP server!
+[2022-03-01 16:40:04] [INFO] Prepare to execute timed task!
+[2022-03-01 16:40:04] [ERROR] Timing task expired
+[2022-03-01 16:40:04] [INFO] Success to create API test case!
+[2022-03-01 16:40:05] [DEBUG] Success to remove API test case py file!
+[2022-03-01 16:40:05] [DEBUG] Success to remove API test case template json file!
+[2022-03-01 16:40:05] [INFO] Success to execute case!
+[2022-03-01 16:40:07] [ERROR] Fail to login [('127.0.0.1', 21)] with user info [('admin', 'aaaa1111!')],error as follows:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2022-03-01 16:40:07] [DEBUG] dir: /data/report/20220301 already exists
+[2022-03-01 16:40:07] [DEBUG] dir: /data/report/20220301/20220301164005 already exists
+[2022-03-01 16:40:07] [DEBUG] dir: ant already exists
+[2022-03-01 16:40:07] [ERROR] Fail to upload folder to FTP server!
+[2022-03-01 16:40:07] [INFO] Prepare to execute timed task!
+[2022-03-01 16:40:07] [ERROR] Timing task expired
+[2022-03-01 16:40:07] [INFO] Success to create API test case!
+[2022-03-01 16:40:09] [DEBUG] Success to remove API test case py file!
+[2022-03-01 16:40:09] [DEBUG] Success to remove API test case template json file!
+[2022-03-01 16:40:09] [INFO] Success to execute case!
+[2022-03-01 16:40:11] [ERROR] Fail to login [('127.0.0.1', 21)] with user info [('admin', 'aaaa1111!')],error as follows:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2022-03-01 16:40:11] [DEBUG] dir: /data/report/20220301 already exists
+[2022-03-01 16:40:11] [DEBUG] dir: /data/report/20220301/20220301164009 already exists
+[2022-03-01 16:40:11] [DEBUG] dir: ant already exists
+[2022-03-01 16:40:11] [ERROR] Fail to upload folder to FTP server!
+[2022-03-01 16:42:41] [INFO] Prepare to execute timed task!
+[2022-03-01 16:42:41] [ERROR] Timing task expired
+[2022-03-01 16:42:41] [INFO] Success to create API test case!
+[2022-03-01 16:42:42] [DEBUG] Success to remove API test case py file!
+[2022-03-01 16:42:42] [DEBUG] Success to remove API test case template json file!
+[2022-03-01 16:42:42] [INFO] Success to execute case!
+[2022-03-01 16:42:44] [ERROR] Fail to login [('127.0.0.1', 21)] with user info [('admin', 'aaaa1111!')],error as follows:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2022-03-01 16:42:44] [DEBUG] dir: /data/report/20220301 already exists
+[2022-03-01 16:42:44] [DEBUG] dir: /data/report/20220301/20220301164242 already exists
+[2022-03-01 16:42:44] [DEBUG] dir: ant already exists
+[2022-03-01 16:42:44] [ERROR] Fail to upload folder to FTP server!
+[2022-03-01 16:48:22] [INFO] Prepare to execute timed task!
+[2022-03-01 16:48:22] [ERROR] Timing task expired
+[2022-03-01 16:48:22] [INFO] Success to create API test case!
+[2022-03-01 16:48:23] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2022-03-01 16:48:45] [DEBUG] Prepare to call function :[check] and parameter is :[('true',)]
+[2022-03-01 16:49:06] [DEBUG] Prepare to call function :[login] and parameter is :[('zhangwneke', 'aaaa1111!')]
+[2022-03-01 16:49:07] [DEBUG] Success to remove API test case py file!
+[2022-03-01 16:49:07] [DEBUG] Success to remove API test case template json file!
+[2022-03-01 16:49:07] [INFO] Success to execute case!
+[2022-03-01 16:49:09] [ERROR] Fail to login [('127.0.0.1', 21)] with user info [('admin', 'aaaa1111!')],error as follows:[WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[2022-03-01 16:49:09] [DEBUG] dir: /data/report/20220301 already exists
+[2022-03-01 16:49:09] [DEBUG] dir: /data/report/20220301/20220301164907 already exists
+[2022-03-01 16:49:09] [DEBUG] dir: ant already exists
+[2022-03-01 16:49:09] [ERROR] Fail to upload folder to FTP server!

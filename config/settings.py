@@ -1,5 +1,7 @@
 # -*-coding=utf8-*-
 import os
+import sys
+
 from tools.TimeUtil import TimeUtils
 
 
@@ -8,12 +10,13 @@ class Settings:
     child_folder = TimeUtils.time9
     APIcaseFileRemove = True
     APItemplateFileRemove = True
-    ReportRemove = True
+    ReportRemove = False
     allowTimedTask = True
     websocket_server_allowed_size = 81920
     success_flag = '通过'
     fail_flag = '失败'
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    sys.path.append(base_dir)
     log_path = os.path.join(base_dir, 'log')
     template_dir = os.path.join(base_dir, 'templates')
     conf_path = os.path.join(base_dir, 'config\config.ini')
